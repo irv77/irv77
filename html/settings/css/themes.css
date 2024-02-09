@@ -6,9 +6,9 @@ body[data-theme="echo"] {
   --text-secondary: #9e9e9e;
 }
 
- body[data-theme="light"] {
-  --background: #ffffff;
-  --theme: #c7c7c7;
+body[data-theme="light"] {
+  --background: #858585;
+  --theme: #af544c;
   --theme-ts: #b5b5b560;
   --text: #e2b726;
   --text-secondary: #d2a020;

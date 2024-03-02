@@ -10,7 +10,7 @@ if (tab) {
 }
 
 const settingsDefaultTab = {
-  title: "Settings | lioxryt",
+  title: "Settings | IRV77",
   icon: "img/newlogo.png",
 };
 

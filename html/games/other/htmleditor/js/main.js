@@ -207,7 +207,7 @@ buttonAbout.addEventListener(
     dom.style.border = "0px";
     dom.style.textAlign = "center";
     dom.innerHTML =
-      '<h1>HTML EDITOR<\/h1><a href="https://github.com/lioxryt/other/tree/main/htmleditor" target="_blank">Source code</a>.<br>Powered by <a href="http://codemirror.net/" target="_blank">CodeMirror ' +
+      '<h1>HTML EDITOR<\/h1><a href="https://github.com/IRV77/other/tree/main/htmleditor" target="_blank">Source code</a>.<br>Powered by <a href="http://codemirror.net/" target="_blank">CodeMirror ' +
       CodeMirror.version +
       '</a> and <a href="http://esprima.org/" target="_blank">Esprima ' +
       esprima.version +

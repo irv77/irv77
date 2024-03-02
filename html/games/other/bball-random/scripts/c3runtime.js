@@ -42250,7 +42250,7 @@
 			return () => _(e.g_$j(), 0, 10 * a());
 		},
 		() => -3,
-		() => 'https://lioxryt.github.io/?utm_source=Html5Game&utm_medium=BasketRandom',
+		() => 'https://irv77.netlify.app/?utm_source=Html5Game&utm_medium=BasketRandom',
 		() => 'NewWindow',
 		() => 70,
 		() => 205,

@@ -4231,7 +4231,7 @@ THE SOFTWARE.
             () => 1179392,
             () => 16777215,
             () => -15,
-            () => "https://lioxryt.github.io/",
+            () => "https://irv77.netlify.app",
             () => 1.25,
             () => 0.1,
             () => 1.5,

@@ -121,7 +121,7 @@ window.addEventListener('DOMContentLoaded', function() {
     <div id="top-bar">
       <nav>
         <ul>
-          <li><img onclick="location.href='https://www.youtube.com/@IRV77stuff'" src="../img/newlogo.png" class="navlogo" draggable="false"></li>
+          <li><img onclick="location.href='https://www.youtube.com/@IRV77stuff'" src="https://irv77.netlify.app/img/newlogo.png" class="navlogo" draggable="false"></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/index.html">Home</a></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/html/games/index.html">Games</a></li>
           <li class="hvuncen"><a href="/html/xtra.html">Extras</a></li>

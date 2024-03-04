@@ -1,4 +1,4 @@
-fetch("html/settings/cloak.json")
+fetch("https://irv77.netlify.app/cloak.json")
   .then((response) => response.json())
   .then((data) => {
     const container = document.getElementById("buttons-container");

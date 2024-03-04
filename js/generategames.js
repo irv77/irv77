@@ -1,5 +1,5 @@
 const container = document.getElementById("search");
-fetch("/html/games/links.json").then((response)=>response.json()).then((data)=>createGames(data));
+fetch("links.json").then((response)=>response.json()).then((data)=>createGames(data));
 function createGames(data) {
     let tileCount = 0;
     for (const gamesList of data.links) {

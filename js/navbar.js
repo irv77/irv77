@@ -124,10 +124,9 @@ window.addEventListener('DOMContentLoaded', function() {
           <li><img onclick="location.href='https://www.youtube.com/@IRV77stuff'" src="https://irv77.netlify.app/img/newlogo.png" class="navlogo" draggable="false"></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/index.html">Home</a></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/html/games.html">Games</a></li>
+          <li class="hvuncen"><a href="https://irv77.netlify.app/html/new_games.html">New Games</a></li>
           <li class="hvuncen"><a href="/html/xtra.html">Extras</a></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/html/chat.html">Discord</a></li>
-          <li class="hvuncen"><a href="/html/mirrors.html">Mirrors</a></li>
-          <li class="hvuncen"><a href="/html/partners.html">Partners</a></li>
           <li class="hvuncen"><a href="/html/socials.html">About</a></li>
           <li><a href="https://irv77.netlify.app/html/settings.html">
           <svg class="settings" xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">

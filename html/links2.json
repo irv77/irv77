@@ -1,0 +1,15 @@
+{
+  "links": [
+    {
+      "title": "Newest Games!",
+      "games": [
+      [
+        "Tetris Advance",
+        "https://irv77.netlify.app/html/games/other/tetr.js/tetr_js/icons/favicon.ico",
+        "/html/games/other/tetr.js/index.html",
+        "Tetris but more advance named Tetr.js Enchanced"
+    ]
+      ]
+    }
+  ]
+}

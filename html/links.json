@@ -1619,12 +1619,6 @@
           ""
       ],
         [
-          "Stickman Survival",
-          "https://irv77.netlify.app/html/games/other/Stickman-Survival/Icon.png",
-          "/html/games/other/Stickman-Survival/index.html",
-          ""
-      ],
-        [
           "Stick War",
           "https://irv77.netlify.app/html/games/other/stickwar/stickwar.jpg",
           "/html/games/other/stickwar/index.html",
@@ -1702,6 +1696,12 @@
           "/html/games/other/templerun2/index.html",
           ""
       ],
+      [
+        "Tetris Advance",
+        "https://irv77.netlify.app/html/games/other/tetr.js/tetr_js/icons/favicon.ico",
+        "/html/games/other/tetr.js/index.html",
+        "Tetris but more advance named Tetr.js Enchanced"
+    ],
         [
           "The Heist",
           "https://irv77.netlify.app/html/games/other/theheist/theheist.jpg",

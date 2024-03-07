@@ -9,7 +9,7 @@
     },
     {
        "title":"YouTube",
-       "favicon":"youtube.com"
+       "favicon":"https://youtube.com"
     },
     {
        "title":"Log In to Canvas",
@@ -25,6 +25,6 @@
     },
     {
        "title":"High School",
-       "favicon":"https://highschool.harrisburgdistrict41-2.org/o/high-school"
+       "favicon":"https://highschool.harrisburgdistrict41-2.org/"
     }
  ]

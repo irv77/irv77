@@ -184,6 +184,7 @@ h2 {
 
 h2 span {
   padding: 0 10px;
+  background-image: url("../img/divider.png");
 }
 .home {
   position: absolute;
@@ -207,6 +208,10 @@ h2 span {
   z-index: 999;
   transition: all 0.3s ease-in-out;
 }
+
+#navbar #top-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+  }
 
 .topbar.scrolled {
   transform: translateY(-65%);

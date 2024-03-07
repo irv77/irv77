@@ -1,15 +1,26 @@
 body[data-theme="default"] {
-  --background: #000000;
-  --theme: #4f0007;
+  --background: #1d0e1a;
+  --theme: #600008;
   --theme-ts: #9d4750;
+  --theme-t: #cc4343;
   --text: #e5e5e5;
   --text-secondary: #ffffff;
 }
 
+body[data-theme="classic"] {
+  --background: #0d011c;
+  --theme: #080d51;
+  --theme-ts: #1e00b360;
+  --theme-t: #eaeaff;
+  --text: #d4d4d4;
+  --text-secondary: #9e9e9e;
+}
+
 body[data-theme="light"] {
   --background: #bfbfbf;
-  --theme: #d5d5d5;
+  --theme: #345c95;
   --theme-ts: #579eff;
+  --theme-t: #1db7da;
   --text: #343437;
   --text-secondary: #111111;
 }
@@ -18,30 +29,34 @@ body[data-theme="dark"] {
   --background: #000000;
   --theme: #242424;
   --theme-ts: #44444460;
+  --theme-t: #c58b02;
   --text: #b89113;
   --text-secondary: #8f690a;
-}
-
-body[data-theme="sumpeach"] {
-  --background: #08253d;
-  --theme: #ff7190;
-  --theme-ts: #a25062;
-  --text: #ffffff;
-  --text-secondary: #535353;
 }
 
 body[data-theme="con"] {
   --background: #17191d;      
   --theme: #1b71d9;           
-  --theme-ts: #3a3f4b;     
+  --theme-ts: #3a3f4b;
+  --theme-t: #0cace6;      
   --text: #d0d0db;
   --text-secondary: #f4f3ff;
 }  
+
+body[data-theme="sumpeach"] {
+  --background: #08253d;
+  --theme: #b55e71;
+  --theme-ts: #ff7190;
+  --theme-t: rgb(230, 35, 35);
+  --text: #ffffff;
+  --text-secondary: #535353;
+}
 
 body[data-theme="cansh"] {
   --background: #19597d;
   --theme: #c0c017;
   --theme-ts: #e4de1e60;
+  --theme-t: #f01039;
   --text: #de348c;
   --text-secondary: #970e0e;
 }
@@ -50,22 +65,25 @@ body[data-theme="rblue"] {
   --background: #262033;
   --theme: #5a285a;
   --theme-ts: #442866;
+  --theme-t: #a12fff;
   --text: #bdb9a2;
   --text-secondary: #fff5e3;
-}
-
-body[data-theme="classic"] {
-  --background: #0d011c;
-  --theme: #080d51;
-  --theme-ts: #1e00b360;
-  --text: #d4d4d4;
-  --text-secondary: #9e9e9e;
 }
 
 body[data-theme="retro"] {
   --background: #564542;
   --theme: #493635;
   --theme-ts: #382929;
+  --theme-t: #edae7a;
   --text: #edc3a1;
   --text-secondary: #ffe6d6;
+}
+
+body[data-theme="spill"] {
+  --background: #eec539;
+  --theme: #e52a1a;
+  --theme-ts: #dc2f67;
+  --theme-t: #a731c2;
+  --text: #007bff;
+  --text-secondary: #f0ebd9;
 }

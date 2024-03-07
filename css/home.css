@@ -129,6 +129,7 @@ body {
 	width: 33%;
 	height: 5%;
 	background-color: var(--theme-ts);
+	box-shadow: 3px 3px 7px var(--theme-ts);
 	border-radius: 25px;
 	display: inline-block;
 	margin: 20px;
@@ -155,4 +156,9 @@ a {
   @font-face {
 	font-family: Title;
 	src: url(../img/MokotoGlitchMark.ttf);
+  }
+
+  @font-face {
+	font-family: CopyR;
+	src: url(../img/CopyrightViolation.ttf);
   }

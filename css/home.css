@@ -4,6 +4,7 @@ body {
 	background: linear-gradient(45deg, var(--background), var(--theme));    
 	color: var(--text);
 	font-family: Arial, sans-serif;
+	margin: 0px;
 }
 .content {
 	z-index: 2;
@@ -11,7 +12,6 @@ body {
 	position: relative;
 	align-items: center;
 	height: 100vh;
-	margin: -8px;
 	flex-direction: column;
 	color: var(--text);
 	font-family: "Raleway", sans-serif;
@@ -161,4 +161,10 @@ a {
   @font-face {
 	font-family: CopyR;
 	src: url(../img/CopyrightViolation.ttf);
+  }
+
+  .copy {
+	font-family: "CopyR";
+	font-size: 1.2em;
+	background: rgba(0, 0, 0, 0.5);
   }

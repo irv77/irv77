@@ -19,7 +19,14 @@
   topbar.classList.toggle("scrolled", window.scrollY > 0);
 });
 </script>
+<script>
+  window.addEventListener("load", function() {
+    document.getElementById("preloader").style.display = "none";
+      console.log("Loaded!");
+  })
+</script>
 <body data-theme="default" style="margin-top: 60px;">
+  <div id="preloader"></div>
   <div id="navbar">
   </div>
 <div class="topbar">

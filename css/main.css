@@ -13,6 +13,18 @@ a {
   color: #0084ff;
 }
 
+#preloader {
+  background: #000000 url(../img/loading.gif) no-repeat center center;
+  background-size: 115%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+}
+
 .text-center {
   text-align: center;
 }
@@ -178,8 +190,11 @@ h2 {
   text-align: center;
   background-image: url("../img/divider.png");
   line-height: 1.3em;
-  margin: 10px 0 20px;
-  padding-top: 17px;
+  margin: 25px 0 20px;
+  padding-top: 8.4px;
+  padding-bottom: 8.4px;
+  font-size: 1.6em;
+  font-family: "Bam";
 }
 
 h2 span {
@@ -217,3 +232,18 @@ h2 span {
   background-color: var(--background);
   box-shadow: 0 2px 4px rgba(128, 128, 128, 0.1); /* add a subtle shadow when scrolled */
 }
+
+@font-face {
+	font-family: CopyR;
+	src: url(../img/CopyrightViolation.ttf);
+  }
+
+@font-face {
+	font-family: Bam;
+	src: url(../img/Bamtang.ttf);
+  }
+
+  .copy {
+	font-family: "CopyR";
+	font-size: 1.2em;
+  }

@@ -190,9 +190,9 @@ h2 {
   text-align: center;
   background-image: url("../img/divider.png");
   line-height: 1.3em;
-  margin: 25px 0 20px;
-  padding-top: 8.4px;
-  padding-bottom: 8.4px;
+  margin: 35px 0 35px;
+  padding-top: 5.2px;
+  padding-bottom: 5.2px;
   font-size: 1.6em;
   font-family: "Bam";
 }
@@ -246,4 +246,5 @@ h2 span {
   .copy {
 	font-family: "CopyR";
 	font-size: 1.2em;
+  background: rgba(0, 0, 0, 0.5);
   }

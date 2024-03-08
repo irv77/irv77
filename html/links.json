@@ -221,10 +221,10 @@
           "You are trapped inside a small prison cell, and you have to escape not just your cell, but the whole prison! If you fail, death is awaiting you... Fleeing the Complex is an amazing stick figure escape game. The highly secured prison is guarded by some strong stick soldiers."
         ],
         [
-          "Freeway Fury",
-          "https://irv77.netlify.app/img/freezeria.jpg",
+          "Freeway Fury 2",
+          "https://irv77.netlify.app/img/ff.jpg",
           "/html/games/flash/waflash/index.html?swf=freewayfury.swf",
-          "In Freeway Fury the player is a daredevil jumping from car to car at high speed, striving to get as many stunt points as possible. The game plays as a vertical, top-down racer reminiscent of Spy Hunter: if the player's car gets badly damaged, they can jump onto another one and proceed."
+          "In Freeway Fury 2 the player is a daredevil jumping from car to car at high speed, striving to get as many stunt points as possible. The game plays as a vertical, top-down racer reminiscent of Spy Hunter: if the player's car gets badly damaged, they can jump onto another one and proceed."
         ],
         [
           "Gunblood",
@@ -570,7 +570,7 @@
         ],
         [
           "Run",
-          "https://irv77.netlify.app/img/run.png",
+          "https://irv77.netlify.app/img/run.jpg",
           "/html/games/flash/index.html?swf=run.swf",
           "Run! Avoid the holes in the corridor. Run into the walls to rotate the screen."
         ],
@@ -618,13 +618,13 @@
         ],
         [
           "Tetris",
-          "https://irv77.netlify.app/img/tet.jpg",
+          "https://irv77.netlify.app/img/tet.webp",
           "/html/games/flash/index.html?swf=flash-tetris.swf",
           "Tetris is a tile-matching puzzle game, developed in the Soviet Union in 1984. The game has a simple goal of destroying lines of blocks before it reaches the top. The line is made up of a square block. The Tetrimino is the shape of the 4 connected blocks that fall down."
         ],
         [
           "The Binding of Isaac",
-          "https://irv77.netlify.app/img/tboi.jpg",
+          "https://irv77.netlify.app/img/tboi.webp",
           "/html/games/flash/index.html?swf=tboi.swf",
           "The Binding of Isaac is a top-down dungeon crawler game, presented using two-dimensional sprites, in which the player controls Isaac or other unlockable characters as they explore the dungeons located in Isaac's basement."
         ],
@@ -636,7 +636,7 @@
         ],
         [
           "The World's Hardest Game",
-          "https://irv77.netlify.app/img/whg.jpg",
+          "https://irv77.netlify.app/img/whg.png",
           "/html/games/flash/index.html?swf=theworldshardestgame.swf",
           "The World's Hardest Game is an addictive puzzle game consisting of 30 incredibly challenging levels. The goal is simple: move your red block to the other end of the level whilst collecting any yellow coins scattered along the way. Although it sounds easy, there are many dangerous obstacles to dodge."
         ],
@@ -1055,8 +1055,8 @@
           ""
       ],
         [
-          "Flappy 2048 2",
-          "https://irv77.netlify.app/html/games/other/flappy-2048-2/wing.png",
+          "Flappy 2048 v2",
+          "https://irv77.netlify.app/html/games/other/flappy-2048-2/logo2.png",
           "/html/games/other/flappy-2048-2/index.html",
           ""
       ],
@@ -1098,19 +1098,19 @@
       ],
         [
           "Five Nights at Freddy's",
-          "https://irv77.netlify.app/html/games/other/fnaf/resources/0000.png",
+          "https://irv77.netlify.app/html/games/other/fnaf/logo.jpg",
           "/html/games/other/fnaf/index.html",
           ""
       ],
         [
           "Five Nights at Freddy's 2",
-          "https://irv77.netlify.app/html/games/other/fnaf2/resources/0018.png",
+          "https://irv77.netlify.app/html/games/other/fnaf2/logo.jpg",
           "/html/games/other/fnaf2/index.html",
           ""
       ],
         [
           "Five Nights at Winstons",
-          "https://irv77.netlify.app/html/games/other/fnaw/smile.jpg",
+          "https://irv77.netlify.app/html/games/other/fnaw/logo.webp",
           "/html/games/other/fnaw/index.html",
           ""
       ],
@@ -1128,19 +1128,19 @@
       ],
         [
           "Friday Night Funkin",
-          "https://irv77.netlify.app/html/games/other/funkin/favicon.png",
+          "https://irv77.netlify.app/html/games/other/funkin/logo.webp",
           "/html/games/other/funkin/index.html",
           ""
       ],
         [
           "Ultimate Custom Night",
-          "https://irv77.netlify.app/html/games/other/ucn/resources/0317.png",
+          "https://irv77.netlify.app/html/games/other/ucn/logo.webp",
           "/html/games/other/ucn/index.html",
           ""
       ],
       [
           "Funny Shooter",
-          "https://irv77.netlify.app/html/games/other/funnyshooter/unity-logo-dark.png",
+          "https://irv77.netlify.app/html/games/other/funnyshooter/logo.jpg",
           "/html/games/other/funnyshooter/index.html",
           ""
       ],
@@ -1230,7 +1230,7 @@
       ],
         [
           "Hack n Slash n Saw",
-          "https://irv77.netlify.app/html/games/other/hsb/TemplateData/webgl-logo.png",
+          "https://irv77.netlify.app/html/games/other/hsb/logo.png",
           "/html/games/other/hsb/index.html",
           ""
       ],
@@ -1782,7 +1782,7 @@
       ],
         [
           "Very Very Plane",
-          "https://irv77.netlify.app/html/games/other/vvplane/TemplateData/webgl-logo.png",
+          "https://irv77.netlify.app/html/games/other/vvplane/logo.webp",
           "/html/games/other/vvplane/index.html",
           ""
       ],

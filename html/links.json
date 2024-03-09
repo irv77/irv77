@@ -803,7 +803,7 @@
         ],
         [
           "Ball Hop",
-          "/img/ballhop.png",
+          "https://irv77.netlify.app/html/games/other/ball-hop/ballhop.png",
           "/html/games/other/ball-hop/index.html",
           ""
         ],
@@ -815,7 +815,7 @@
         ],
         [
           "Biters.io",
-          "/img/biters.png",
+          "https://irv77.netlify.app/html/games/other/biters-io/biters.png",
           "/html/games/other/biters-io/index.html",
           ""
         ],
@@ -870,7 +870,7 @@
         ],
         [
           "Boxing Physics",
-          "/img/bf.png",
+          "https://irv77.netlify.app/html/games/other/boxing-physics/bf.png",
           "/html/games/other/boxing-physics/index.html",
           ""
       ],
@@ -1002,19 +1002,19 @@
       ],
         [
           "Drift City",
-          "/img/driftc.png",
+          "https://irv77.netlify.app/html/games/other/drift-city/driftc.png",
           "/html/games/other/drift-city/index.html",
           ""
       ],
         [
           "Drift Hunters",
-          "/img/dhunt.jpg",
+          "https://irv77.netlify.app/html/games/other/drifthunters/dhunt.jpg",
           "/html/games/other/drifthunters/index.html",
           ""
       ],
       [
         "Drift King",
-        "/img/driftking.png",
+        "https://irv77.netlify.app/html/games/other/driftking/driftking.png",
         "/html/games/other/driftking/index.html",
         ""
     ],
@@ -1026,19 +1026,19 @@
   ],
         [
           "Eat.io",
-          "/img/eatio.png",
+          "https://irv77.netlify.app/html/games/other/eatio/eatio.png",
           "/html/games/other/eatio/index.html",
           ""
       ],
         [
           "Evil Glitch",
-          "/img/evil-glitch.png",
+          "https://irv77.netlify.app/html/games/other/evil-glitch/icon.jpeg",
           "/html/games/other/evil-glitch/index.html",
           ""
       ],
         [
           "Evolution",
-          "/img/evo.png",
+          "https://irv77.netlify.app/html/games/other/evo/evo.png",
           "/html/games/other/evo/index.html",
           ""
       ],
@@ -1133,7 +1133,7 @@
           ""
       ],
         [
-          "Ultimate Custom Night",
+          "Five Nights at Freddy's Ultimate Custom Night",
           "https://irv77.netlify.app/html/games/other/ucn/logo.webp",
           "/html/games/other/ucn/index.html",
           ""
@@ -1146,7 +1146,7 @@
       ],
         [
           "Funny Shooter 2",
-          "/img/funnyshooter.png",
+          "https://irv77.netlify.app/html/games/other/funnyshooter2/funnyshooter.png",
           "/html/games/other/funnyshooter2/index.html",
           ""
       ],
@@ -1386,7 +1386,7 @@
       ],
         [
           "Neon Square Resurgence",
-          "/img/nsr.png",
+          "https://irv77.netlify.app/html/games/other/neonsquareres/nsr.png",
           "/html/games/other/neonsquareres/index.html",
           ""
       ],
@@ -1416,7 +1416,7 @@
       ],
         [
           "Picky Package",
-          "/img/ppac.png",
+          "https://irv77.netlify.app/html/games/other/picky-package/ppac.png",
           "/html/games/other/picky-package/index.html",
           ""
       ],
@@ -1482,7 +1482,7 @@
       ],
         [
           "Sand Boxels",
-          "/img/sandb.png",
+          "https://irv77.netlify.app/html/games/other/sandboxels/sandb.png",
           "/html/games/other/sandboxels/index.html",
           ""
       ],
@@ -1596,7 +1596,7 @@
       ],
         [
           "Steal This Election",
-          "/img/ste.png",
+          "https://irv77.netlify.app/html/games/other/steal-this-election/ste.png",
           "/html/games/other/steal-this-election/index.html",
           ""
       ],
@@ -1716,7 +1716,7 @@
       ],
         [
           "TicTacGPT",
-          "/img/ttg.png",
+          "https://irv77.netlify.app/html/games/other/tictacgpt/ttg.png",
           "/html/games/other/tictacgpt/index.html",
           ""
       ],
@@ -1842,7 +1842,7 @@
       ],
         [
           "Zty.pe",
-          "/img/zt.jpg",
+          "https://irv77.netlify.app/html/games/other/zty.pe/zt.jpg",
           "/html/games/other/zty.pe/index.html",
           ""
       ]
@@ -1853,43 +1853,43 @@
       "games": [
         [
           "Batman ",
-          "/img/bm.jpg",
+          "https://irv77.netlify.app/html/games/other/example/bm.jpg",
           "/html/games/other/example/batman.html",
           ""
       ],
         [
           "Contra ",
-          "/img/cont.jpg",
+          "https://irv77.netlify.app/html/games/other/miscgame/cont.jpg",
           "/html/games/other/miscgame/contracool.html",
           ""
       ],
         [
           "Double Dragon ",
-          "/img/dd.jpg",
+          "https://irv77.netlify.app/html/games/other/miscgame/dd.jpg",
           "/html/games/other/miscgame/doubled.html",
           ""
       ],
         [
           "Duck Tales ",
-          "/img/dt.png",
+          "https://irv77.netlify.app/html/games/other/example/dt.png",
           "/html/games/other/example/ducktales.html",
           ""
       ],
         [
           "Excite Bike ",
-          "/img/eb.jpg",
+          "https://irv77.netlify.app/html/games/other/example/eb.jpg",
           "/html/games/other/example/excitebike.html",
           ""
       ],
         [
           "Friday the 13th ",
-          "/img/ft13.png",
+          "https://irv77.netlify.app/html/games/other/example/ft13.png",
           "/html/games/other/example/f13.html",
           ""
       ],
         [
           "Mega Man 2 ",
-          "/img/mm2.jpg",
+          "https://irv77.netlify.app/html/games/other/miscgame/mm2.jpg",
           "/html/games/other/miscgame/megamandos.html",
           ""
       ],
@@ -1959,37 +1959,37 @@
       ],
         [
           "River City Ransom ",
-          "/img/rcr.jpg",
+          "https://irv77.netlify.app/html/games/other/example/rcr.jpg",
           "/html/games/other/example/rivercity.html",
           ""
       ],
         [
           "Super Mario 64",
-          "/img/sm64.jpg",
+          "https://irv77.netlify.app/html/games/other/sm64/sm64.jpg",
           "/html/games/other/sm64/index.html",
           ""
       ],
         [
           "Super Mario Bros. ",
-          "/img/sm.png",
+          "https://irv77.netlify.app/html/games/other/miscgame/sm.png",
           "/html/games/other/miscgame/mariones.html",
           ""
       ],
         [
           "Super Mario Bros. 2 ",
-          "/img/sm2.jpg",
+          "https://irv77.netlify.app/html/games/other/example/sm2.jpg",
           "/html/games/other/example/sm2.html",
           ""
       ],
         [
           "Super Mario Bros. 3 ",
-          "/img/sm3.jpg",
+          "https://irv77.netlify.app/html/games/other/example/sm3.jpg",
           "/html/games/other/example/sm3.html",
           ""
       ],
         [
           "The Legend of Zelda ",
-          "/img/zeld.png",
+          "https://irv77.netlify.app/html/games/other/miscgame/zeld.png",
           "/html/games/other/miscgame/zeldanes.html",
           ""
       ],
@@ -2107,19 +2107,19 @@
       ],
         [
           "Doom",
-          "/img/Doom.jpg",
+          "https://irv77.netlify.app/html/games/other/dos/Doom.jpg",
           "/html/games/other/dos/doom.html",
           "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
       ],
         [
           "Super Street Fighter II TURBO",
-          "/img/ssf2t.jpg",
+          "https://irv77.netlify.app/html/games/other/dos/ssf2t.jpg",
           "/html/games/other/dos/ssf2t.html",
           "Super Street Fighter II Turbo[a] is a fighting game released for the arcades by Capcom in Japan on February 23, 1994, in North America on February 23 and March 26, 1994”."
       ],
         [
           "The Oregon Trail Deluxe",
-          "/img/tot.png",
+          "https://irv77.netlify.app/html/games/other/dos/tot.png",
           "/html/games/other/dos/tot.html",
           "Oregon Trail Deluxe is one of the educational/edutainment computer game series produced by MECC. The game was released in 1974 and was inspired by the real-life Oregon Trail. Set in 1848, you will lead a party of settlers from Independence, Missouri, to Willamette Valley, Oregon using a Conestoga wagon."
       ]
@@ -2148,7 +2148,7 @@
         ],
         [
           "Ruffle",
-          "/img/ruffle.png",
+          "https://irv77.netlify.app/img/ruffle.png",
           "/html/games/flash/index.html",
           ""
         ],

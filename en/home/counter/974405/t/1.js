@@ -1,1 +1,0 @@
-	document.write('<a href="https://www.freevisitorcounters.com/en/home/stats/id/974405" target="_blank"><br><img src="https://www.freevisitorcounters.com/en/counter/render/974405/t/1" border="0" class="counterimg"></a>');

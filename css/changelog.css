@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(45deg, var(--theme-ts), var(--background)); 
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    margin: 0px;
+  }
+  
+main {
+    margin: 10px;
+}
+
+  h1 {
+    color: var(--theme-t);
+    text-align: center;
+    font-family: "Title";
+    text-shadow: var(--theme-t) 3px 0 10px;
+  }
+  
+  p {
+    text-align: center;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  table th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid #444;
+    color: white;
+  }
+  
+  table td {
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #444;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #1a1a1a;
+  }
+  
+  .changelog-key {
+    border-collapse: collapse;
+    font-size: 14px;
+    margin: 20px auto 0;
+    max-width: 800px;
+  }
+  
+  .changelog-key th,
+  .changelog-key td {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #222;
+    border: 1px solid #444;
+  }
+  
+  .add { color: #2ecc71; }
+  .remove { color: #e74c3c; }
+  .update { color: #3498db; }
+  .system { color: #b700ff; }
+  .blocked { color: #bdc3c7; }
+
+  #navbar #top-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  @font-face {
+    font-family: Title;
+    src: url(../img/MokotoGlitchMark.ttf);
+ }
+
+  @font-face {
+	font-family: CopyR;
+	src: url(../img/CopyrightViolation.ttf);
+  }
+
+  .copy {
+	font-family: "CopyR";
+	font-size: 1.2em;
+	background: rgba(0, 0, 0, 0.5);
+  }

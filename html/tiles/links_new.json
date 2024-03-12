@@ -4,11 +4,17 @@
       "title": "New/Updated Games!",
       "games": [
       [
+        "Monkey Mart",
+        "https://irv77.netlify.app/html/games/other/monkey-mart/logo.png",
+        "/html/games/other/monkey-mart/index.html",
+        ""
+      ],
+      [
         "Tetris Advance",
         "https://irv77.netlify.app/html/games/other/tetr.js/tetr_js/icons/favicon.ico",
         "/html/games/other/tetr.js/index.html",
         "Tetris but more advance named Tetr.js Enchanced"
-    ]
+      ]
       ]
     }
   ]

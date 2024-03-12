@@ -6,19 +6,19 @@
       [
         "All Games",
         "https://irv77.netlify.app/img/allgames.png",
-        "/all_games.html",
+        "/html/all_games.html",
         "Every game on the website in one area"
     ],
     [
       "New Games",
       "https://irv77.netlify.app/img/newgames.png",
-      "/new_games.html",
+      "/html/new_games.html",
       "All new games that have been added/updated"
     ],
     [
       "Flash Games",
       "https://irv77.netlify.app/img/flash.png",
-      "/flash_games.html",
+      "/html/flash_games.html",
       "The old flash games you use to play"
     ]
       ]

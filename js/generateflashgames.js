@@ -1,6 +1,6 @@
 const container = document.getElementById("search");
 
-fetch("links_flash.json")
+fetch("tiles/links_flash.json")
   .then((response) => response.json())
   .then((data) => createGames(data));
 

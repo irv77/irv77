@@ -1,6 +1,6 @@
 const container = document.getElementById("search");
 
-fetch("links_new.json")
+fetch("tiles/links_new.json")
   .then((response) => response.json())
   .then((data) => createGames(data));
 

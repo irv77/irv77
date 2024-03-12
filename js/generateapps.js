@@ -1,6 +1,6 @@
 const container = document.getElementById("search");
 
-fetch("tiles/links.json")
+fetch("tiles/links_apps.json")
   .then((response) => response.json())
   .then((data) => createGames(data));
 
@@ -15,22 +15,22 @@ function createGames(data) {
       const link = document.createElement("a");
       const cdnUrl = localStorage.getItem("cdnUrl") || "";
       link.href = cdnUrl + game[2];
-      link.className = "system-link container";
+      link.className = "game-link container";
 
       const gameTile = document.createElement("div");
-      gameTile.className = "system-tile";
+      gameTile.className = "game-tile";
 
       const icon = document.createElement("img");
-      icon.className = "system-icon";
+      icon.className = "game-icon";
       icon.src = game[1];
       icon.loading = "lazy";
 
       const title = document.createElement("h1");
-      title.className = "system-title";
+      title.className = "game-title";
       title.innerHTML = game[0];
 
       const gameDesc = document.createElement("p");
-      gameDesc.className = "system-desc";
+      gameDesc.className = "game-desc";
       gameDesc.innerHTML = game[3];
 
       gameTile.appendChild(icon);
@@ -54,5 +54,5 @@ function createGames(data) {
     container.appendChild(sectiontitle);
     container.appendChild(section);
   }
-  console.log("Generated " + tileCount + " System tiles.");
+  console.log("Generated " + tileCount + " Game tiles.");
 }

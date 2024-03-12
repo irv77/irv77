@@ -40,6 +40,16 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
+.system-link {
+  display: inline-block;
+  position: relative;
+  width: 470px;
+  height: 270px;
+  overflow: hidden;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
 .game-tile {
   background-color: var(--theme);
   position: relative;
@@ -51,12 +61,37 @@ a {
   border-radius: 15px;
 }
 
+.system-tile {
+  background-color: var(--theme);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  border: 3px solid var(--theme-t);
+}
+
 .game-link:hover .game-tile{
+  transform: rotateY(180deg);
+}
+
+.system-link:hover .system-tile{
   transform: rotateY(180deg);
 }
 
 .game-icon {
   border-radius: 15px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.system-icon {
   display: block;
   width: 100%;
   height: 100%;
@@ -95,6 +130,67 @@ a {
   font-size: 13px;
   font-weight: bold;
   visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.system-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+	color: var(--text);
+  border-radius: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.system-desc {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+	color: var(--text-secondary);
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.system-link:hover .system-title {
+  transform: rotateY(180deg);
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.system-link:not(:hover) .system-title {
+  transform: rotateY(180deg);
+  visibility: visible;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.system-link:hover .system-desc {
+  transform: rotateY(180deg);
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.system-link:not(:hover) .system-desc {
+  transform: rotateY(180deg);
+  visibility: visible;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s ease-in-out;
 }

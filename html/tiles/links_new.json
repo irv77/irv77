@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
       [
+        "4 Colors Monument Edition",
+        "https://irv77.netlify.app/html/games/other/4-colors/sprites/200x200.jpg",
+        "/html/games/other/4-colors/index.html",
+        ""
+      ],
+      [
         "Highway Traffic",
         "https://irv77.netlify.app/html/games/other/highway-traffic/logo.jpg",
         "/html/games/other/highway-traffic/index.html",

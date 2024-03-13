@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
       [
+        "Highway Traffic",
+        "https://irv77.netlify.app/html/games/other/highway-traffic/logo.jpg",
+        "/html/games/other/highway-traffic/index.html",
+        ""
+      ],
+      [
         "Monkey Mart",
         "https://irv77.netlify.app/html/games/other/monkey-mart/logo.png",
         "/html/games/other/monkey-mart/index.html",

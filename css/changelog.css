@@ -6,7 +6,7 @@ body {
   }
   
 main {
-    margin: 10px;
+    margin: 15px;
 }
 
   h1 {
@@ -16,6 +16,10 @@ main {
     text-shadow: var(--theme-t) 3px 0 10px;
   }
   
+  h2 {
+    margin: 0;
+  }
+
   p {
     text-align: center;
   }
@@ -64,7 +68,13 @@ table {
     border: 1px solid #444;
   }
   
-  .add { color: #2ecc71; }
+  .changelog-entry {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .add { color: #0bb351; }
   .remove { color: #e74c3c; }
   .update { color: #3498db; }
   .system { color: #b700ff; }

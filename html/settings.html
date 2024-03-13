@@ -8,7 +8,9 @@
     <link rel="icon" href="../img/newlogo.png" type="image/x-icon" />
   </head>
   <body>
-    <h1 style="font-size: 40px">Settings</h1>
+    <h1 style="font-size: 40px; margin-left: 10px;">Settings</h1>
+    <img style="max-width: 100%; padding-bottom: 15px;" src="../img/divider.png" />
+    <div style="margin: 10px;">
     <h2>Tab Cloak</h2>
     <div class="buttons">
       <p>Title:</p>
@@ -23,7 +25,7 @@
       <input
         id="icon"
         class="input"
-        placeholder="Website Link"
+        placeholder="Website Address"
         onkeyup="setFavicon(this.value.trim())"
       />
       <br />
@@ -31,9 +33,11 @@
       <button class="button" onclick="resetTab()">Reset</button>
     </div>
     <br />
-    <div class="section-title">Presets</div>
+    <hr />
+    <div class="section-title">Tab Cloak Presets</div>
     <p>When choosing a preset on Safari, it won't change anymore after the first try (EVER)!<p></p>
     <div id="buttons-container"></div>
+    <br>
     <hr />
     <h2>Themes</h2>
     <div class="theme-buttons">
@@ -48,6 +52,7 @@
       <button class="theme-button" data-theme="retro">Woody</button>
       <button class="theme-button" data-theme="spill">Special Pill</button>
     </div>
+    <br>
     <hr />
 <select id="drop" class="drop" hidden>
 </select>
@@ -86,6 +91,8 @@
         <button id="create" class="console-button">Create page</button>
       </div>
     </div>
+    <br>
+  </div>
     <script src="../js/cloak.js"></script>
     <script src="../js/generategames.js"></script>
     <script src="../js/aboutblank.js"></script>

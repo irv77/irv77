@@ -1,240 +1,542 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/master_board/chess/index.html/js/CMovesController.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+var DIR_TOPRIGHT = "DIR_TOPRIGHT";
+var DIR_RIGHT = "DIR_RIGHT";
+var DIR_BOTRIGHT = "DIR_BOTRIGHT";
+var DIR_TOPLEFT = "DIR_TOPLEFT";
+var DIR_LEFT = "DIR_LEFT";
+var DIR_BOTLEFT = "DIR_BOTLEFT";
+var DIR_TOP = "DIR_TOP";
+var DIR_BOT = "DIR_BOT";
 
-<script>
-/* JSON object area */
-</script>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
-
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
-
-
-    </head>
-    <body class="">
+function CMovesController(aMatrix){
+    var _iRow;
+    var _iCol;
+    
+    var _aMatrixMap;
+    var _aRadiusMap;
+    
+    this._init = function(aMatrix){
+        _iRow = aMatrix.length;
+        _iCol = aMatrix[0].length;
         
-
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
-
-		
-
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
-
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
-
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
-
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
-
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "master_board";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        _aRadiusMap = new Array();
+        
+        _aMatrixMap = new Array();
+        for(var i=0; i<_iRow; i++){
+            _aMatrixMap[i] = new Array();
+            for(var j=0; j<_iCol; j++){
+                _aMatrixMap[i][j] = new Array();
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+        }
+        
+        this._buildMap();
+    };
+    
+    this._buildMap = function(){
+        for(var i=0; i<_iRow; i++){
+            for(var j=0; j<_iCol; j++){
+                _aMatrixMap[i][j][DIR_TOPRIGHT] = this._setNeighbor(i,j,DIR_TOPRIGHT);
+                _aMatrixMap[i][j][DIR_RIGHT] = this._setNeighbor(i,j,DIR_RIGHT);
+                _aMatrixMap[i][j][DIR_BOTRIGHT] = this._setNeighbor(i,j,DIR_BOTRIGHT);
+                _aMatrixMap[i][j][DIR_TOPLEFT] = this._setNeighbor(i,j,DIR_TOPLEFT);
+                _aMatrixMap[i][j][DIR_LEFT] = this._setNeighbor(i,j,DIR_LEFT);
+                _aMatrixMap[i][j][DIR_BOTLEFT] = this._setNeighbor(i,j,DIR_BOTLEFT);
+                _aMatrixMap[i][j][DIR_TOP] = this._setNeighbor(i,j,DIR_TOP);
+                _aMatrixMap[i][j][DIR_BOT] = this._setNeighbor(i,j,DIR_BOT);
+            }
+        }
+    };
+    
+    this._setNeighbor = function(r, c, iDir){
+        var oNextDir = null;
+        
+        switch(iDir){
+            ////r%2 IS USED TO DETECT INDEX COLUMN FOR AN "ODD-ROW" HORIZONTAL LAYOUT HEX GRID. FOR EXAMPLE, IF ROW IS ODD, THE TOPRIGHT NEIGHBOR IS = COL+1. IF ROW IS EVEN, THE TOPRIGHT NEIGHBOR IS = COL. 
+            case DIR_TOPRIGHT:{
+                    if(r>0 && c<_iCol-1){
+                        oNextDir = {row: r-1, col: c+1};
+                    }
+                    break;
+            }
+            case DIR_RIGHT:{
+                    if(c<_iCol-1){
+                        oNextDir = {row: r, col: c+1};
+                    }
+                    break;
+            }
+            case DIR_BOTRIGHT:{
+                    if(r<_iRow-1 && c<_iCol-1){
+                        oNextDir = {row: r+1, col: c+1};
+                    }
+                    break;
+            }
+            case DIR_TOPLEFT:{
+                    if(r>0 && c > 0){
+                        oNextDir = {row: r-1, col: c-1};
+                    }
+                    break;
+            }
+            case DIR_LEFT:{
+                    if(c>0){
+                        oNextDir = {row: r, col: c-1};
+                    }
+                    break;
+            }
+            case DIR_BOTLEFT:{
+                    
+                    if(r<_iRow-1 && c > 0){
+                        oNextDir = {row: r+1, col: c-1};
+                    }
+                    break;
+            }
+            case DIR_TOP:{
+                    if(r>0){
+                        oNextDir = {row: r-1, col: c};
+                    }
+                    break;
+            }
+            case DIR_BOT:{
+                    if(r<_iRow-1){
+                        oNextDir = {row: r+1, col: c};
+                    }
+                    break;
+            }
+        }
+
+        return oNextDir;
+    };
+    
+    this._getNeighborByDir = function(iRow, iCol, iDir){
+        return _aMatrixMap[iRow][iCol][iDir];
+    };
+    
+    this._getAllNeighbor = function(iRow, iCol){
+        var aNeighborList = new Array();
+        
+        for (var key in _aMatrixMap[iRow][iCol]) {
+            if(_aMatrixMap[iRow][iCol][key]!== null){
+                aNeighborList.push(_aMatrixMap[iRow][iCol][key]);
+            }
+        }
+        
+        return aNeighborList;
+    };
+    
+    this._getMainDiagonal = function(iRow, iCol, aBoard){
+        var aList = new Array();
+        
+        var szColor = aBoard[iRow][iCol].getColor();
+        
+        this._findInDirection(iRow, iCol, DIR_BOTRIGHT, aList, 99, szColor, aBoard);
+        this._findInDirection(iRow, iCol, DIR_TOPLEFT, aList, 99, szColor, aBoard);
+        
+        return aList;
+    };
+    
+    this._getSecondDiagonal = function(iRow, iCol, aBoard){
+        var aList = new Array();
+        
+        var szColor = aBoard[iRow][iCol].getColor();
+        
+        this._findInDirection(iRow, iCol, DIR_BOTLEFT, aList, 99, szColor, aBoard);
+        this._findInDirection(iRow, iCol, DIR_TOPRIGHT, aList, 99, szColor, aBoard);
+
+        return aList;
+    };
+    
+    this._getRow = function(iRow, iCol, aBoard){
+        var aList = new Array();
+        
+        var szColor = aBoard[iRow][iCol].getColor();
+        
+        this._findInDirection(iRow, iCol, DIR_LEFT, aList, 99, szColor, aBoard);
+        this._findInDirection(iRow, iCol, DIR_RIGHT, aList, 99, szColor, aBoard);
+        
+        return aList;
+    };
+    
+    this._getCol = function(iRow, iCol, aBoard){
+        var aList = new Array();
+        
+        var szColor = aBoard[iRow][iCol].getColor();
+        
+        this._findInDirection(iRow, iCol, DIR_TOP, aList, 99, szColor, aBoard);
+        this._findInDirection(iRow, iCol, DIR_BOT, aList, 99, szColor, aBoard);
+        
+        return aList;
+    };
+    
+    this._getStraightByDirAndRadius = function(iRow, iCol, szDir, iRadius, aBoard){
+        var aList = new Array();
+        _aRadiusMap = new Array();
+
+        _aRadiusMap.push({radius:iRadius, direction: null});
+        
+        var szColor = aBoard[iRow][iCol].getColor();
+        
+        this._findInDirection(iRow, iCol, szDir, aList, iRadius, szColor, aBoard);
+
+        
+        return aList;
+    };
+    
+    this._getStraightRowByRadius = function(iRow, iCol, iRadius){
+        var aList = new Array();
+        _aRadiusMap = new Array();
+        
+        _aRadiusMap.push({radius:iRadius, direction: null});
+        
+        this._findInDirection(iRow, iCol, DIR_LEFT, aList, iRadius);
+        this._findInDirection(iRow, iCol, DIR_RIGHT, aList, iRadius);
+        
+        return aList;
+    };
+    
+    this._getStraightColByRadius = function(iRow, iCol, iRadius){
+        var aList = new Array();
+        _aRadiusMap = new Array();
+        
+        _aRadiusMap.push({radius:iRadius, direction: null});
+        
+        this._findInDirection(iRow, iCol, DIR_TOP, aList, iRadius);
+        this._findInDirection(iRow, iCol, DIR_BOT, aList, iRadius);
+        
+        
+        return aList;
+    };
+    
+    this._findInDirection = function(iRow, iCol, iDir, aList, iRadius, szColor, aBoard){
+
+        var iCountRadius = iRadius-1;
+        
+        if(_aMatrixMap[iRow][iCol][iDir] !== null && iCountRadius>=0){
+            var iNextRow = _aMatrixMap[iRow][iCol][iDir].row;
+            var iNextCol = _aMatrixMap[iRow][iCol][iDir].col;
+
+            if(szColor){
+                var szNextColor = aBoard[iNextRow][iNextCol].getColor();
+                if(szNextColor === szColor){
+                    return;
+                }else if (szNextColor === null){
+                    aList.push({row: iNextRow, col: iNextCol});
+                    _aRadiusMap.push({radius:iCountRadius, direction: iDir});
+
+                    this._findInDirection(iNextRow, iNextCol, iDir, aList, iCountRadius, szColor, aBoard);
+                } else {
+                    aList.push({row: iNextRow, col: iNextCol});
+                    _aRadiusMap.push({radius:iCountRadius, direction: iDir});
+                }
+            } else {
+                aList.push({row: iNextRow, col: iNextCol});
+                _aRadiusMap.push({radius:iCountRadius, direction: iDir});
+
+                this._findInDirection(iNextRow, iNextCol, iDir, aList, iCountRadius, szColor, aBoard);
+            }
+        }
+    };
+    
+    this._findTPos = function(iRow, iCol, iDir){
+        var aPos = new Array();
+        
+        var oFirstStep = _aMatrixMap[iRow][iCol][iDir];
+        if(oFirstStep !== null){
+            var oSecondStep = _aMatrixMap[oFirstStep.row][oFirstStep.col][iDir];
+            if(oSecondStep !== null){
+                if(iDir === DIR_TOP || iDir === DIR_BOT){
+                    aPos = this._getStraightRowByRadius(oSecondStep.row, oSecondStep.col, 1);
+                } else {
+                    aPos = this._getStraightColByRadius(oSecondStep.row, oSecondStep.col, 1);
+                }
+            };
+        };
+        
+        return aPos;
+    };
+    
+    this.getMovesList = function(iRow, iCol, aBoard){
+        var szType = aBoard[iRow][iCol].getType();
+        
+        var aMovesList = new Array();
+        
+        switch(szType){
+            case PAWN:{
+                    aMovesList = this.getPawnMove(iRow, iCol, aBoard);
+                    break;
+            }
+            case ROOK:{
+                    aMovesList = this.getRookMove(iRow, iCol, aBoard);
+                    break;
+            }
+            case KNIGHT:{
+                    aMovesList = this.getKnightMove(iRow, iCol, aBoard);
+                    break;
+            }
+            case BISHOP:{
+                    aMovesList = this.getBishopMove(iRow, iCol, aBoard);
+                    break;
+            }
+            case QUEEN:{
+                    aMovesList = this.getQueenMove(iRow, iCol, aBoard);
+                    break;
+            }
+            case KING:{
+                    aMovesList = this.getKingMove(iRow, iCol, aBoard);
+                    break;
+            }
+        }
+        
+        return aMovesList;
+        
+    };
+    
+    this.getPawnMove = function(iRow, iCol, aBoard){
+        var szColor = aBoard[iRow][iCol].getColor();
+               
+        var aMoveList = new Array();
+        var aEatList = new Array();
+        if(szColor === WHITE){
+            ////////// MOVE LIST
+            if(iRow === 6){
+                aMoveList = this._getStraightByDirAndRadius(iRow, iCol, DIR_TOP, 2, aBoard);
+            } else {
+                aMoveList = this._getStraightByDirAndRadius(iRow, iCol, DIR_TOP, 1, aBoard);
+            }
+            ////////// EAT LIST
+            var oNeighbor = this._getNeighborByDir(iRow, iCol, DIR_TOPRIGHT);
+            if(oNeighbor !== null){
+                if(aBoard[oNeighbor.row][oNeighbor.col].getColor() === BLACK){
+                    aEatList.push(oNeighbor);
+                }    
+            }
+            var oNeighbor = this._getNeighborByDir(iRow, iCol, DIR_TOPLEFT);
+            if(oNeighbor !== null){
+                if(aBoard[oNeighbor.row][oNeighbor.col].getColor() === BLACK){
+                    aEatList.push(oNeighbor);
+                }    
+            }
+            ////////// CHECK EN-PASSANT
+            if(iRow === 3){
+                var aList = this._getEnPassant(WHITE, iRow, iCol, aBoard);
+                for(var i=0; i<aList.length; i++){
+                    aEatList.push(aList[i]);
+                };
+            }
+            
+            
+        } else{
+            ////////// MOVE LIST
+            if(iRow === 1){
+                aMoveList = this._getStraightByDirAndRadius(iRow, iCol, DIR_BOT, 2, aBoard);
+            } else {
+                aMoveList = this._getStraightByDirAndRadius(iRow, iCol, DIR_BOT, 1, aBoard);
+            }
+            ////////// EAT LIST
+            var oNeighbor = this._getNeighborByDir(iRow, iCol, DIR_BOTRIGHT);
+            if(oNeighbor !== null){
+                if(aBoard[oNeighbor.row][oNeighbor.col].getColor() === WHITE){
+                    aEatList.push(oNeighbor);
+                }    
+            }
+            var oNeighbor = this._getNeighborByDir(iRow, iCol, DIR_BOTLEFT);
+            if(oNeighbor !== null){
+                if(aBoard[oNeighbor.row][oNeighbor.col].getColor() === WHITE){
+                    aEatList.push(oNeighbor);
+                }    
+            }
+            ////////// CHECK EN-PASSANT
+            if(iRow === 4){
+                var aList = this._getEnPassant(BLACK, iRow, iCol, aBoard);
+                for(var i=0; i<aList.length; i++){
+                    aEatList.push(aList[i]);
+                };
+            }
+        }
+        
+        ///////////// REMOVE OCCUPIED CELLS BY ENEMY
+        for(var i=aMoveList.length-1; i>=0; i--){
+            if(aBoard[aMoveList[i].row][aMoveList[i].col].getColor() !== null && aBoard[aMoveList[i].row][aMoveList[i].col].getColor() !== szColor){
+                aMoveList.splice(i,1);
+            }
+        };
+        
+        for(var i=0; i<aEatList.length; i++){
+            aMoveList.push(aEatList[i]);
+        };
+        
+        return aMoveList;
+    };
+    
+    this.getRookMove = function(iRow, iCol, aBoard){
+        var aRowList = this._getRow(iRow, iCol, aBoard);
+        var aColList = this._getCol(iRow, iCol, aBoard);
+        
+        var aList = new Array();
+        for(var i=0; i<aRowList.length; i++){
+            aList.push(aRowList[i]);
+        }
+        for(var i=0; i<aColList.length; i++){
+            aList.push(aColList[i]);
+        }
+        
+        return aList;
+    };
+    
+    this.getKnightMove = function(iRow, iCol, aBoard){
+        var aList = new Array();
+        aList.push( this._findTPos(iRow, iCol, DIR_TOP) );
+        aList.push( this._findTPos(iRow, iCol, DIR_RIGHT) );
+        aList.push( this._findTPos(iRow, iCol, DIR_BOT) );
+        aList.push( this._findTPos(iRow, iCol, DIR_LEFT) );
+        
+        var aLList = new Array();
+        for(var i=0; i<aList.length; i++){
+            for(var j=0; j<aList[i].length; j++){
+                aLList.push(aList[i][j]);
+            }
+        }
+        
+        //REMOVE ALLY POSITION FROM MOVES
+        
+        var szColor = aBoard[iRow][iCol].getColor();
+        for(var i= aLList.length-1; i>=0; i--){
+            if(aBoard[aLList[i].row][aLList[i].col].getColor() === szColor){
+                aLList.splice(i,1);
+            }
+        }
+        
+        
+        return aLList;
+    };
+    
+    this.getBishopMove = function(iRow, iCol, aBoard){
+        var aMainList = this._getMainDiagonal(iRow, iCol, aBoard);
+        var aSecondList = this._getSecondDiagonal(iRow, iCol, aBoard);
+        
+        var aList = new Array();
+        for(var i=0; i<aMainList.length; i++){
+            aList.push(aMainList[i]);
+        }
+        for(var i=0; i<aSecondList.length; i++){
+            aList.push(aSecondList[i]);
+        }
+        
+        return aList;
+    };
+    
+    this.getQueenMove = function(iRow, iCol, aBoard){
+        var aStraightList = this.getRookMove(iRow, iCol, aBoard);
+        var aDiagonalList = this.getBishopMove(iRow, iCol, aBoard);
+        
+        var aList = new Array();
+        for(var i=0; i<aStraightList.length; i++){
+            aList.push(aStraightList[i]);
+        }
+        for(var i=0; i<aDiagonalList.length; i++){
+            aList.push(aDiagonalList[i]);
+        }
+        
+        return aList;
+    };
+    
+    this.getKingMove = function(iRow, iCol, aBoard){
+        var aNeighborList = this._getAllNeighbor(iRow, iCol);
+
+        ////////// CASTLING MOVES
+        var oKing = aBoard[iRow][iCol];
+        var aKingHistory = oKing.getPieceHistory();
+        
+        if(aKingHistory.length===1 && !s_oGame.isCheck()){
+            var bCastlingRight = true;
+            /////////CASTLE RIGHT AND LEFT
+            var aRookRightHistory = aBoard[iRow][7].getPieceHistory();
+            if(aRookRightHistory.length===1){
+                if(aBoard[iRow][6].getColor() !== null){
+                    bCastlingRight = false;
+                }
+                if(aBoard[iRow][5].getColor() !== null){
+                    bCastlingRight = false;
+                }
+            }else {
+                bCastlingRight = false;
+            }
+            if(bCastlingRight){
+                aNeighborList.push({row: iRow, col:6});
+            }
+            
+            var bCastlingLeft = true;
+            var aRookLeftHistory = aBoard[iRow][0].getPieceHistory();
+            if(aRookLeftHistory.length===1){
+                if(aBoard[iRow][1].getColor() !== null){
+                    bCastlingLeft = false;
+                }
+                if(aBoard[iRow][2].getColor() !== null){
+                    bCastlingLeft = false;
+                }
+                if(aBoard[iRow][3].getColor() !== null){
+                    bCastlingLeft = false;
+                }
+            }else {
+                bCastlingLeft = false;
+            }
+            if(bCastlingLeft){
+                aNeighborList.push({row: iRow, col:2});
+            }
+        }
+        
+        //REMOVE ALLY POSITION FROM MOVES
+        var szColor = aBoard[iRow][iCol].getColor();
+        for(var i= aNeighborList.length-1; i>=0; i--){
+            if(aBoard[aNeighborList[i].row][aNeighborList[i].col].getColor() === szColor){
+                aNeighborList.splice(i,1);
+            }
+        }
+        
+        return aNeighborList;
+    };
+    
+    this._getEnPassant = function(szColor, iRow, iCol, aBoard){
+        var aList = new Array();
+        var szOpponentColor = s_oBoardStateController.getOtherOpponent(szColor);
+        
+        var oNeighbor = this._getNeighborByDir(iRow, iCol, DIR_RIGHT);
+        if(oNeighbor !== null){
+            var oPiece = aBoard[oNeighbor.row][oNeighbor.col];
+            if(oPiece.getColor() === szOpponentColor && oPiece.getType() === PAWN){
+                var aEnemyPawnHistory = oPiece.getPieceHistory();
+                var aThisPieceHistory = aBoard[iRow][iCol].getPieceHistory();
+                //trace(aEnemyPawnHistory)
+                if(aEnemyPawnHistory.length === 2 && aEnemyPawnHistory[1].id === s_oGame.getLastHistoryID()){
+                    if(szColor === WHITE){
+                        aList.push(this._getNeighborByDir(iRow, iCol, DIR_TOPRIGHT));
+                    } else {
+                        aList.push(this._getNeighborByDir(iRow, iCol, DIR_BOTRIGHT));
+                    }
+
+                }
+            }
+        }
+        
+        var oNeighbor = this._getNeighborByDir(iRow, iCol, DIR_LEFT);
+        if(oNeighbor !== null){
+            var oPiece = aBoard[oNeighbor.row][oNeighbor.col];
+            if(oPiece.getColor() === szOpponentColor && oPiece.getType() === PAWN){
+                var aEnemyPawnHistory = oPiece.getPieceHistory();
+                var aThisPieceHistory = aBoard[iRow][iCol].getPieceHistory();
+                if(aEnemyPawnHistory.length === 2 && aEnemyPawnHistory[1].id === s_oGame.getLastHistoryID()){
+                    if(szColor === WHITE){
+                        aList.push(this._getNeighborByDir(iRow, iCol, DIR_TOPLEFT));
+                    } else {
+                        aList.push(this._getNeighborByDir(iRow, iCol, DIR_BOTLEFT));
+                    }
+                } 
+            }
+        }
+        
+        return aList;
+    };
+    
+    this._init(aMatrix);
+    
+    s_oMovesController = this;
+}
+
+var s_oMovesController;

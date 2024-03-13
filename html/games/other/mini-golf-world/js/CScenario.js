@@ -1,240 +1,418 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/CScenario.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+function CScenario(iLevel) {
+    var _oWorld;
+    var _oGroundMaterial;
+    var _oBallMaterial;
+    var _oWallMaterial;
+    var _oBallShape;
+    var _oBallBody;
+    var _oBallMesh;
+    var _oHolePosition;
+    var _oFieldMesh;
+    var _oFieldBody;
+    var _aBigSandBody;
+    var _aBigSandMesh;
+    var _aBigSandPosition;
+    var _aWaterBody;
+    var _aHoleBody;
 
-<script>
-/* JSON object area */
-</script>
+    var _bTerrainCollision;
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
+    var _iCurSandCollisionID;
+    var _iCurWaterCollisionID;
+    var _iCurHoleCollisionID;
+    var _iTimeStep;
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
-
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+    if (SHOW_3D_RENDER)
+        var _oDemo = new CANNON.Demo();
 
 
-    </head>
-    <body class="">
+    this.getDemo = function(){
+        return _oDemo;
+    };
+
+    this._init = function () {
+        _iTimeStep = 1/60;
+    
+        _iCurSandCollisionID = null;
+        _iCurWaterCollisionID = null;
+        _iCurHoleCollisionID = null;
+
+        _aBigSandBody = new Array();
+        _aWaterBody = new Array();
+        _aHoleBody = new Array();
         
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+        if (SHOW_3D_RENDER) {
+            _oWorld = _oDemo.getWorld();
+        } else {
+            _oWorld = new CANNON.World();
+        }
 
-		
+        //_oWorld.gravity.set(0, 0, -9.81);
+        _oWorld.gravity.set(0, 0, -98.1);
+        //_oWorld.gravity.set(0, 0, -180.1);
+        _oWorld.broadphase = new CANNON.NaiveBroadphase();
+        _oWorld.solver.iterations = 10;
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        _oGroundMaterial = new CANNON.Material();
+        _oBallMaterial = new CANNON.Material();
+        _oWallMaterial = new CANNON.Material();
+
+        
+        
+        var ball_basket_cm = new CANNON.ContactMaterial(
+                _oBallMaterial, _oWallMaterial, {
+                    friction: 0.0,
+                    restitution: 0.4,
+                    contactEquationStiffness: 1e8,
+                    contactEquationRelaxation: 3,
+                    frictionEquationStiffness: 1e8,
+                    frictionEquationRegularizationTime: 3
+                });
+
+        _oWorld.addContactMaterial(ball_basket_cm);
+        
+        _aBigSandMesh = new Array();
+        _aBigSandPosition = new Array();
+
+        // s_oScenario._createBallBody();
 
 
+//           model FBX
+        var manager = new THREE.LoadingManager();
+        manager.onProgress = function (item, loaded, total) {
+            console.log(item, loaded, total);
+        };
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
-
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
-
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
-
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
-
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        var onProgress = function (xhr) { 
+            if (xhr.lengthComputable) {
+                var percentComplete = xhr.loaded / xhr.total * 100;
+                //console.log(Math.round(percentComplete, 2) + '% downloaded');
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+        };
+        
+        var onError = function (xhr) {
+        };
+
+        var loader = new THREE.FBXLoader(manager);
+        var oParent = this;
+
+        loader.load('models/level_' + iLevel + '.txt', function (objects) {
+            s_oScenario.parseFile(objects);
+            s_oGame.scenarioLoaded();
+            objects = null;
+            
+        }, onProgress, onError);
+    };
+
+    this.parseFile = function (oFile) {
+//        console.log(oFile);
+
+        for (var i = 0; i < oFile.children.length; i++) {
+            var oMesh = oFile.children[i];
+
+            console.log("oMesh.name: " + oMesh.name);
+
+            if (oMesh.name === "field") {
+                s_oScenario._createFieldBody(oMesh);
+            } else if (oMesh.name === "ball") {
+                s_oScenario._createBallBody(oMesh);
+            } else if (oMesh.name === "hole") {
+                s_oScenario._createHoleBody(oMesh);
+            } else if (oMesh.name === "sand") {
+                s_oScenario._createBigSandBody(oMesh);
+            } else if (oMesh.name === "water"){
+                s_oScenario._createWaterBody(oMesh);
+            }
+        }
+    };
+
+    this._createFieldBody = function (oMesh) {
+        _oFieldMesh = this.__extractMeshData(oMesh);
+
+        // Add to compound
+        _oFieldBody = new CANNON.Body({mass: 0, material: _oWallMaterial});
+        _oFieldBody.addShape(_oFieldMesh);
+
+        var v3IniPos = new CANNON.Vec3(oMesh.position.x, oMesh.position.y, oMesh.position.z);
+        _oFieldBody.position.copy(v3IniPos);
+
+        _oFieldBody.addEventListener("collide", function (e) {
+            _bTerrainCollision = true;
+        });
+
+        // Create bodys
+        _oWorld.addBody(_oFieldBody);
+
+        if (SHOW_3D_RENDER)
+            _oDemo.addVisual(_oFieldBody);
+    };
+
+    this._createBallBody = function (oMesh) {
+        _oBallShape = new CANNON.Sphere(BALL_RADIUS);
+        _oBallBody = new CANNON.Body({mass: BALL_MASS, material: _oBallMaterial, linearDamping: BALL_LINEAR_DAMPING,
+            angularDamping: BALL_LINEAR_DAMPING});
+
+        var v3IniPos = new CANNON.Vec3(oMesh.position.x, oMesh.position.y, oMesh.position.z);
+        _oBallBody.position.copy(v3IniPos);
+        _oBallBody.previousPosition.copy(v3IniPos);
+
+        _oBallBody.addShape(_oBallShape);
+        _oWorld.add(_oBallBody);
+        if (SHOW_3D_RENDER)
+            _oBallMesh = _oDemo.addVisual(_oBallBody);
+    };
+
+    this.testPosMesh = function(){
+        return _oBallMesh;
+    };
+
+    this._createHoleBody = function (oMesh) {
+        
+        _oHolePosition = new CANNON.Vec3(oMesh.position.x, oMesh.position.y, oMesh.position.z);
+
+        var oHoleMesh = this.__extractMeshData(oMesh);
+        
+        var iID = _aHoleBody.length;
+        
+        _aHoleBody.push(new CANNON.Body({mass: 0, material: _oWallMaterial}));
+        
+        _aHoleBody[iID].collisionResponse = 0;
+       
+        _aHoleBody[iID].ID = iID;
+        _aHoleBody[iID].addEventListener("collide", function (e) {
+            _iCurHoleCollisionID = e.target.ID;
+        });
+        
+        _aHoleBody[iID].addShape(oHoleMesh);
+        _aHoleBody[iID].position.copy(_oHolePosition);
+       
+        _oWorld.add(_aHoleBody[iID]);
+       
+        if (SHOW_3D_RENDER)
+            _oDemo.addVisual(_aHoleBody[iID], 0xff0000);
+    };
+
+    this._createBigSandBody = function (oMesh) {
+        
+        var iID = _aBigSandBody.length;
+        
+        _aBigSandPosition[iID] = new CANNON.Vec3(oMesh.position.x, oMesh.position.y, oMesh.position.z);
+
+        _aBigSandMesh[iID] = this.__extractMeshData(oMesh);
+        
+        _aBigSandBody[iID] = new CANNON.Body({mass: 0, material: _oWallMaterial});
+
+        _aBigSandBody[iID].collisionResponse = 0;
+        
+        _aBigSandBody[iID].ID = iID;
+        _aBigSandBody[iID].addEventListener("collide", function (e) {
+            _iCurSandCollisionID = e.target.ID;
+        });
+        
+        _aBigSandBody[iID].addShape(_aBigSandMesh[iID]);
+        _aBigSandBody[iID].position.copy(_aBigSandPosition[iID]);
+
+        _oWorld.add(_aBigSandBody[iID]);
+
+        if (SHOW_3D_RENDER)
+            _oDemo.addVisual(_aBigSandBody[iID], 0xee9700);
+    };
+
+    this._createWaterBody = function (oMesh) {
+
+
+        var oWaterPos = new CANNON.Vec3(oMesh.position.x, oMesh.position.y, oMesh.position.z);
+        var oWaterMesh = this.__extractMeshData(oMesh);
+        
+        var iID = _aWaterBody.length;
+        
+        _aWaterBody.push(new CANNON.Body({mass: 0, material: _oWallMaterial}));
+        
+        _aWaterBody[iID].collisionResponse = 0;
+       
+        _aWaterBody[iID].ID = iID;
+        _aWaterBody[iID].addEventListener("collide", function (e) {
+            _iCurWaterCollisionID = e.target.ID;
+        });
+        
+        _aWaterBody[iID].addShape(oWaterMesh);
+        _aWaterBody[iID].position.copy(oWaterPos);
+       
+        _oWorld.add(_aWaterBody[iID]);
+       
+        if (SHOW_3D_RENDER)
+            _oDemo.addVisual(_aWaterBody[iID], 0x0000ff);
+        
+    };
+
+    this.__extractMeshData = function (oMesh) {
+        
+        var aRawFaces = oMesh.geometry.faces;
+        var aRawVerts = oMesh.geometry.vertices;
+        var aOnlyFaceCoord = new Array();
+
+        for (var i = 0; i < aRawFaces.length; i++) {
+            aOnlyFaceCoord[i] = {a: aRawFaces[i].a, b: aRawFaces[i].b, c: aRawFaces[i].c};
+        }
+
+        var verts = [], faces = [];
+        var fScale = 1;//0.5;
+        // Get vertices
+        for (var i = 0; i < aRawVerts.length; i++) {
+            verts.push(aRawVerts[i].x * fScale);
+            verts.push(aRawVerts[i].y * fScale);
+            verts.push(aRawVerts[i].z * fScale);
+        }
+        // Get faces
+        for (var i = 0; i < aRawFaces.length; i++) {
+            faces.push(aRawFaces[i].a);
+            faces.push(aRawFaces[i].b);
+            faces.push(aRawFaces[i].c);
+        }
+        // Construct polyhedron
+        return new CANNON.Trimesh(verts, faces);
+    };
+
+    this.addImpulse = function (oBody, oVec3) {
+        var v3WorldPoint = new CANNON.Vec3(0, 0, BALL_RADIUS);
+        var v3Impulse = new CANNON.Vec3(oVec3.x, oVec3.y, 0);
+        oBody.applyImpulse(v3Impulse, v3WorldPoint);
+    };
+
+    this.getBodyVelocity = function (oBody) {
+        return oBody.velocity;
+    };
+
+    this.ballBody = function () {
+        return _oBallBody;
+    };
+
+    this.ballMesh = function () {
+        return _oBallMesh;
+    };
+
+    this.getCamera = function () {
+        return _oDemo.camera();
+    };
+
+    this.collisionWithBall = function () {
+        s_oGame.ballCollision();
+    };
+
+    this.setElementVelocity = function (oElement, oVec3) {
+        var v3 = new CANNON.Vec3(oVec3.x, oVec3.y, oVec3.z);
+        oElement.velocity = v3;
+    };
+
+    this.setElementLinearDamping = function (oElement, fValue) {
+        oElement.linearDamping = fValue;
+    };
+
+    this.setGravity = function(iVal){
+        _oWorld.gravity.set(0, 0, iVal);
+    };
+
+    this.update = function () {
+        _oWorld.step(_iTimeStep);
+        
+        if(_bTerrainCollision){
+            this._checkTerrainCollision();
+        }
+        
+        if(_iCurSandCollisionID !== null){
+            this._checkSandCollision();
+        }
+        if(_iCurWaterCollisionID !== null){
+            this._checkWaterCollision();
+        }
+        if(_iCurHoleCollisionID !== null){
+            this._checkHoleCollision();
+        }
+    };
+
+    this._checkTerrainCollision = function(){
+        for(var i=0; i<_oWorld.contacts.length; i++){
+            var c = _oWorld.contacts[i];
+            if((c.bi === _oFieldBody && c.bj === _oBallBody) || (c.bi === _oBallBody && c.bj === _oFieldBody)){
+                s_oGame.ballCollideWithTerrain(true);
+                return true;
+            }
+        }
+        s_oGame.ballCollideWithTerrain(false);
+        _bTerrainCollision = false;
+        return false;
+    };
+
+    this._checkSandCollision = function(){
+        for(var i=0; i<_oWorld.contacts.length; i++){
+            var c = _oWorld.contacts[i];
+            if((c.bi === _aBigSandBody[_iCurSandCollisionID] && c.bj === _oBallBody) || (c.bi === _oBallBody && c.bj === _aBigSandBody[_iCurSandCollisionID])){
+                s_oGame.ballCollideWithSand(true);
+                return true;
+            }
+        }
+        s_oGame.ballCollideWithSand(false);
+        _iCurSandCollisionID = null;
+        return false;
+    };
+    
+    this._checkWaterCollision = function(){
+        for(var i=0; i<_oWorld.contacts.length; i++){
+            var c = _oWorld.contacts[i];
+            if((c.bi === _aWaterBody[_iCurWaterCollisionID] && c.bj === _oBallBody) || (c.bi === _oBallBody && c.bj === _aWaterBody[_iCurWaterCollisionID])){
+                s_oGame.ballCollideWithWater(true);
+                return true;
+            }
+        }
+        s_oGame.ballCollideWithWater(false);
+        _iCurWaterCollisionID = null;
+        return false;
+    };
+
+    this._checkHoleCollision = function(){
+        for(var i=0; i<_oWorld.contacts.length; i++){
+            var c = _oWorld.contacts[i];
+            if((c.bi === _aHoleBody[_iCurHoleCollisionID] && c.bj === _oBallBody) || (c.bi === _oBallBody && c.bj === _aHoleBody[_iCurHoleCollisionID])){
+                s_oGame.ballCollideWithHole(true);
+                return true;
+            }
+        }
+        s_oGame.ballCollideWithHole(false);
+        _iCurHoleCollisionID = null;
+        return false;
+    };
+
+    this.getHolePosition = function () {
+        return _oHolePosition;
+    };
+
+    this.getAllBigSandsPosition = function () {
+        return _aBigSandPosition;
+    };
+
+    this.getBigSandPositionByID = function (iID) {
+        return _aBigSandPosition[iID];
+    };
+    
+    this.getWorld = function(){
+        return _oWorld;
+    };
+    
+    this.getField = function(){
+        return _oFieldBody;
+    };
+
+    s_oScenario = this;
+
+    if (SHOW_3D_RENDER) {
+        _oDemo.addScene("Test", this._init);
+        _oDemo.start();
+    } else {
+        this._init();
+    }
+}
+
+var s_oScenario;
+
+

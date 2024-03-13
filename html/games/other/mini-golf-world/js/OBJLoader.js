@@ -1,240 +1,405 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/OBJLoader.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+/**
+ * @author mrdoob / http://mrdoob.com/
+ */
 
-<script>
-/* JSON object area */
-</script>
+THREE.OBJLoader = function ( manager ) {
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
+	this.manager = ( manager !== undefined ) ? manager : THREE.DefaultLoadingManager;
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
+	this.materials = null;
 
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+};
 
+THREE.OBJLoader.prototype = {
 
-    </head>
-    <body class="">
-        
+	constructor: THREE.OBJLoader,
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+	load: function ( url, onLoad, onProgress, onError ) {
 
-		
+		var scope = this;
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+		var loader = new THREE.XHRLoader( scope.manager );
+		loader.setPath( this.path );
+		loader.load( url, function ( text ) {
 
+			onLoad( scope.parse( text ) );
 
+		}, onProgress, onError );
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+	},
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+	setPath: function ( value ) {
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+		this.path = value;
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+	},
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
-            }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+	setMaterials: function ( materials ) {
+
+		this.materials = materials;
+
+	},
+
+	parse: function ( text ) {
+
+		console.time( 'OBJLoader' );
+
+		var objects = [];
+		var object;
+		var foundObjects = false;
+		var vertices = [];
+		var normals = [];
+		var uvs = [];
+
+		function addObject( name ) {
+
+			var geometry = {
+				vertices: [],
+				normals: [],
+				uvs: []
+			};
+
+			var material = {
+				name: '',
+				smooth: true
+			};
+
+			object = {
+				name: name,
+				geometry: geometry,
+				material: material
+			};
+
+			objects.push( object );
+
+		}
+
+		function parseVertexIndex( value ) {
+
+			var index = parseInt( value );
+
+			return ( index >= 0 ? index - 1 : index + vertices.length / 3 ) * 3;
+
+		}
+
+		function parseNormalIndex( value ) {
+
+			var index = parseInt( value );
+
+			return ( index >= 0 ? index - 1 : index + normals.length / 3 ) * 3;
+
+		}
+
+		function parseUVIndex( value ) {
+
+			var index = parseInt( value );
+
+			return ( index >= 0 ? index - 1 : index + uvs.length / 2 ) * 2;
+
+		}
+
+		function addVertex( a, b, c ) {
+
+           
+			object.geometry.vertices.push(
+				vertices[ a ], vertices[ a + 1 ], vertices[ a + 2 ],
+				vertices[ b ], vertices[ b + 1 ], vertices[ b + 2 ],
+				vertices[ c ], vertices[ c + 1 ], vertices[ c + 2 ]
+			);
+
+		}
+
+		function addNormal( a, b, c ) {
+
+			object.geometry.normals.push(
+				normals[ a ], normals[ a + 1 ], normals[ a + 2 ],
+				normals[ b ], normals[ b + 1 ], normals[ b + 2 ],
+				normals[ c ], normals[ c + 1 ], normals[ c + 2 ]
+			);
+
+		}
+
+		function addUV( a, b, c ) {
+
+			object.geometry.uvs.push(
+				uvs[ a ], uvs[ a + 1 ],
+				uvs[ b ], uvs[ b + 1 ],
+				uvs[ c ], uvs[ c + 1 ]
+			);
+
+		}
+
+		function addFace( a, b, c, d,  ua, ub, uc, ud, na, nb, nc, nd ) {
+
+			var ia = parseVertexIndex( a );
+			var ib = parseVertexIndex( b );
+			var ic = parseVertexIndex( c );
+			var id;
+
+			if ( d === undefined ) {
+
+				addVertex( ia, ib, ic );
+
+			} else {
+
+				id = parseVertexIndex( d );
+
+				addVertex( ia, ib, id );
+				addVertex( ib, ic, id );
+
+			}
+
+			if ( ua !== undefined ) {
+
+				ia = parseUVIndex( ua );
+				ib = parseUVIndex( ub );
+				ic = parseUVIndex( uc );
+
+				if ( d === undefined ) {
+
+					addUV( ia, ib, ic );
+
+				} else {
+
+					id = parseUVIndex( ud );
+
+					addUV( ia, ib, id );
+					addUV( ib, ic, id );
+
+				}
+
+			}
+
+			if ( na !== undefined ) {
+
+				ia = parseNormalIndex( na );
+				ib = parseNormalIndex( nb );
+				ic = parseNormalIndex( nc );
+
+				if ( d === undefined ) {
+
+					addNormal( ia, ib, ic );
+
+				} else {
+
+					id = parseNormalIndex( nd );
+
+					addNormal( ia, ib, id );
+					addNormal( ib, ic, id );
+
+				}
+
+			}
+
+		}
+
+		addObject( '' );
+
+		// v float float float
+		var vertex_pattern = /^v\s+([\d|\.|\+|\-|e|E]+)\s+([\d|\.|\+|\-|e|E]+)\s+([\d|\.|\+|\-|e|E]+)/;
+
+		// vn float float float
+		var normal_pattern = /^vn\s+([\d|\.|\+|\-|e|E]+)\s+([\d|\.|\+|\-|e|E]+)\s+([\d|\.|\+|\-|e|E]+)/;
+
+		// vt float float
+		var uv_pattern = /^vt\s+([\d|\.|\+|\-|e|E]+)\s+([\d|\.|\+|\-|e|E]+)/;
+
+		// f vertex vertex vertex ...
+		var face_pattern1 = /^f\s+(-?\d+)\s+(-?\d+)\s+(-?\d+)(?:\s+(-?\d+))?/;
+
+		// f vertex/uv vertex/uv vertex/uv ...
+		var face_pattern2 = /^f\s+((-?\d+)\/(-?\d+))\s+((-?\d+)\/(-?\d+))\s+((-?\d+)\/(-?\d+))(?:\s+((-?\d+)\/(-?\d+)))?/;
+
+		// f vertex/uv/normal vertex/uv/normal vertex/uv/normal ...
+		var face_pattern3 = /^f\s+((-?\d+)\/(-?\d+)\/(-?\d+))\s+((-?\d+)\/(-?\d+)\/(-?\d+))\s+((-?\d+)\/(-?\d+)\/(-?\d+))(?:\s+((-?\d+)\/(-?\d+)\/(-?\d+)))?/;
+
+		// f vertex//normal vertex//normal vertex//normal ...
+		var face_pattern4 = /^f\s+((-?\d+)\/\/(-?\d+))\s+((-?\d+)\/\/(-?\d+))\s+((-?\d+)\/\/(-?\d+))(?:\s+((-?\d+)\/\/(-?\d+)))?/;
+
+		var object_pattern = /^[og]\s*(.+)?/;
+
+		var smoothing_pattern = /^s\s+(\d+|on|off)/;
+
+		//
+
+		var lines = text.split( '\n' );
+
+		for ( var i = 0; i < lines.length; i ++ ) {
+
+			var line = lines[ i ];
+			line = line.trim();
+
+			var result;
+
+			if ( line.length === 0 || line.charAt( 0 ) === '#' ) {
+
+				continue;
+
+			} else if ( ( result = vertex_pattern.exec( line ) ) !== null ) {
+
+              
+				// ["v 1.0 2.0 3.0", "1.0", "2.0", "3.0"]
+
+				vertices.push(
+					parseFloat( result[ 1 ] ),
+					parseFloat( result[ 2 ] ),
+					parseFloat( result[ 3 ] )
+				);
+
+			} else if ( ( result = normal_pattern.exec( line ) ) !== null ) {
+
+				// ["vn 1.0 2.0 3.0", "1.0", "2.0", "3.0"]
+
+				normals.push(
+					parseFloat( result[ 1 ] ),
+					parseFloat( result[ 2 ] ),
+					parseFloat( result[ 3 ] )
+				);
+
+			} else if ( ( result = uv_pattern.exec( line ) ) !== null ) {
+
+				// ["vt 0.1 0.2", "0.1", "0.2"]
+
+				uvs.push(
+					parseFloat( result[ 1 ] ),
+					parseFloat( result[ 2 ] )
+				);
+
+			} else if ( ( result = face_pattern1.exec( line ) ) !== null ) {
+
+				// ["f 1 2 3", "1", "2", "3", undefined]
+
+				addFace(
+					result[ 1 ], result[ 2 ], result[ 3 ], result[ 4 ]
+				);
+
+			} else if ( ( result = face_pattern2.exec( line ) ) !== null ) {
+
+				// ["f 1/1 2/2 3/3", " 1/1", "1", "1", " 2/2", "2", "2", " 3/3", "3", "3", undefined, undefined, undefined]
+
+				addFace(
+					result[ 2 ], result[ 5 ], result[ 8 ], result[ 11 ],
+					result[ 3 ], result[ 6 ], result[ 9 ], result[ 12 ]
+				);
+
+			} else if ( ( result = face_pattern3.exec( line ) ) !== null ) {
+
+				// ["f 1/1/1 2/2/2 3/3/3", " 1/1/1", "1", "1", "1", " 2/2/2", "2", "2", "2", " 3/3/3", "3", "3", "3", undefined, undefined, undefined, undefined]
+
+				addFace(
+					result[ 2 ], result[ 6 ], result[ 10 ], result[ 14 ],
+					result[ 3 ], result[ 7 ], result[ 11 ], result[ 15 ],
+					result[ 4 ], result[ 8 ], result[ 12 ], result[ 16 ]
+				);
+
+			} else if ( ( result = face_pattern4.exec( line ) ) !== null ) {
+
+				// ["f 1//1 2//2 3//3", " 1//1", "1", "1", " 2//2", "2", "2", " 3//3", "3", "3", undefined, undefined, undefined]
+
+				addFace(
+					result[ 2 ], result[ 5 ], result[ 8 ], result[ 11 ],
+					undefined, undefined, undefined, undefined,
+					result[ 3 ], result[ 6 ], result[ 9 ], result[ 12 ]
+				);
+
+			} else if ( ( result = object_pattern.exec( line ) ) !== null ) {
+
+				// o object_name
+				// or
+				// g group_name
+
+				var name = result[ 0 ].substr( 1 ).trim();
+
+				if ( foundObjects === false ) {
+
+					foundObjects = true;
+					object.name = name;
+
+				} else {
+
+					addObject( name );
+
+				}
+
+			} else if ( /^usemtl /.test( line ) ) {
+
+				// material
+
+				object.material.name = line.substring( 7 ).trim();
+
+			} else if ( /^mtllib /.test( line ) ) {
+
+				// mtl file
+
+			} else if ( ( result = smoothing_pattern.exec( line ) ) !== null ) {
+
+				// smooth shading
+
+				object.material.smooth = result[ 1 ] === "1" || result[ 1 ] === "on";
+
+			} else {
+
+				throw new Error( "Unexpected line: " + line );
+
+			}
+
+		}
+
+		var container = new THREE.Group();
+
+		for ( var i = 0, l = objects.length; i < l; i ++ ) {
+
+			object = objects[ i ];
+			var geometry = object.geometry;
+
+			var buffergeometry = new THREE.BufferGeometry();
+
+			buffergeometry.addAttribute( 'position', new THREE.BufferAttribute( new Float32Array( geometry.vertices ), 3 ) );
+
+			if ( geometry.normals.length > 0 ) {
+
+				buffergeometry.addAttribute( 'normal', new THREE.BufferAttribute( new Float32Array( geometry.normals ), 3 ) );
+
+			} else {
+
+				buffergeometry.computeVertexNormals();
+
+			}
+
+			if ( geometry.uvs.length > 0 ) {
+
+				buffergeometry.addAttribute( 'uv', new THREE.BufferAttribute( new Float32Array( geometry.uvs ), 2 ) );
+
+			}
+
+			var material;
+
+			if ( this.materials !== null ) {
+
+				material = this.materials.create( object.material.name );
+
+			}
+
+			if ( !material ) {
+
+				material = new THREE.MeshPhongMaterial();
+				material.name = object.material.name;
+
+			}
+
+			material.shading = object.material.smooth ? THREE.SmoothShading : THREE.FlatShading;
+
+			var mesh = new THREE.Mesh( buffergeometry, material );
+			mesh.name = object.name;
+
+			container.add( mesh );
+
+		}
+
+		console.timeEnd( 'OBJLoader' );
+
+		return container;
+
+	}
+
+};

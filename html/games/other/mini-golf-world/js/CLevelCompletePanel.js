@@ -1,240 +1,314 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/CLevelCompletePanel.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+function CLevelCompletePanel(oSpriteBg) {
 
-<script>
-/* JSON object area */
-</script>
+    var _iTotalScore;
+    var _oBg;
+    var _oScoreTextBack;
+    var _oScoreText;
+    var _oScoreTextNumBack;
+    var _oScoreTextNum;
+    var _oParTextBack;
+    var _oParText;
+    var _oMsgText;
+    var _oMsgTextBack;
+    var _oGroup;
+    var _oButNext;
+    var _oButRestart;
+    var _oParent;
+    var _oFade;
+    var _oAchievementStars;
+    var _oRollingText;
+    var _oListenerMouseDown;
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
+    this._init = function (oSpriteBg) {
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
+        playSound("win_level", 1, false);
 
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+        _oFade = new createjs.Shape();
+        _oFade.graphics.beginFill("black").drawRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
+        _oFade.alpha = 0;
+        _oListenerMouseDown = _oFade.on("mousedown",function(){});
+        s_oStage.addChild(_oFade);
 
+        _oBg = createBitmap(oSpriteBg);
+        _oBg.regX = oSpriteBg.width/2;
+        _oBg.regY = oSpriteBg.height/2;
+        _oBg.x = CANVAS_WIDTH/2;
+        _oBg.y = CANVAS_HEIGHT/2;
 
-    </head>
-    <body class="">
+        _oMsgTextBack = new createjs.Text("", "50px " + PRIMARY_FONT, "#3e240b");
+        _oMsgTextBack.x = CANVAS_WIDTH / 2;
+        _oMsgTextBack.y = (CANVAS_HEIGHT / 2) - 80;
+        _oMsgTextBack.outline = 10;
+        _oMsgTextBack.textAlign = "center";
+        _oMsgTextBack.textBaseline = "alphabetic";
+
+        _oMsgText = new createjs.Text("", "50px " + PRIMARY_FONT, "#ffd800");
+        _oMsgText.x = _oMsgTextBack.x;
+        _oMsgText.y = _oMsgTextBack.y;
+        _oMsgText.textAlign = "center";
+        _oMsgText.textBaseline = "alphabetic";
+
+        _oParTextBack = new createjs.Text("", "30px " + PRIMARY_FONT, "#3e240b");
+        _oParTextBack.x = CANVAS_WIDTH / 2;
+        _oParTextBack.y = _oMsgTextBack.y + 100;
+        _oParTextBack.outline = 10;
+        _oParTextBack.textAlign = "center";
+        _oParTextBack.textBaseline = "alphabetic";
+
+        _oParText = new createjs.Text("", "30px " + PRIMARY_FONT, "#ffd800");
+        _oParText.x = CANVAS_WIDTH / 2;
+        _oParText.y = _oParTextBack.y;
+        _oParText.textAlign = "center";
+        _oParText.textBaseline = "alphabetic";
+
+        _oScoreTextBack = new createjs.Text("", "30px " + PRIMARY_FONT, "#3e240b");
+        _oScoreTextBack.x = CANVAS_WIDTH / 2 -140;
+        _oScoreTextBack.y = _oMsgTextBack.y + 160;
+        _oScoreTextBack.outline = 10;
+        _oScoreTextBack.textAlign = "center";
+        _oScoreTextBack.textBaseline = "alphabetic";
+
+        _oScoreText = new createjs.Text("", "30px " + PRIMARY_FONT, "#ffd800");
+        _oScoreText.x = _oScoreTextBack.x;
+        _oScoreText.y = _oScoreTextBack.y;
+        _oScoreText.textAlign = "center";
+        _oScoreText.textBaseline = "alphabetic";
+
+        _oScoreTextNumBack = new createjs.Text("0", "30px " + PRIMARY_FONT, "#3e240b");
+        _oScoreTextNumBack.x = CANVAS_WIDTH / 2 + 140;
+        _oScoreTextNumBack.y = _oScoreTextBack.y;
+        _oScoreTextNumBack.outline = 10;
+        _oScoreTextNumBack.textAlign = "center";
+        _oScoreTextNumBack.textBaseline = "alphabetic";
+
+        _oScoreTextNum = new createjs.Text("0", "30px " + PRIMARY_FONT, "#ffd800");
+        _oScoreTextNum.x = _oScoreTextNumBack.x;
+        _oScoreTextNum.y = _oScoreText.y;
+        _oScoreTextNum.textAlign = "center";
+        _oScoreTextNum.textBaseline = "alphabetic";
+
+        _oGroup = new createjs.Container();
+        _oGroup.alpha = 0;
+        _oGroup.visible = false;
+        _oGroup.addChild(_oBg, _oScoreTextBack, _oScoreText, _oMsgTextBack, _oMsgText, _oParTextBack, _oParText, _oScoreTextNumBack, _oScoreTextNum);
+
+        s_oStage.addChild(_oGroup);
+
+        $(s_oMain).trigger("show_interlevel_ad");
+
+    };
+
+    this._unload = function () {
+        createjs.Tween.get(_oGroup).to({alpha: 0}, 300).call(function () {
+            s_oStage.removeChild(_oGroup);
+            
+            _oFade.off("mousedown",_oListenerMouseDown);
+            s_oStage.removeChild(_oFade);
+
+            _oButRestart.unload();
+            _oButRestart = null;
+
+            _oButNext.unload();
+            _oButNext = null;
+            
+        });
+
         
+    };
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+    this.show = function (iShot, iTime, iLv) {
 
-		
+        _oMsgTextBack.text = TEXT_COMPLETE;
+        _oMsgText.text = TEXT_COMPLETE;
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        var iScoreDifference = iShot - PAR[iLv];
+        var szScoreType  = this._scoreType(iScoreDifference, iShot);
+        _oParTextBack.text = szScoreType;
+        _oParText.text = szScoreType;
+        
+        _oScoreTextBack.text = TEXT_SCORE + ": ";
+        _oScoreText.text = TEXT_SCORE + ": ";
+        
+        var iScore = this._calculateScore(iScoreDifference);
 
+        _oGroup.visible = true;
 
+        var oParent = this;
+        createjs.Tween.get(_oGroup).to({alpha: 1}, 500).call(function () {
+            var oSpriteButRestart = s_oSpriteLibrary.getSprite("but_continue_big");
+            _oButNext = new CGfxButton(CANVAS_WIDTH * 0.5 + 100, CANVAS_HEIGHT * 0.5 + 180, oSpriteButRestart, _oGroup);
+            _oButNext.addEventListener(ON_MOUSE_DOWN, oParent._onNext, this);
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+            var oSpriteButHome = s_oSpriteLibrary.getSprite("but_restart_big");
+            _oButRestart = new CGfxButton(CANVAS_WIDTH * 0.5 - 100, CANVAS_HEIGHT * 0.5 + 180, oSpriteButHome, _oGroup);
+            _oButRestart.addEventListener(ON_MOUSE_DOWN, oParent._onRestart, this);
+            
+        });
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+        createjs.Tween.get(_oFade).to({alpha: 0.7}, 500);
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+        var oSprite = s_oSpriteLibrary.getSprite("star");
+        _oAchievementStars = new CAchievementStars(oSprite, CANVAS_WIDTH/2,CANVAS_HEIGHT/2 - 210, _oGroup, "star");
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+        _oRollingText = new CRollingTextController(_oScoreTextNum, _oScoreTextNumBack, iScore, 8000, EASE_CUBIC_OUT);
+        _oRollingText.addEventListener(ON_CONTROLLER_END, _oParent._onFinishRolling);
+        _oRollingText.addEventListener(ON_CONTROLLER_REMOVE, _oParent._onFinishRolling);
+        _oRollingText.addRollingListener(_oParent._onRollingText, _oParent, [0 ,PAR_POINTS - ADDED_POINTS, PAR_POINTS]);
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        this._sendScore(iLv, iScore);
+
+    };
+
+    this._scoreType = function(iScoreDifference, iShot){
+
+        var szTypeText;
+        switch (iScoreDifference){
+            
+            case -5: {
+                    szTypeText = TEXT_PHOENIX;
+                    break;
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+            case -4: {
+                    szTypeText = TEXT_CONDOR;
+                    break;
+            }
+            case -3: {
+                    szTypeText = TEXT_ALBATROSS;
+                    break;
+            }
+            case -2: {
+                    szTypeText = TEXT_EAGLE;
+                    break;
+            }
+            case -1: {
+                    szTypeText = TEXT_BIRDIE;
+                    break;
+            }
+            case 0: {
+                    szTypeText = TEXT_PAR;
+                    break;
+            }
+            case 1: {
+                    szTypeText = TEXT_BOGEY;
+                    break;
+            }
+            case 2: {
+                    szTypeText = TEXT_DOUBLE_BOGEY;
+                    break;
+            }
+            default:{
+                    szTypeText = TEXT_BOGEY + " " + iScoreDifference;
+                    break;
+            }
+        }
+        
+        if(iShot === 1){
+            szTypeText = TEXT_HOLEINONE;
+        }
+        
+        return szTypeText;
+    };
+    
+    this._findMinimumScore = function(){
+        var iMin = PAR_POINTS;
+        var iIter = 0;
+        while(iMin > 0){
+            iIter++;
+            iMin -= ADDED_POINTS;
+        }
+        iMin += ADDED_POINTS;
+        
+        return {score: iMin, iter: iIter};
+    };
+
+    this._calculateScore = function(iScoreDifference){
+        var iScore = PAR_POINTS - iScoreDifference*ADDED_POINTS;     
+        
+        if(iScore <= 0){
+            var iMinScore = this._findMinimumScore();
+            
+            var divisor  = iScoreDifference - iMinScore.iter + 1;
+
+            iScore = Math.floor(iMinScore.score / divisor);
+        }
+        return iScore;
+    };
+
+    this._sendScore = function(iLevel, iScore){
+        var aScore = s_oLocalStorage.getItemJson(LOCALSTORAGE_SCORE);
+        
+        if(aScore[iLevel] < iScore){
+            aScore[iLevel] = iScore;
+            s_oLocalStorage.setItemJson(LOCALSTORAGE_SCORE, aScore);
+        }   
+        
+        _iTotalScore = 0;
+        for(var i=0; i<aScore.length; i++){
+            _iTotalScore += aScore[i];
+        };
+        $(s_oMain).trigger("save_score",_iTotalScore);
+    };
+
+    this._onNext = function () {
+        
+        createjs.Tween.get(_oFade).to({alpha: 1}, 300);
+        
+        createjs.Tween.get(_oGroup).to({alpha: 0}, 300).wait(100).call(function () {
+            s_oStage.removeChild(_oGroup);
+            
+            _oFade.off("mousedown",_oListenerMouseDown);
+            s_oStage.removeChild(_oFade);
+
+            _oButRestart.unload();
+            _oButRestart = null;
+
+            _oButNext.unload();
+            _oButNext = null;
+            
+            s_oGame.nextLevel();
+            
+        });
+        
+    };
+    
+    this._onRestart = function(){
+        
+        createjs.Tween.get(_oFade).to({alpha: 1}, 300);
+        
+        createjs.Tween.get(_oGroup).to({alpha: 0}, 300).wait(100).call(function () {
+            s_oStage.removeChild(_oGroup);
+            
+            _oFade.off("mousedown",_oListenerMouseDown);
+            s_oStage.removeChild(_oFade);
+
+            _oButRestart.unload();
+            _oButRestart = null;
+
+            _oButNext.unload();
+            _oButNext = null;
+            
+            s_oGame.restartLevel();
+            
+        });
+        
+    };
+
+    this._onFinishRolling = function(){
+        
+    };
+    
+    this._onRollingRemoved = function(){
+
+    };
+    
+    this._onRollingText = function(iStep){
+        
+        _oAchievementStars.playManualMode(iStep, STAR_EFFECT_SCALE);
+ 
+    };
+
+    _oParent = this;
+    this._init(oSpriteBg);
+
+    return this;
+}

@@ -1,240 +1,276 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/master_board/chess/index.html/js/CBoardStateController.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
-
-<script>
-/* JSON object area */
-</script>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
-
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
-
-
-    </head>
-    <body class="">
+function CBoardStateController(){
+    
+    var _iTurnStallCount;
+    
+    this._init = function(){
+        _iTurnStallCount = 0;
+    };
+   
+    this.getOtherOpponent = function(szPlayer){
+        if(szPlayer === WHITE){
+            return BLACK;
+        } else{
+            return WHITE;
+        }
+    };
+    
+    this.moveCopiedPiece = function(aCopiedBoard, iStartRow, iStartCol, iDestRow, iDestCol){
+        var oStartCopiedCell = aCopiedBoard[iStartRow][iStartCol];
+        var oDestCopiedCell = aCopiedBoard[iDestRow][iDestCol];
         
-
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
-
-		
-
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
-
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
-
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
-
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
-
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "master_board";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        var iSpecialMove = this.getSpecialMoves(iStartRow, iStartCol, iDestRow, iDestCol, aCopiedBoard)
+        switch( iSpecialMove ){
+            case BOARD_SPECIAL_CASTLING_RIGHT:{
+                    var oRookStartCell = aCopiedBoard[iStartRow][7];
+                    var oRookDestCell = aCopiedBoard[iStartRow][5];
+                    
+                    oRookDestCell.setCell(oStartCopiedCell.getColor(), ROOK, iDestRow, iDestCol, oStartCopiedCell.getPieceHistory());
+                    oRookStartCell.setCell(null, null, iStartRow, iStartCol, []);
+                    break;
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+            case BOARD_SPECIAL_CASTLING_LEFT:{
+                    var oRookStartCell = aCopiedBoard[iStartRow][0];
+                    var oRookDestCell = aCopiedBoard[iStartRow][3];
+                    
+                    oRookDestCell.setCell(oStartCopiedCell.getColor(), ROOK, iDestRow, iDestCol, oStartCopiedCell.getPieceHistory());
+                    oRookStartCell.setCell(null, null, iStartRow, iStartCol, []);
+                    break;
+            }
+            case BOARD_SPECIAL_ENPASSANT:{
+                    var oPawnToPassCell = aCopiedBoard[iStartRow][iDestCol];
+                    oPawnToPassCell.setCell(null, null, iStartRow, iDestCol, []);
+                    
+                    break;
+            }
+        }
+
+        oDestCopiedCell.setCell(oStartCopiedCell.getColor(), oStartCopiedCell.getType(), iDestRow, iDestCol, oStartCopiedCell.getPieceHistory());
+        oStartCopiedCell.setCell(null, null, iStartRow, iStartCol, []);
+    };
+   
+    this.copyBoard = function(aBoard){
+        var aCopiedBoard = new Array();
+        for(var i=0; i<aBoard.length; i++){
+            aCopiedBoard[i] = new Array();
+            for(var j=0; j<aBoard[i].length; j++){
+                aCopiedBoard[i][j] = new CCopiedCell(aBoard[i][j]);
+            }
+        }
+        return aCopiedBoard;
+    };
+    
+    this.getState = function(szCurPlayer, aBoard){
+        /////////// STARTS ALL KIND OF VERIFICATIONS
+        var aThreatList = this.findAllChecks(szCurPlayer, aBoard);
+
+        if(aThreatList.length !== 0){
+            /// FIND CHECKMATE
+            var bCheckMate = this.findCheckMate(szCurPlayer, aBoard);
+            if(bCheckMate){
+                return BOARD_STATE_CHECKMATE;
+            } else {
+                return BOARD_STATE_CHECK;
+            }
+        }
+        
+        /// FIND STALEMATE
+        var bStaleMate = this.findStaleMate(szCurPlayer, aBoard);
+        if(bStaleMate){
+            return BOARD_STATE_STALEMATE;
+        }
+    };
+   
+    this.findCheckMate = function(szCurPlayer, aBoard){
+        /////ONE CAN AVOID CHECKMATE ONLY BY: a) MOVING THE KING AWAY; b)EAT THREATENING PIECE; c) SHIELDING THE KING; WE CAN FIND ALL THESE CONDITIONS SEPARATELY
+        ////OR WE COULD BE CHECK ITERATIVELY ALL PLAYER MOVES AND FIND JUST 1 MOVE THAT SAVE THE KING
+        var bCheckMate = false;
+        
+        var aCurPlayerPieces = new Array();
+        for(var i=0; i<aBoard.length; i++){
+            for(var j=0; j<aBoard[i].length; j++){
+                if(aBoard[i][j].getColor() === szCurPlayer){
+                    aCurPlayerPieces.push(aBoard[i][j]);
+                }
+            }
+        }
+        
+        ///FIND ALLIN SOLUTION
+        for(var i=0; i<aCurPlayerPieces.length; i++){
+            var aCurPieceMoveList = s_oMovesController.getMovesList(aCurPlayerPieces[i].getLogicPos().row, aCurPlayerPieces[i].getLogicPos().col, aBoard);
+            for(var j=0; j<aCurPieceMoveList.length; j++){
+                var aTempBoard = this.copyBoard(aBoard);
+                this.moveCopiedPiece(aTempBoard, aCurPlayerPieces[i].getLogicPos().row, aCurPlayerPieces[i].getLogicPos().col, aCurPieceMoveList[j].row, aCurPieceMoveList[j].col);
+
+                var aList = this.findAllChecks(szCurPlayer, aTempBoard);
+                
+                if(aList.length === 0){
+                    return bCheckMate;
+                }
+            }
+        }
+        
+        bCheckMate = true;
+
+        return bCheckMate;
+    };
+   
+    this.findAllChecks = function(szPlayerColor, aBoard){
+        var szOpponentColor = this.getOtherOpponent(szPlayerColor);
+        var aOpponentPieces = new Array();
+        for(var i=0; i<aBoard.length; i++){
+            for(var j=0; j<aBoard[i].length; j++){
+                if(aBoard[i][j].getColor() === szOpponentColor){
+                    aOpponentPieces.push(aBoard[i][j]);
+                }
+            }
+        }
+        
+        var aMoves = new Array();
+        for(var i=0; i<aOpponentPieces.length; i++){
+            var oLogicPos = aOpponentPieces[i].getLogicPos();
+            aMoves[i] = {list: s_oMovesController.getMovesList(oLogicPos.row, oLogicPos.col, aBoard), piece: aOpponentPieces[i]};
+        }
+
+        
+        var aCheckPieceList = new Array();
+        for(var i=0; i<aMoves.length; i++){
+            for(var j=0; j<aMoves[i].list.length; j++){
+                var oLogicPos = aMoves[i].list[j];
+                if(aBoard[oLogicPos.row][oLogicPos.col].getColor()===szPlayerColor && aBoard[oLogicPos.row][oLogicPos.col].getType() === KING){
+                    aCheckPieceList.push(aMoves[i].piece);
+                }
+            };
+        };
+        
+        return aCheckPieceList;
+    };
+   
+    this.findStaleMate = function(szCurPlayer, aBoard){
+        var bStaleMate = this.findCheckMate(szCurPlayer, aBoard);
+
+        ////CHECK IF YOU HAVE ENOUGH PIECES TO CONTINUE THE GAME
+        if(!bStaleMate){
+            var aBlackPieces = new Array();
+            var aWhitePieces = new Array();
+            for(var i=0; i<aBoard.length; i++){
+                for(var j=0; j<aBoard[i].length; j++){
+                    if(aBoard[i][j].getColor() === WHITE){
+                        aWhitePieces.push(aBoard[i][j].getType());
+                    }
+                    if(aBoard[i][j].getColor() === BLACK){
+                        aBlackPieces.push(aBoard[i][j].getType());
+                    }
+                }
+            }
+            
+            /// ONLY KINGS REMAINS
+            if(aBlackPieces.length === 1 && aWhitePieces.length === 1){
+                bStaleMate = true;
+                return bStaleMate;
+            }
+            /// ONLY KING AND BISHOP VS KING //////// ONLY KING AND BISHOP VS KING
+            if( (aBlackPieces.length === 1 && aWhitePieces.length === 2) || (aBlackPieces.length === 2 && aWhitePieces.length === 1) ){
+                var iBishop = aWhitePieces.indexOf(BISHOP)&&aBlackPieces.indexOf(BISHOP);
+                var iKnight = aWhitePieces.indexOf(KNIGHT)&&aBlackPieces.indexOf(KNIGHT);
+                
+                if(iBishop >= 0 || iKnight >= 0){
+                    bStaleMate = true;
+                    return bStaleMate;
+                }
+            }
+            /// ONLY KING AND BISHOP VS KING AND BISHOP
+            if( (aBlackPieces.length === 2 && aWhitePieces.length === 2) ){
+                var iBishop = aWhitePieces.indexOf(BISHOP)||aBlackPieces.indexOf(BISHOP);
+                if(iBishop >= 0){
+                    var aBishopBoardColor = new Array;
+                    for(var i=0; i<aBoard.length; i++){
+                        for(var j=0; j<aBoard[i].length; j++){
+                            if(aBoard[i][j].getType()===BISHOP){
+                                var iBoardColor = (i+j)%2;
+                                aBishopBoardColor.push(iBoardColor);
+                            }
+                        }
+                    }
+                    if(aBishopBoardColor[0] === aBishopBoardColor[1]){
+                        bStaleMate = true;
+                        return bStaleMate;
+                    }
+                }
+            }
+        }
+
+        ///CHECK FIFTY MOVES RULE
+        if(_iTurnStallCount === DRAW_COUNTER){
+            bStaleMate = true;
+        }
+        
+        return bStaleMate;
+    };
+    
+    this.kingInCheck = function(szCurPlayerTurnColor, aBoard){
+        /////JUST FIND FIRST PIECE THAT CHECK THE KING
+        var szOpponentColor = this.getOtherOpponent(szCurPlayerTurnColor);
+        var aOpponentPieces = new Array();
+        for(var i=0; i<aBoard.length; i++){
+            for(var j=0; j<aBoard[i].length; j++){
+                if(aBoard[i][j].getColor() === szOpponentColor){
+                    var oOpponentPieces = aBoard[i][j];
+                    var oLogicPos = oOpponentPieces.getLogicPos();
+                    var aMoves = s_oMovesController.getMovesList(oLogicPos.row, oLogicPos.col, aBoard);
+
+                    for(var k=0; k<aMoves.length; k++){
+                        var oNewLogicPos = aMoves[k];
+                        if(aBoard[oNewLogicPos.row][oNewLogicPos.col].getColor()===szCurPlayerTurnColor && aBoard[oNewLogicPos.row][oNewLogicPos.col].getType() === KING){
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+        
+        return false;
+    };
+   
+    this.increaseStallCount = function(){
+        _iTurnStallCount++;
+    };
+    
+    this.resetStall = function(){
+        _iTurnStallCount = 0;
+    };
+   
+    this.checkPromotion = function(aBoard){
+        var oPawnPos = null;
+        
+        for(var i=0; i<aBoard.length; i++){
+            if(aBoard[0][i].getType() === PAWN){
+                oPawnPos = {row:0,col:i};
+            } else if(aBoard[7][i].getType() === PAWN){
+                oPawnPos = {row:7,col:i};
+            }
+        };
+        return oPawnPos;
+    };
+   
+    this.getSpecialMoves = function(iSourceRow, iSourceCol, iDestRow, iDestCol, aBoard){
+        var szPiece = aBoard[iSourceRow][iSourceCol].getType();
+
+        if(szPiece === KING){
+            var iDirection = iSourceCol - iDestCol;
+            if(iDirection === -2){
+                return BOARD_SPECIAL_CASTLING_RIGHT;
+            } else if(iDirection === 2){
+                return BOARD_SPECIAL_CASTLING_LEFT;
+            }
+        }else if(szPiece === PAWN) {
+            if(iSourceCol !== iDestCol && aBoard[iDestRow][iDestCol].getType() === null){
+                return BOARD_SPECIAL_ENPASSANT;
+            }
+        }
+    };
+   
+    this._init();
+    s_oBoardStateController = this;
+}
+
+var s_oBoardStateController;

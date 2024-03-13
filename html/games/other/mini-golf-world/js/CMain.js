@@ -1,240 +1,372 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/CMain.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+function CMain(oData) {
+    var _bUpdate;
+    var _iCurResource = 0;
+    var RESOURCE_TO_LOAD = 0;
+    var _iState = STATE_LOADING;
+    var _oData;
+    
+    var _aLevelLoaded;
 
-<script>
-/* JSON object area */
-</script>
+    var _oPreloader;
+    var _oMenu;
+    var _oHelp;
+    var _oLevelMenu;
+    var _oGame;
+    var _oLoadingScreen;
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
+    this.initContainer = function () {
+        var canvas = document.getElementById("canvas");
+        s_oStage = new createjs.Stage(canvas);
+        createjs.Touch.enable(s_oStage);
+        s_oStage.preventSelection = false;
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
+        s_bMobile = jQuery.browser.mobile;
+        if (s_bMobile === false) {
+            s_oStage.enableMouseOver(20);
+            $('body').on('contextmenu', '#canvas', function (e) {
+                return false;
+            });
+        }
 
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+        s_iPrevTime = new Date().getTime();
 
+        createjs.Ticker.addEventListener("tick", this._update);
+        createjs.Ticker.framerate = FPS;
 
-    </head>
-    <body class="">
+        if (navigator.userAgent.match(/Windows Phone/i)) {
+            DISABLE_SOUND_MOBILE = true;
+        }
+
+        _aLevelLoaded = new Array();
+
+        s_oSpriteLibrary = new CSpriteLibrary();
+
+        s_oTweenController = new CTweenController();
+
+        //ADD PRELOADER
+        _oPreloader = new CPreloader();
+
+        _bUpdate = true;
+    };
+
+    this.soundLoaded = function () {
+        _iCurResource++;
+        var iPerc = Math.floor(_iCurResource / RESOURCE_TO_LOAD * 100);
+        _oPreloader.refreshLoader(iPerc);
+    };
+    
+    this._initSounds = function(){
+    
+        var aSoundsInfo = new Array();
+        aSoundsInfo.push({path: './sounds/',filename:'win_level',loop:false,volume:1, ingamename: 'win_level'});
+        aSoundsInfo.push({path: './sounds/',filename:'click',loop:false,volume:1, ingamename: 'click'});
+        aSoundsInfo.push({path: './sounds/',filename:'ambience',loop:false,volume:1, ingamename: 'ambience'});
+        aSoundsInfo.push({path: './sounds/',filename:'hit_ball',loop:false,volume:1, ingamename: 'hit_ball'});
+        aSoundsInfo.push({path: './sounds/',filename:'soundtrack',loop:true,volume:1, ingamename: 'soundtrack'});
+        aSoundsInfo.push({path: './sounds/',filename:'hole',loop:false,volume:1, ingamename: 'hole'});
+        aSoundsInfo.push({path: './sounds/',filename:'sand',loop:false,volume:1, ingamename: 'sand'});
+        aSoundsInfo.push({path: './sounds/',filename:'water',loop:false,volume:1, ingamename: 'water'});
+        aSoundsInfo.push({path: './sounds/',filename:'star',loop:false,volume:1, ingamename: 'star'});
         
+        RESOURCE_TO_LOAD += aSoundsInfo.length;
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+        s_aSounds = new Array();
+        for(var i=0; i<aSoundsInfo.length; i++){
+            s_aSounds[aSoundsInfo[i].ingamename] = new Howl({ 
+                                                            src: [aSoundsInfo[i].path+aSoundsInfo[i].filename+'.mp3'],
+                                                            autoplay: false,
+                                                            preload: true,
+                                                            loop: aSoundsInfo[i].loop, 
+                                                            volume: aSoundsInfo[i].volume,
+                                                            onload: s_oMain.soundLoaded
+                                                        });
+        }
+        
+    };  
+    
+    this._loadImages = function () {
+        s_oSpriteLibrary.init(this._onImagesLoaded, this._onAllImagesLoaded, this);
 
-		
+        s_oSpriteLibrary.addSprite("preloader_anim", "./sprites/preloader_anim.png");
+        s_oSpriteLibrary.addSprite("but_play", "./sprites/but_play.png");
+        s_oSpriteLibrary.addSprite("but_continue", "./sprites/but_continue.png");
+        s_oSpriteLibrary.addSprite("but_continue_big", "./sprites/but_continue_big.png");
+        s_oSpriteLibrary.addSprite("but_info", "./sprites/but_info.png");
+        s_oSpriteLibrary.addSprite("ctl_logo", "./sprites/ctl_logo.png");
+        s_oSpriteLibrary.addSprite("but_yes", "./sprites/but_yes.png");
+        s_oSpriteLibrary.addSprite("but_not", "./sprites/but_not.png");
+        s_oSpriteLibrary.addSprite("but_exit", "./sprites/but_exit.png");
+        s_oSpriteLibrary.addSprite("but_restart_small", "./sprites/but_restart_small.png");
+        s_oSpriteLibrary.addSprite("but_restart_big", "./sprites/but_restart_big.png");
+        s_oSpriteLibrary.addSprite("help_touch", "./sprites/help_touch.png");
+        s_oSpriteLibrary.addSprite("star", "./sprites/star.png");
+        s_oSpriteLibrary.addSprite("bg_menu", "./sprites/bg_menu.jpg");
+        s_oSpriteLibrary.addSprite("msg_box", "./sprites/msg_box.png");
+        s_oSpriteLibrary.addSprite("audio_icon", "./sprites/audio_icon.png");
+        s_oSpriteLibrary.addSprite("but_home", "./sprites/but_home.png");
+        s_oSpriteLibrary.addSprite("ball", "./sprites/ball.png");
+        s_oSpriteLibrary.addSprite("arrow", "./sprites/arrow.png");
+        s_oSpriteLibrary.addSprite("but_level", "./sprites/but_level.png");
+        s_oSpriteLibrary.addSprite("flag", "./sprites/flag.png");
+        s_oSpriteLibrary.addSprite("ball_shadow", "./sprites/ball_shadow.png");
+        s_oSpriteLibrary.addSprite("caustics", "./sprites/caustics.png");
+        s_oSpriteLibrary.addSprite("but_center_view", "./sprites/but_center_view.png");
+        s_oSpriteLibrary.addSprite("ball_water", "./sprites/ball_water.png");
+        s_oSpriteLibrary.addSprite("press_indicator", "./sprites/press_indicator.png");
+        s_oSpriteLibrary.addSprite("menu_text_minigolf", "./sprites/menu_text_minigolf.png");
+        s_oSpriteLibrary.addSprite("menu_text_world", "./sprites/menu_text_world.png");
+        s_oSpriteLibrary.addSprite("but_fullscreen","./sprites/but_fullscreen.png");
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        s_oSpriteLibrary.addSprite("arrow", "./sprites/arrow.png");
+        s_oSpriteLibrary.addSprite("arrow_fill", "./sprites/arrow_fill.png");
+        s_oSpriteLibrary.addSprite("arrow_frame", "./sprites/arrow_frame.png");
 
 
+        RESOURCE_TO_LOAD += s_oSpriteLibrary.getNumSprites();
+        s_oSpriteLibrary.loadSprites();
+    };
+    
+    this._onImagesLoaded = function () {
+        _iCurResource++;
+        var iPerc = Math.floor(_iCurResource / RESOURCE_TO_LOAD * 100);
+        _oPreloader.refreshLoader(iPerc);
+    };
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+    this._onAllImagesLoaded = function () {
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+    };
+    
+    this._onRemovePreloader = function(){
+        s_oLocalStorage = new CLocalStorage("minigolf_world");
+        try{
+            s_oLocalStorage.init();
+        }catch(evt){
+            // localStorage not defined
+            s_bStorageAvailable = false;
+        }
+        
+        _oPreloader.unload();
+        s_oSoundTrack = playSound("soundtrack", 1, true);
+        
+        this.gotoMenu();
+    }
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+    this.loadSelectedLevel = function(iLevel){
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+        s_iCurLevel = iLevel;
+        _iCurResource = 0;
+        RESOURCE_TO_LOAD = 0;
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        if (_aLevelLoaded[iLevel]) {
+            this.gotoGame(s_iCurLevel);
+            return;
+        }
+
+        _oLoadingScreen = new CLoadingScreen(s_oStage);
+
+        s_oSpriteLibrary.init(this._onLevelLoaded, this._onAllImagesLoaded, this);
+       
+        var szSpriteLevel = iLevel +1;
+        var szTag;
+        for(var i=1; i<=18; i++){
+             szTag = i-1;
+             if(i<10){
+                 var szPadding = "0"+i+"";
+                 s_oSpriteLibrary.addSprite("level_"+szSpriteLevel+"_bg_"+szTag, "./sprites/bg_levels/level_"+szSpriteLevel+"/bg_piece_"+szPadding+".jpg");
+             }else{
+                 s_oSpriteLibrary.addSprite("level_"+szSpriteLevel+"_bg_"+szTag, "./sprites/bg_levels/level_"+szSpriteLevel+"/bg_piece_"+i+".jpg");
+             }
+        }
+
+        RESOURCE_TO_LOAD += s_oSpriteLibrary.getNumSprites();
+
+        s_oSpriteLibrary.loadSprites();
+       
+    };
+    
+    this._onLevelLoaded = function(){
+        _iCurResource++;
+        if (_iCurResource === RESOURCE_TO_LOAD) {
+            _aLevelLoaded[s_iCurLevel] = true;
+            _oLoadingScreen.unload();
+            this.gotoGame(s_iCurLevel);
+            
+            var iNextLevelToLoad = s_iCurLevel+1;
+            this.loadInBackgroundLevel(iNextLevelToLoad);
+        }
+    };
+    
+    this.loadInBackgroundLevel = function(iLevel){
+        s_iBackgroundLevel = iLevel;
+        _iCurResource = 0;
+        RESOURCE_TO_LOAD = 0;
+
+        if (_aLevelLoaded[iLevel]) {
+            return;
+        }
+
+        s_oSpriteLibrary.init(this._onBackgroundLevelLoaded, this._onAllImagesLoaded, this);
+       
+        var szSpriteLevel = iLevel +1;
+        var szTag;
+        for(var i=1; i<=18; i++){
+             szTag = i-1;
+             if(i<10){
+                 var szPadding = "0"+i+"";
+                 s_oSpriteLibrary.addSprite("level_"+szSpriteLevel+"_bg_"+szTag, "./sprites/bg_levels/level_"+szSpriteLevel+"/bg_piece_"+szPadding+".jpg");
+             }else{
+                 s_oSpriteLibrary.addSprite("level_"+szSpriteLevel+"_bg_"+szTag, "./sprites/bg_levels/level_"+szSpriteLevel+"/bg_piece_"+i+".jpg");
+             }
+        }
+
+        RESOURCE_TO_LOAD += s_oSpriteLibrary.getNumSprites();
+
+        s_oSpriteLibrary.loadSprites();
+    };
+    
+    this._onBackgroundLevelLoaded = function(){
+        _iCurResource++;
+        if (_iCurResource === RESOURCE_TO_LOAD) {
+            _aLevelLoaded[s_iBackgroundLevel] = true;
+
+            var bAllLevelsLoaded = true;
+            for(var i=0; i<NUM_HOLES; i++){
+                if(!_aLevelLoaded[i]){
+                    bAllLevelsLoaded = false;
+                }
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+            
+            if(bAllLevelsLoaded){
+                return;
+            }
+
+            var iNextLevelToLoad = s_iBackgroundLevel+1;
+            if(iNextLevelToLoad < NUM_HOLES){
+                this.loadInBackgroundLevel(iNextLevelToLoad);
+            } else {
+                this.loadInBackgroundLevel(1);
+            }
+        }
+    };
+
+    this.preloaderReady = function () {
+        this._loadImages();
+        if (DISABLE_SOUND_MOBILE === false || s_bMobile === false) {
+            this._initSounds();
+        }
+
+        
+        _bUpdate = true;
+    };
+
+    this.gotoMenu = function () {
+        _oMenu = new CMenu();
+        _iState = STATE_MENU;
+    };
+
+    this.gotoGame = function (iLevel) {
+        _oGame = new CGame(_oData, iLevel);
+
+        _iState = STATE_GAME;
+    };
+
+    this.gotoLevelMenu = function () {
+        _oLevelMenu = new CLevelMenu();
+        _iState = STATE_MENU;
+    };
+
+    this.gotoHelp = function () {
+        _oHelp = new CHelp();
+        _iState = STATE_HELP;
+    };
+
+    this.selectMode = function(iMode){
+        s_iCurMode = iMode;
+        this.gotoGame();
+    };
+    
+    this.stopUpdate = function(){
+        _bUpdate = false;
+        createjs.Ticker.paused = true;
+        $("#block_game").css("display","block");
+        
+        if(DISABLE_SOUND_MOBILE === false || s_bMobile === false){
+            Howler.mute(true);
+        }
+        
+    };
+    
+    this.startUpdate = function(){
+        s_iPrevTime = new Date().getTime();
+        _bUpdate = true;
+        createjs.Ticker.paused = false;
+        $("#block_game").css("display","none");
+        
+        if(DISABLE_SOUND_MOBILE === false || s_bMobile === false){
+            if(s_bAudioActive){
+                Howler.mute(false);
+            }
+        }
+        
+    };
+    
+    this._update = function (event) {
+        if (_bUpdate === false) {
+            return;
+        }
+        var iCurTime = new Date().getTime();
+        s_iTimeElaps = iCurTime - s_iPrevTime;
+        s_iCntTime += s_iTimeElaps;
+        s_iCntFps++;
+        s_iPrevTime = iCurTime;
+
+        if (s_iCntTime >= 1000) {
+            s_iCurFps = s_iCntFps;
+            s_iCntTime -= 1000;
+            s_iCntFps = 0;
+        }
+
+        if (_iState === STATE_GAME) {
+            _oGame.update();
+        }
+
+        s_oStage.update(event);
+
+    };
+
+    s_oMain = this;
+
+    PAR_POINTS = oData.par_points;
+    ADDED_POINTS = oData.added_points;
+
+    _oData = oData;
+    ENABLE_CHECK_ORIENTATION = oData.check_orientation;
+    ENABLE_FULLSCREEN = oData.fullscreen;
+     
+    this.initContainer();
+}
+var s_bMobile;
+var s_bAudioActive = true;
+var s_iCntTime = 0;
+var s_iTimeElaps = 0;
+var s_iPrevTime = 0;
+var s_iCntFps = 0;
+var s_iCurFps = 0;
+var s_oPhysicsController;
+var s_iCanvasResizeHeight;
+var s_iCanvasResizeWidth;
+var s_iCanvasOffsetHeight;
+var s_iCanvasOffsetWidth;
+var s_iCurLevel;
+var s_iBackgroundLevel;
+
+var s_oDrawLayer;
+var s_oStage;
+var s_oMain;
+var s_oSpriteLibrary;
+var s_oSoundTrack = null;
+var s_oTweenController;
+var s_oLocalStorage;
+var s_bFullscreen = false;
+var s_bStorageAvailable = true;
+var s_aSounds;

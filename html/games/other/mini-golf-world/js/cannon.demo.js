@@ -1,240 +1,1179 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/cannon.demo.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+/* global CANNON,THREE,Detector */
 
-<script>
-/* JSON object area */
-</script>
+CANNON = CANNON || {};
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
+/**
+ * Demo framework class. If you want to learn how to connect Cannon.js with Three.js, please look at the examples/ instead.
+ * @class Demo
+ * @constructor
+ * @param {Object} options
+ */
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
+var camera, scene, s_oRayCasterMesh;
 
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+CANNON.Demo = function (options) {
 
+    var that = this;
 
-    </head>
-    <body class="">
-        
+    // API
+    this.addScene = addScene;
+    this.restartCurrentScene = restartCurrentScene;
+    this.changeScene = changeScene;
+    this.start = start;
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+    var sceneFolder;
 
-		
+    // Global settings
+    var settings = this.settings = {
+        stepFrequency: 60,
+        quatNormalizeSkip: 2,
+        quatNormalizeFast: true,
+        gx: 0,
+        gy: 0,
+        gz: 0,
+        iterations: 3,
+        tolerance: 0.0001,
+        k: 1e6,
+        d: 3,
+        scene: 0,
+        paused: false,
+        rendermode: "solid",
+        constraints: false,
+        contacts: false, // Contact points
+        cm2contact: false, // center of mass to contact points
+        normals: false, // contact normals
+        axes: false, // "local" frame axes
+        particleSize: 0.1,
+        shadows: false,
+        aabbs: false,
+        profiling: false,
+        maxSubSteps: 3
+    };
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    // Extend settings with options
+    options = options || {};
+    for (var key in options) {
+        if (key in settings) {
+            settings[key] = options[key];
+        }
+    }
 
+    if (settings.stepFrequency % 60 !== 0) {
+        throw new Error("stepFrequency must be a multiple of 60.");
+    }
 
+    var bodies = this.bodies = [];
+    var visuals = this.visuals = [];
+    var scenes = [];
+    var gui = null;
+    var smoothie = null;
+    var smoothieCanvas = null;
+    var scenePicker = {};
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+    var three_contactpoint_geo = new THREE.SphereGeometry(0.1, 6, 6);
+    var particleGeo = this.particleGeo = new THREE.SphereGeometry(1, 16, 8);
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+    // Material
+    var materialColor = 0xaaaaaa;
+    var solidMaterial = new THREE.MeshPhongMaterial({color: materialColor, specular: 0x111111, shininess: 100});
+    //THREE.ColorUtils.adjustHSV( solidMaterial.color, 0, 0, 0.9 );
+    var wireframeMaterial = new THREE.MeshLambertMaterial({color: 0xffffff, wireframe: true});
+    this.currentMaterial = solidMaterial;
+    var contactDotMaterial = new THREE.MeshPhongMaterial({color: 0xff0000});
+    var particleMaterial = this.particleMaterial = new THREE.MeshLambertMaterial({color: 0xff0000});
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+    // Geometry caches
+    var contactMeshCache = new GeometryCache(function () {
+        return new THREE.Mesh(three_contactpoint_geo, contactDotMaterial);
+    });
+    var cm2contactMeshCache = new GeometryCache(function () {
+        var geometry = new THREE.Geometry();
+        geometry.vertices.push(new THREE.Vector3(0, 0, 0));
+        geometry.vertices.push(new THREE.Vector3(1, 1, 1));
+        return new THREE.Line(geometry, new THREE.LineBasicMaterial({color: 0xff0000}));
+    });
+    var bboxGeometry = new THREE.BoxGeometry(1, 1, 1);
+    var bboxMaterial = new THREE.MeshBasicMaterial({
+        color: materialColor,
+        wireframe: true
+    });
+    var bboxMeshCache = new GeometryCache(function () {
+        return new THREE.Mesh(bboxGeometry, bboxMaterial);
+    });
+    var distanceConstraintMeshCache = new GeometryCache(function () {
+        var geometry = new THREE.Geometry();
+        geometry.vertices.push(new THREE.Vector3(0, 0, 0));
+        geometry.vertices.push(new THREE.Vector3(1, 1, 1));
+        return new THREE.Line(geometry, new THREE.LineBasicMaterial({color: 0xff0000}));
+    });
+    var p2pConstraintMeshCache = new GeometryCache(function () {
+        var geometry = new THREE.Geometry();
+        geometry.vertices.push(new THREE.Vector3(0, 0, 0));
+        geometry.vertices.push(new THREE.Vector3(1, 1, 1));
+        return new THREE.Line(geometry, new THREE.LineBasicMaterial({color: 0xff0000}));
+    });
+    var normalMeshCache = new GeometryCache(function () {
+        var geometry = new THREE.Geometry();
+        geometry.vertices.push(new THREE.Vector3(0, 0, 0));
+        geometry.vertices.push(new THREE.Vector3(1, 1, 1));
+        return new THREE.Line(geometry, new THREE.LineBasicMaterial({color: 0x00ff00}));
+    });
+    var axesMeshCache = new GeometryCache(function () {
+        var mesh = new THREE.Object3D();
+        //mesh.useQuaternion = true;
+        var origin = new THREE.Vector3(0, 0, 0);
+        var gX = new THREE.Geometry();
+        var gY = new THREE.Geometry();
+        var gZ = new THREE.Geometry();
+        gX.vertices.push(origin);
+        gY.vertices.push(origin);
+        gZ.vertices.push(origin);
+        gX.vertices.push(new THREE.Vector3(1, 0, 0));
+        gY.vertices.push(new THREE.Vector3(0, 1, 0));
+        gZ.vertices.push(new THREE.Vector3(0, 0, 1));
+        var lineX = new THREE.Line(gX, new THREE.LineBasicMaterial({color: 0xff0000}));
+        var lineY = new THREE.Line(gY, new THREE.LineBasicMaterial({color: 0x00ff00}));
+        var lineZ = new THREE.Line(gZ, new THREE.LineBasicMaterial({color: 0x0000ff}));
+        mesh.add(lineX);
+        mesh.add(lineY);
+        mesh.add(lineZ);
+        return mesh;
+    });
+    function restartGeometryCaches() {
+        contactMeshCache.restart();
+        contactMeshCache.hideCached();
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+        cm2contactMeshCache.restart();
+        cm2contactMeshCache.hideCached();
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        distanceConstraintMeshCache.restart();
+        distanceConstraintMeshCache.hideCached();
+
+        normalMeshCache.restart();
+        normalMeshCache.hideCached();
+    }
+
+    // Create physics world
+    var world = this.world = new CANNON.World();
+    world.broadphase = new CANNON.NaiveBroadphase();
+
+    var renderModes = ["solid", "wireframe"];
+
+    function updategui() {
+        if (gui) {
+            // First level
+            for (var i in gui.__controllers) {
+                gui.__controllers[i].updateDisplay();
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+
+            // Second level
+            for (var f in gui.__folders) {
+                for (var i in gui.__folders[f].__controllers) {
+                    gui.__folders[f].__controllers[i].updateDisplay();
+                }
+            }
+        }
+    }
+
+    var light, ambient, stats, info;
+
+    function setRenderMode(mode) {
+        if (renderModes.indexOf(mode) === -1) {
+            throw new Error("Render mode " + mode + " not found!");
+        }
+
+        switch (mode) {
+            case "solid":
+                that.currentMaterial = solidMaterial;
+                light.intensity = 1;
+                ambient.color.setHex(0x222222);
+                break;
+            case "wireframe":
+                that.currentMaterial = wireframeMaterial;
+                light.intensity = 0;
+                ambient.color.setHex(0xffffff);
+                break;
+        }
+
+        function setMaterial(node, mat) {
+            if (node.material) {
+                node.material = mat;
+            }
+            for (var i = 0; i < node.children.length; i++) {
+                setMaterial(node.children[i], mat);
+            }
+        }
+        for (var i = 0; i < visuals.length; i++) {
+            setMaterial(visuals[i], that.currentMaterial);
+        }
+        settings.rendermode = mode;
+    }
+
+    /**
+     * Add a scene to the demo app
+     * @method addScene
+     * @param {String} title Title of the scene
+     * @param {Function} initfunc A function that takes one argument, app, and initializes a physics scene. The function runs app.setWorld(body), app.addVisual(body), app.removeVisual(body) etc.
+     */
+    function addScene(title, initfunc) {
+        if (typeof (title) !== "string") {
+            throw new Error("1st argument of Demo.addScene(title,initfunc) must be a string!");
+        }
+        if (typeof (initfunc) !== "function") {
+            throw new Error("2nd argument of Demo.addScene(title,initfunc) must be a function!");
+        }
+        scenes.push(initfunc);
+        var idx = scenes.length - 1;
+        scenePicker[title] = function () {
+            changeScene(idx);
+        };
+        sceneFolder.add(scenePicker, title);
+    }
+
+    /**
+     * Restarts the current scene
+     * @method restartCurrentScene
+     */
+    function restartCurrentScene() {
+        var N = bodies.length;
+        for (var i = 0; i < N; i++) {
+            var b = bodies[i];
+            b.position.copy(b.initPosition);
+            b.velocity.copy(b.initVelocity);
+            if (b.initAngularVelocity) {
+                b.angularVelocity.copy(b.initAngularVelocity);
+                b.quaternion.copy(b.initQuaternion);
+            }
+        }
+    }
+
+    function makeSureNotZero(vec) {
+        if (vec.x === 0.0) {
+            vec.x = 1e-6;
+        }
+        if (vec.y === 0.0) {
+            vec.y = 1e-6;
+        }
+        if (vec.z === 0.0) {
+            vec.z = 1e-6;
+        }
+    }
+
+
+    function updateVisuals() {
+        var N = bodies.length;
+
+        // Read position data into visuals
+        for (var i = 0; i < N; i++) {
+            var b = bodies[i], visual = visuals[i];
+            visual.position.copy(b.position);
+            if (b.quaternion) {
+                visual.quaternion.copy(b.quaternion);
+            }
+        }
+
+        // Render contacts
+        contactMeshCache.restart();
+        if (settings.contacts) {
+            // if ci is even - use body i, else j
+            for (var ci = 0; ci < world.contacts.length; ci++) {
+                for (var ij = 0; ij < 2; ij++) {
+                    var mesh = contactMeshCache.request(),
+                            c = world.contacts[ci],
+                            b = ij === 0 ? c.bi : c.bj,
+                            r = ij === 0 ? c.ri : c.rj;
+                    mesh.position.set(b.position.x + r.x, b.position.y + r.y, b.position.z + r.z);
+                }
+            }
+        }
+        contactMeshCache.hideCached();
+
+        // Lines from center of mass to contact point
+        cm2contactMeshCache.restart();
+        if (settings.cm2contact) {
+            for (var ci = 0; ci < world.contacts.length; ci++) {
+                for (var ij = 0; ij < 2; ij++) {
+                    var line = cm2contactMeshCache.request(),
+                            c = world.contacts[ci],
+                            b = ij === 0 ? c.bi : c.bj,
+                            r = ij === 0 ? c.ri : c.rj;
+                    line.scale.set(r.x, r.y, r.z);
+                    makeSureNotZero(line.scale);
+                    line.position.copy(b.position);
+                }
+            }
+        }
+        cm2contactMeshCache.hideCached();
+
+        distanceConstraintMeshCache.restart();
+        p2pConstraintMeshCache.restart();
+        if (settings.constraints) {
+            // Lines for distance constraints
+            for (var ci = 0; ci < world.constraints.length; ci++) {
+                var c = world.constraints[ci];
+                if (!(c instanceof CANNON.DistanceConstraint)) {
+                    continue;
+                }
+
+                var nc = c.equations.normal;
+
+                var bi = nc.bi, bj = nc.bj, line = distanceConstraintMeshCache.request();
+                var i = bi.id, j = bj.id;
+
+                // Remember, bj is either a Vec3 or a Body.
+                var v;
+                if (bj.position) {
+                    v = bj.position;
+                } else {
+                    v = bj;
+                }
+                line.scale.set(v.x - bi.position.x,
+                        v.y - bi.position.y,
+                        v.z - bi.position.z);
+                makeSureNotZero(line.scale);
+                line.position.copy(bi.position);
+            }
+
+
+            // Lines for distance constraints
+            for (var ci = 0; ci < world.constraints.length; ci++) {
+                var c = world.constraints[ci];
+                if (!(c instanceof CANNON.PointToPointConstraint)) {
+                    continue;
+                }
+                var n = c.equations.normal;
+                var bi = n.bi, bj = n.bj, relLine1 = p2pConstraintMeshCache.request(), relLine2 = p2pConstraintMeshCache.request(), diffLine = p2pConstraintMeshCache.request();
+                var i = bi.id, j = bj.id;
+
+                relLine1.scale.set(n.ri.x, n.ri.y, n.ri.z);
+                relLine2.scale.set(n.rj.x, n.rj.y, n.rj.z);
+                diffLine.scale.set(-n.penetrationVec.x, -n.penetrationVec.y, -n.penetrationVec.z);
+                makeSureNotZero(relLine1.scale);
+                makeSureNotZero(relLine2.scale);
+                makeSureNotZero(diffLine.scale);
+                relLine1.position.copy(bi.position);
+                relLine2.position.copy(bj.position);
+                n.bj.position.vadd(n.rj, diffLine.position);
+            }
+        }
+        p2pConstraintMeshCache.hideCached();
+        distanceConstraintMeshCache.hideCached();
+
+        // Normal lines
+        normalMeshCache.restart();
+        if (settings.normals) {
+            for (var ci = 0; ci < world.contacts.length; ci++) {
+                var c = world.contacts[ci];
+                var bi = c.bi, bj = c.bj, line = normalMeshCache.request();
+                var i = bi.id, j = bj.id;
+                var n = c.ni;
+                var b = bi;
+                line.scale.set(n.x, n.y, n.z);
+                makeSureNotZero(line.scale);
+                line.position.copy(b.position);
+                c.ri.vadd(line.position, line.position);
+            }
+        }
+        normalMeshCache.hideCached();
+
+        // Frame axes for each body
+        axesMeshCache.restart();
+        if (settings.axes) {
+            for (var bi = 0; bi < bodies.length; bi++) {
+                var b = bodies[bi], mesh = axesMeshCache.request();
+                mesh.position.copy(b.position);
+                if (b.quaternion) {
+                    mesh.quaternion.copy(b.quaternion);
+                }
+            }
+        }
+        axesMeshCache.hideCached();
+
+        // AABBs
+        bboxMeshCache.restart();
+        if (settings.aabbs) {
+            for (var i = 0; i < bodies.length; i++) {
+                var b = bodies[i];
+                if (b.computeAABB) {
+
+                    if (b.aabbNeedsUpdate) {
+                        b.computeAABB();
+                    }
+
+                    // Todo: cap the infinite AABB to scene AABB, for now just dont render
+                    if (isFinite(b.aabb.lowerBound.x) &&
+                            isFinite(b.aabb.lowerBound.y) &&
+                            isFinite(b.aabb.lowerBound.z) &&
+                            isFinite(b.aabb.upperBound.x) &&
+                            isFinite(b.aabb.upperBound.y) &&
+                            isFinite(b.aabb.upperBound.z) &&
+                            b.aabb.lowerBound.x - b.aabb.upperBound.x != 0 &&
+                            b.aabb.lowerBound.y - b.aabb.upperBound.y != 0 &&
+                            b.aabb.lowerBound.z - b.aabb.upperBound.z != 0) {
+                        var mesh = bboxMeshCache.request();
+                        mesh.scale.set(b.aabb.lowerBound.x - b.aabb.upperBound.x,
+                                b.aabb.lowerBound.y - b.aabb.upperBound.y,
+                                b.aabb.lowerBound.z - b.aabb.upperBound.z);
+                        mesh.position.set((b.aabb.lowerBound.x + b.aabb.upperBound.x) * 0.5,
+                                (b.aabb.lowerBound.y + b.aabb.upperBound.y) * 0.5,
+                                (b.aabb.lowerBound.z + b.aabb.upperBound.z) * 0.5);
+                    }
+                }
+            }
+        }
+        bboxMeshCache.hideCached();
+    }
+
+    if (!Detector.webgl) {
+        Detector.addGetWebGLMessage();
+    }
+
+    var SHADOW_MAP_WIDTH = 1024;
+    var SHADOW_MAP_HEIGHT = 1024;
+    var MARGIN = 0;
+    var SCREEN_WIDTH = s_iCanvasResizeWidth + s_iCanvasOffsetWidth * 2;
+    var SCREEN_HEIGHT = s_iCanvasResizeHeight + s_iCanvasOffsetHeight * 2;
+    var controls, renderer;
+    var container;
+
+    var windowHalfX = SCREEN_WIDTH / 2;
+    var windowHalfY = SCREEN_HEIGHT / 2;
+
+    init();
+    animate();
+
+    function init() {
+
+        container = document.createElement('div');
+        document.body.appendChild(container);
+
+        // Camera
+
+        if (CAMERA_TEST) {
+            NEAR = 5;
+            camera = new THREE.PerspectiveCamera(45, SCREEN_WIDTH / SCREEN_HEIGHT, NEAR, FAR);
+
+            camera.lookAt(new THREE.Vector3(0,0,0));
+            camera.position.set(0, 500, 500);
+            camera.up.set(0, 0, 1);
+
+        } else {
+            camera = createOrthoGraphicCamera();
+        }
+
+
+
+        // SCENE
+        scene = that.scene = new THREE.Scene();
+        scene.fog = new THREE.Fog(0x222222, 1000, FAR);
+
+        // LIGHTS
+        ambient = new THREE.AmbientLight(0x444444);
+        scene.add(ambient);
+
+        light = new THREE.DirectionalLight(0xffffcc,1);
+        light.position.set(200, 160, 200);
+//        light.rotation.x=180 * (Math.PI / 180);
+//        light.rotation.y=0 * (Math.PI / 180);
+//        light.rotation.z=0 * (Math.PI / 180);
+
+        light.target.position.set(0, 0, 0);
+
+        light.castShadow = true;
+
+        light.shadow.camera.near = 10;
+        light.shadow.camera.far = 100;//camera.far;
+        light.shadow.camera.fov = 30;
+
+        light.shadowMapBias = 0.0139;
+        light.shadowMapDarkness = 0.1;
+        light.shadow.mapSize.width = SHADOW_MAP_WIDTH;
+        light.shadow.mapSize.height = SHADOW_MAP_HEIGHT;
+
+        //light.shadowCameraVisible = true;
+
+        scene.add(light);
+        scene.add(camera);
+
+        // add plane for raycasting
+        var oPlaneGeometry = new THREE.PlaneBufferGeometry( 500, 500, 50, 50 );
+        s_oRayCasterMesh = new THREE.Mesh( oPlaneGeometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff } ) );
+       // scene.add( s_oRayCasterMesh );
+
+        // RENDERER
+        if (SHOW_3D_RENDER) {
+            renderer = new THREE.WebGLRenderer({clearColor: 0x000000, clearAlpha: 0.5, antialias: false, alpha: true});
+        } else {
+            renderer = new THREE.CanvasRenderer({clearColor: 0x000000, clearAlpha: 0.5, antialias: false, alpha: true});
+        }
+
+        renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+        renderer.domElement.style.position = "relative";
+        renderer.domElement.style.top = MARGIN + 'px';
+        renderer.domElement.style.opacity = 1;
+        container.appendChild(renderer.domElement);
+
+        // Add info
+        info = document.createElement('div');
+        info.style.position = 'absolute';
+        info.style.top = '10px';
+        info.style.width = '100%';
+        info.style.textAlign = 'center';
+        info.innerHTML = '<a href="http://github.com/schteppe/cannon.js">cannon.js</a> - javascript 3d physics';
+        container.appendChild(info);
+
+        document.addEventListener('mousemove', onDocumentMouseMove);
+        window.addEventListener('resize', onWindowResize);
+
+        renderer.setClearColor(scene.fog.color, 1);
+        renderer.autoClear = false;
+
+//        renderer.shadowMap.enabled = true;
+//        renderer.shadowMapSoft = true;
+
+        // Smoothie
+        smoothieCanvas = document.createElement("canvas");
+        
+        smoothieCanvas.width = SCREEN_WIDTH;
+        smoothieCanvas.height = SCREEN_HEIGHT;
+        smoothieCanvas.style.opacity = 0.5;
+        smoothieCanvas.style.position = 'absolute';
+        smoothieCanvas.style.top = '0px';
+        smoothieCanvas.style.zIndex = 90;
+        
+        container.appendChild(smoothieCanvas);
+        smoothie = new SmoothieChart({
+            labelOffsetY: 50,
+            maxDataSetLength: 100,
+            millisPerPixel: 2,
+            grid: {
+                strokeStyle: 'none',
+                fillStyle: 'none',
+                lineWidth: 1,
+                millisPerLine: 250,
+                verticalSections: 6
+            },
+            labels: {
+                fillStyle: 'rgb(180, 180, 180)'
+            }
+        });
+        smoothie.streamTo(smoothieCanvas);
+        // Create time series for each profile label
+        var lines = {};
+        var colors = [[255, 0, 0], [0, 255, 0], [0, 0, 255], [255, 255, 0], [255, 0, 255], [0, 255, 255]];
+        var i = 0;
+        for (var label in world.profile) {
+            var c = colors[i % colors.length];
+            lines[label] = new TimeSeries({
+                label: label,
+                fillStyle: "rgb(" + c[0] + "," + c[1] + "," + c[2] + ")",
+                maxDataLength: 500
+            });
+            i++;
+        }
+
+        // Add a random value to each line every second
+        world.addEventListener("postStep", function (evt) {
+            for (var label in world.profile)
+                lines[label].append(world.time * 1000, world.profile[label]);
+        });
+
+        // Add to SmoothieChart
+        var i = 0;
+        for (var label in world.profile) {
+            var c = colors[i % colors.length];
+            smoothie.addTimeSeries(lines[label], {
+                strokeStyle: "rgb(" + c[0] + "," + c[1] + "," + c[2] + ")",
+                //fillStyle:"rgba("+c[0]+","+c[1]+","+c[2]+",0.3)",
+                lineWidth: 2
+            });
+            i++;
+        }
+        world.doProfiling = false;
+        smoothie.stop();
+        smoothieCanvas.style.display = "none";
+
+        // STATS
+        stats = new Stats();
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.top = '0px';
+        stats.domElement.style.zIndex = 100;
+        container.appendChild(stats.domElement);
+
+        if (window.dat != undefined) {
+            gui = new dat.GUI();
+
+            gui.domElement.parentNode.style.zIndex = 120;
+
+            // Render mode
+            var rf = gui.addFolder('Rendering');
+            rf.add(settings, 'rendermode', {Solid: "solid", Wireframe: "wireframe"}).onChange(function (mode) {
+                setRenderMode(mode);
+            });
+            rf.add(settings, 'contacts');
+            rf.add(settings, 'cm2contact');
+            rf.add(settings, 'normals');
+            rf.add(settings, 'constraints');
+            rf.add(settings, 'axes');
+            rf.add(settings, 'particleSize').min(0).max(1).onChange(function (size) {
+                for (var i = 0; i < visuals.length; i++) {
+                    if (bodies[i] instanceof CANNON.Particle)
+                        visuals[i].scale.set(size, size, size);
+                }
+            });
+            rf.add(settings, 'shadows').onChange(function (shadows) {
+                if (shadows) {
+                    renderer.shadowMapAutoUpdate = true;
+                } else {
+                    renderer.shadowMapAutoUpdate = false;
+                    renderer.clearTarget(light.shadowMap);
+                }
+            });
+            rf.add(settings, 'aabbs');
+            rf.add(settings, 'profiling').onChange(function (profiling) {
+                if (profiling) {
+                    world.doProfiling = true;
+                    smoothie.start();
+                    smoothieCanvas.style.display = "block";
+                } else {
+                    world.doProfiling = false;
+                    smoothie.stop();
+                    smoothieCanvas.style.display = "none";
+                }
+
+            });
+
+            // World folder
+            var wf = gui.addFolder('World');
+            // Pause
+            wf.add(settings, 'paused').onChange(function (p) {
+                /*if(p){
+                 smoothie.stop();
+                 } else {
+                 smoothie.start();
+                 }*/
+            });
+            wf.add(settings, 'stepFrequency', 60, 60 * 10).step(60);
+            var maxg = 100;
+            wf.add(settings, 'gx', -maxg, maxg).onChange(function (gx) {
+                if (!isNaN(gx)) {
+                    world.gravity.set(gx, settings.gy, settings.gz);
+                }
+            });
+            wf.add(settings, 'gy', -maxg, maxg).onChange(function (gy) {
+                if (!isNaN(gy))
+                    world.gravity.set(settings.gx, gy, settings.gz);
+            });
+            wf.add(settings, 'gz', -maxg, maxg).onChange(function (gz) {
+                if (!isNaN(gz))
+                    world.gravity.set(settings.gx, settings.gy, gz);
+            });
+            wf.add(settings, 'quatNormalizeSkip', 0, 50).step(1).onChange(function (skip) {
+                if (!isNaN(skip)) {
+                    world.quatNormalizeSkip = skip;
+                }
+            });
+            wf.add(settings, 'quatNormalizeFast').onChange(function (fast) {
+                world.quatNormalizeFast = !!fast;
+            });
+
+            // Solver folder
+            var sf = gui.addFolder('Solver');
+            sf.add(settings, 'iterations', 1, 50).step(1).onChange(function (it) {
+                world.solver.iterations = it;
+            });
+            sf.add(settings, 'k', 10, 10000000).onChange(function (k) {
+                that.setGlobalSpookParams(settings.k, settings.d, 1 / settings.stepFrequency);
+            });
+            sf.add(settings, 'd', 0, 20).step(0.1).onChange(function (d) {
+                that.setGlobalSpookParams(settings.k, settings.d, 1 / settings.stepFrequency);
+            });
+            sf.add(settings, 'tolerance', 0.0, 10.0).step(0.01).onChange(function (t) {
+                world.solver.tolerance = t;
+            });
+
+            // Scene picker
+            sceneFolder = gui.addFolder('Scenes');
+            sceneFolder.open();
+        }
+
+        // Trackball controls
+        if (CAMERA_TEST) {
+            controls = new THREE.TrackballControls(camera, renderer.domElement);
+            controls.rotateSpeed = 1.0;
+            controls.zoomSpeed = 1.2;
+            controls.panSpeed = 0.2;
+            controls.noZoom = false;
+            controls.noPan = false;
+            controls.staticMoving = false;
+            controls.dynamicDampingFactor = 0.3;
+            var radius = 100;
+            controls.minDistance = 0.0;
+            controls.maxDistance = radius * 1000;
+            //controls.keys = [ 65, 83, 68 ]; // [ rotateKey, zoomKey, panKey ]
+            controls.screen.width = SCREEN_WIDTH;
+            controls.screen.height = SCREEN_HEIGHT;
+            
+        }
+    }
+
+    var t = 0, newTime, delta;
+
+    function animate() {
+        requestAnimationFrame(animate);
+        if (!settings.paused) {
+            updateVisuals();
+            updatePhysics();
+        }
+        render();
+        stats.update();
+    }
+
+    var lastCallTime = 0;
+    function updatePhysics() {
+        // Step world
+        var timeStep = 1 / settings.stepFrequency;
+
+        var now = Date.now() / 1000;
+
+        if (!lastCallTime) {
+            // last call time not saved, cant guess elapsed time. Take a simple step.
+            world.step(timeStep);
+            lastCallTime = now;
+            return;
+        }
+
+        var timeSinceLastCall = now - lastCallTime;
+
+        world.step(timeStep, timeSinceLastCall, settings.maxSubSteps);
+
+        lastCallTime = now;
+    }
+
+    function onDocumentMouseMove(event) {
+        mouseX = (event.clientX - windowHalfX);
+        mouseY = (event.clientY - windowHalfY);
+    }
+
+    function onWindowResize(event) {
+
+        SCREEN_WIDTH = s_iCanvasResizeWidth + s_iCanvasOffsetWidth * 2;
+        SCREEN_HEIGHT = s_iCanvasResizeHeight + s_iCanvasOffsetHeight * 2;
+
+        if (CAMERA_TEST) {
+            controls.screen.width = SCREEN_WIDTH;
+            controls.screen.height = SCREEN_HEIGHT;
+            
+        }
+
+    }
+
+    function render() {
+        if (CAMERA_TEST) {
+            controls.update();
+        }
+        renderer.clear();
+        renderer.render(that.scene, camera);
+    }
+
+    document.addEventListener('keypress', function (e) {
+
+        if (e.keyCode) {
+            switch (e.keyCode) {
+                case 32: // Space - restart
+                    restartCurrentScene();
+                    break;
+
+                case 104: // h - toggle widgets
+                    if (stats.domElement.style.display == "none") {
+                        stats.domElement.style.display = "block";
+                        info.style.display = "block";
+                    } else {
+                        stats.domElement.style.display = "none";
+                        info.style.display = "none";
+                    }
+                    break;
+
+                case 97: // a - AABBs
+                    settings.aabbs = !settings.aabbs;
+                    updategui();
+                    break;
+
+                case 99: // c - constraints
+                    settings.constraints = !settings.constraints;
+                    updategui();
+                    break;
+
+                case 112: // p
+                    settings.paused = !settings.paused;
+                    updategui();
+                    break;
+
+                case 115: // s
+                    var timeStep = 1 / settings.stepFrequency;
+                    world.step(timeStep);
+                    updateVisuals();
+                    break;
+
+                case 109: // m - toggle materials
+                    var idx = renderModes.indexOf(settings.rendermode);
+                    idx++;
+                    idx = idx % renderModes.length; // begin at 0 if we exceeded number of modes
+                    setRenderMode(renderModes[idx]);
+                    updategui();
+                    break;
+
+                case 49:
+                case 50:
+                case 51:
+                case 52:
+                case 53:
+                case 54:
+                case 55:
+                case 56:
+                case 57:
+                    // Change scene
+                    // Only for numbers 1-9 and if no input field is active
+                    if (scenes.length > e.keyCode - 49 && !document.activeElement.localName.match(/input/)) {
+                        changeScene(e.keyCode - 49);
+                    }
+                    break;
+            }
+        }
+    });
+
+
+    function changeScene(n) {
+        that.dispatchEvent({type: 'destroy'});
+        settings.paused = false;
+        updategui();
+        buildScene(n);
+    }
+
+
+    function start() {
+        buildScene(0);
+    }
+
+    function buildScene(n) {
+        // Remove current bodies and visuals
+        var num = visuals.length;
+        for (var i = 0; i < num; i++) {
+            world.remove(bodies.pop());
+            var mesh = visuals.pop();
+            that.scene.remove(mesh);
+        }
+        // Remove all constraints
+        while (world.constraints.length) {
+            world.removeConstraint(world.constraints[0]);
+        }
+
+        // Run the user defined "build scene" function
+        scenes[n]();
+
+        // Read the newly set data to the gui
+        settings.iterations = world.solver.iterations;
+        settings.gx = world.gravity.x + 0.0;
+        settings.gy = world.gravity.y + 0.0;
+        settings.gz = world.gravity.z + 0.0;
+        settings.quatNormalizeSkip = world.quatNormalizeSkip;
+        settings.quatNormalizeFast = world.quatNormalizeFast;
+        updategui();
+
+        restartGeometryCaches();
+    }
+
+
+    function GeometryCache(createFunc) {
+        var that = this, geometries = [], gone = [];
+        this.request = function () {
+            if (geometries.length) {
+                geo = geometries.pop();
+            } else {
+                geo = createFunc();
+            }
+            scene.add(geo);
+            gone.push(geo);
+            return geo;
+        };
+
+        this.restart = function () {
+            while (gone.length) {
+                geometries.push(gone.pop());
+            }
+        };
+
+        this.hideCached = function () {
+            for (var i = 0; i < geometries.length; i++) {
+                scene.remove(geometries[i]);
+            }
+        };
+    }
+};
+CANNON.Demo.prototype = new CANNON.EventTarget();
+CANNON.Demo.constructor = CANNON.Demo;
+
+CANNON.Demo.prototype.setGlobalSpookParams = function (k, d, h) {
+    var world = this.world;
+
+    // Set for all constraints
+    for (var i = 0; i < world.constraints.length; i++) {
+        var c = world.constraints[i];
+        for (var j = 0; j < c.equations.length; j++) {
+            var eq = c.equations[j];
+            eq.setSpookParams(k, d, h);
+        }
+    }
+
+    // Set for all contact materals
+    for (var i = 0; i < world.contactmaterials.length; i++) {
+        var cm = world.contactmaterials[i];
+        cm.contactEquationStiffness = k;
+        cm.frictionEquationStiffness = k;
+        cm.contactEquationRelaxation = d;
+        cm.frictionEquationRelaxation = d;
+    }
+
+    world.defaultContactMaterial.contactEquationStiffness = k;
+    world.defaultContactMaterial.frictionEquationStiffness = k;
+    world.defaultContactMaterial.contactEquationRelaxation = d;
+    world.defaultContactMaterial.frictionEquationRelaxation = d;
+};
+
+CANNON.Demo.prototype.getWorld = function () {
+    return this.world;
+};
+
+CANNON.Demo.prototype.addVisual = function (body, color) {
+    var s = this.settings;
+    // What geometry should be used?
+    var mesh;
+    if (body instanceof CANNON.Body) {
+        mesh = this.shape2mesh(body, color);
+    }
+    if (mesh) {
+        // Add body
+        //if(color)
+        //mesh.children[0].material.color.set(color);
+        this.bodies.push(body);
+        this.visuals.push(mesh);
+        body.visualref = mesh;
+        body.visualref.visualId = this.bodies.length - 1;
+        //mesh.useQuaternion = true;
+        this.scene.add(mesh);
+    }
+    return mesh;
+};
+
+CANNON.Demo.prototype.addVisuals = function (bodies) {
+    for (var i = 0; i < bodies.length; i++) {
+        this.addVisual(bodies[i]);
+    }
+};
+
+CANNON.Demo.prototype.removeVisual = function (body) {
+    if (body.visualref) {
+        var bodies = this.bodies,
+                visuals = this.visuals,
+                old_b = [],
+                old_v = [],
+                n = bodies.length;
+
+        for (var i = 0; i < n; i++) {
+            old_b.unshift(bodies.pop());
+            old_v.unshift(visuals.pop());
+        }
+
+        var id = body.visualref.visualId;
+        for (var j = 0; j < old_b.length; j++) {
+            if (j !== id) {
+                var i = j > id ? j - 1 : j;
+                bodies[i] = old_b[j];
+                visuals[i] = old_v[j];
+                bodies[i].visualref = old_b[j].visualref;
+                bodies[i].visualref.visualId = i;
+            }
+        }
+        body.visualref.visualId = null;
+        this.scene.remove(body.visualref);
+        body.visualref = null;
+    }
+};
+
+CANNON.Demo.prototype.removeAllVisuals = function () {
+    while (this.bodies.length) {
+        this.removeVisual(this.bodies[0]);
+    }
+};
+
+CANNON.Demo.prototype.shape2mesh = function (body, color) {
+    var wireframe = this.settings.renderMode === "wireframe";
+    var obj = new THREE.Object3D();
+
+    for (var l = 0; l < body.shapes.length; l++) {
+        var shape = body.shapes[l];
+
+        var mesh;
+
+        switch (shape.type) {
+
+            case CANNON.Shape.types.SPHERE:
+                var sphere_geometry = new THREE.SphereGeometry(shape.radius, 8, 8);
+                mesh = new THREE.Mesh(sphere_geometry, this.currentMaterial);
+                break;
+
+            case CANNON.Shape.types.PARTICLE:
+                mesh = new THREE.Mesh(this.particleGeo, this.particleMaterial);
+                var s = this.settings;
+                mesh.scale.set(s.particleSize, s.particleSize, s.particleSize);
+                break;
+
+            case CANNON.Shape.types.PLANE:
+                var geometry = new THREE.PlaneGeometry(10, 10, 4, 4);
+                mesh = new THREE.Object3D();
+                var submesh = new THREE.Object3D();
+                var ground = new THREE.Mesh(geometry, this.currentMaterial);
+                ground.scale.set(100, 100, 100);
+                submesh.add(ground);
+
+                ground.castShadow = true;
+                ground.receiveShadow = true;
+
+                mesh.add(submesh);
+                break;
+
+            case CANNON.Shape.types.BOX:
+                var box_geometry = new THREE.BoxGeometry(shape.halfExtents.x * 2,
+                        shape.halfExtents.y * 2,
+                        shape.halfExtents.z * 2);
+                mesh = new THREE.Mesh(box_geometry, this.currentMaterial);
+                break;
+
+            case CANNON.Shape.types.CONVEXPOLYHEDRON:
+                var geo = new THREE.Geometry();
+
+                // Add vertices
+                for (var i = 0; i < shape.vertices.length; i++) {
+                    var v = shape.vertices[i];
+                    geo.vertices.push(new THREE.Vector3(v.x, v.y, v.z));
+                }
+
+                for (var i = 0; i < shape.faces.length; i++) {
+                    var face = shape.faces[i];
+
+                    // add triangles
+                    var a = face[0];
+                    for (var j = 1; j < face.length - 1; j++) {
+                        var b = face[j];
+                        var c = face[j + 1];
+                        geo.faces.push(new THREE.Face3(a, b, c));
+                    }
+                }
+                geo.computeBoundingSphere();
+                geo.computeFaceNormals();
+                mesh = new THREE.Mesh(geo, this.currentMaterial);
+                break;
+
+            case CANNON.Shape.types.HEIGHTFIELD:
+                var geometry = new THREE.Geometry();
+
+                var v0 = new CANNON.Vec3();
+                var v1 = new CANNON.Vec3();
+                var v2 = new CANNON.Vec3();
+                for (var xi = 0; xi < shape.data.length - 1; xi++) {
+                    for (var yi = 0; yi < shape.data[xi].length - 1; yi++) {
+                        for (var k = 0; k < 2; k++) {
+                            shape.getConvexTrianglePillar(xi, yi, k === 0);
+                            v0.copy(shape.pillarConvex.vertices[0]);
+                            v1.copy(shape.pillarConvex.vertices[1]);
+                            v2.copy(shape.pillarConvex.vertices[2]);
+                            v0.vadd(shape.pillarOffset, v0);
+                            v1.vadd(shape.pillarOffset, v1);
+                            v2.vadd(shape.pillarOffset, v2);
+                            geometry.vertices.push(
+                                    new THREE.Vector3(v0.x, v0.y, v0.z),
+                                    new THREE.Vector3(v1.x, v1.y, v1.z),
+                                    new THREE.Vector3(v2.x, v2.y, v2.z)
+                                    );
+                            var i = geometry.vertices.length - 3;
+                            geometry.faces.push(new THREE.Face3(i, i + 1, i + 2));
+                        }
+                    }
+                }
+                geometry.computeBoundingSphere();
+                geometry.computeFaceNormals();
+                mesh = new THREE.Mesh(geometry, this.currentMaterial);
+                break;
+
+            case CANNON.Shape.types.TRIMESH:
+                
+                
+                var geometry = new THREE.Geometry();
+
+                var v0 = new CANNON.Vec3();
+                var v1 = new CANNON.Vec3();
+                var v2 = new CANNON.Vec3();
+                for (var i = 0; i < shape.indices.length / 3; i++) {
+                    shape.getTriangleVertices(i, v0, v1, v2);
+                    geometry.vertices.push(
+                            new THREE.Vector3(v0.x, v0.y, v0.z),
+                            new THREE.Vector3(v1.x, v1.y, v1.z),
+                            new THREE.Vector3(v2.x, v2.y, v2.z)
+                            );
+                    var j = geometry.vertices.length - 3;
+                    geometry.faces.push(new THREE.Face3(j, j + 1, j + 2));
+                }
+                geometry.computeBoundingSphere();
+                geometry.computeFaceNormals();
+                
+                var iMatColor = 0xaaaaaa;
+                if(color){
+                    iMatColor = color;
+                }     
+                var solidMaterial = new THREE.MeshPhongMaterial({color: iMatColor, specular: 0x111111, shininess: 100});
+                mesh = new THREE.Mesh(geometry, solidMaterial);            
+                
+                
+                
+                break;
+
+            default:
+                throw "Visual type not recognized: " + shape.type;
+        }
+
+        mesh.receiveShadow = true;
+        mesh.castShadow = true;
+        if (mesh.children) {
+            for (var i = 0; i < mesh.children.length; i++) {
+                mesh.children[i].castShadow = true;
+                mesh.children[i].receiveShadow = true;
+                if (mesh.children[i]) {
+                    for (var j = 0; j < mesh.children[i].length; j++) {
+                        mesh.children[i].children[j].castShadow = true;
+                        mesh.children[i].children[j].receiveShadow = true;
+                    }
+                }
+            }
+        }
+
+        var o = body.shapeOffsets[l];
+        var q = body.shapeOrientations[l];
+        mesh.position.set(o.x, o.y, o.z);
+        mesh.quaternion.set(q.x, q.y, q.z, q.w);
+
+        //if(color)
+        //mesh.material.color.set(color);
+
+        obj.add(mesh);
+    }
+
+    this.camera = function () {
+        return camera;
+    };
+
+    this.getScene = function () {
+        return scene;
+    };
+
+    return obj;
+};

@@ -1,240 +1,413 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/master_board/chess/index.html/js/CAI.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
-
-<script>
-/* JSON object area */
-</script>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
-
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
-
-
-    </head>
-    <body class="">
+function CAI(){
+    
+    var _iNodeCounter;
+    var _iScore;
+    
+    var _aCurBoard;
+    var _aPieces;
+    
+    var _oDecisionTree;
+    
+    this._init = function(){
         
+    };
+    
+    this.getMove = function(){
+        
+        var iBestValue = this._buildTree();
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+        var iChildOfRoot = 1;
+        var aBestNodeList = _oDecisionTree.getNode(iBestValue, iChildOfRoot);
+        
+        var oAIMoves = this._getBestNode(aBestNodeList);
 
-		
-
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
-
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
-
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
-
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
-
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "master_board";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+        return oAIMoves;
+        
+    };
+    
+    this._getBestNode = function(aNodeList){
+        if(aNodeList.length > 0){
+            for(var i=0; i<aNodeList.length; i++){
+                var oMove = aNodeList[i].model.moves;
+                this._makeMove(oMove);
+                
+                var bState = s_oMovesControllerFaster.getState(WHITE, _aCurBoard);
+                
+                if(bState === BOARD_STATE_CHECKMATE){
+                    //// ENCOURAGE CHECKS
+                    aNodeList[i].model.rating += 0.5;
+                } else if(bState === BOARD_STATE_STALEMATE) {
+                    ////DISCOURAGE STALEMATE
+                    aNodeList[i].model.rating -= 0.5;
+                }
+                      
+                this._unMakeMove(oMove);
+                
+            };
+            
+            var iMax = aNodeList[0].model.rating;
+            for(var i=1; i<aNodeList.length; i++){
+                if(aNodeList[i].model.rating > iMax){
+                    iMax = aNodeList[i].model.rating;
+                }
+            };
+            
+            var aBestNodeList = new Array();
+            for(var i=0; i<aNodeList.length; i++){
+                if(aNodeList[i].model.rating === iMax){
+                    aBestNodeList.push(aNodeList[i]);
+                }
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+            
+            var show = aBestNodeList[Math.floor( Math.random()*aBestNodeList.length)];
+            var oAIMoves = show.model.moves;
+            
+        } else {
+            oAIMoves = null;
+        }
+        
+        return oAIMoves;
+    };
+    
+    this._buildTree = function(){
+        _iNodeCounter = 0;
+        var iStartingDepth = 0;
+        _oDecisionTree = new CTreeDecision({rating: 0, moves: [], depth:iStartingDepth});
+        
+        _aCurBoard = this._copyBoard(s_oGame.getCells());
+
+        ///////////////GET CALCULATION TIME HERE////////////////
+        var iTime = new Date().getTime();
+
+        _iScore = this._maxi(0);
+        iTime = new Date().getTime() - iTime;
+
+        ///////////////GET CALCULATION TIME HERE////////////////
+        
+        return _iScore;
+        
+    };
+
+    
+    this._alphaBetaMax = function(alpha, beta, iParentDepth ) {
+        _iNodeCounter++;
+        if ( iParentDepth === SEARCH_DEPTH ) {
+            return this._evaluateBoard();
+        }
+
+        var oMoves = this._findAllMoves(BLACK);
+        var aAllMoves = oMoves.moves;
+        var aOpponentPieceList = oMoves.opponentlist;
+        for (var i=aAllMoves.length-1; i>=0; i--) {
+            
+            this._makeMove(aAllMoves[i]);
+            
+            var bCheck = s_oMovesControllerFaster.isInCheck(BLACK, _aCurBoard, aOpponentPieceList);
+            if(bCheck){
+                this._unMakeMove(aAllMoves[i]);
+                aAllMoves.splice(i,1);
+                continue;
+            }
+            
+            var iChildDepth = iParentDepth+1;
+            _oDecisionTree.initNewNode(iChildDepth);
+            var score = this._alphaBetaMin( alpha, beta, iChildDepth );
+
+            _oDecisionTree.addNode(iParentDepth, score, aAllMoves[i]);
+            
+            this._unMakeMove(aAllMoves[i]);
+            
+            if( score >= beta )
+               return beta;   // fail hard beta-cutoff
+            if( score > alpha )
+               alpha = score; // alpha acts like max in MiniMax
+        }
+        return alpha;
+    };
+    
+    this._alphaBetaMin = function(alpha, beta, iParentDepth ) {
+        _iNodeCounter++;
+        if ( iParentDepth === SEARCH_DEPTH ) {
+            return this._evaluateBoard();
+        }
+        
+        var oMoves = this._findAllMoves(WHITE);
+        var aAllMoves = oMoves.moves;
+        var aOpponentPieceList = oMoves.opponentlist;
+        for (var i=aAllMoves.length-1; i>=0; i--) {
+            
+            this._makeMove(aAllMoves[i]);
+            var bCheck = s_oMovesControllerFaster.isInCheck(WHITE, _aCurBoard, aOpponentPieceList);
+            if(bCheck){
+                this._unMakeMove(aAllMoves[i]);
+                aAllMoves.splice(i,1);
+                continue;
+            }
+            
+            var iChildDepth = iParentDepth+1;
+            _oDecisionTree.initNewNode(iChildDepth);
+            var score = this._alphaBetaMax( alpha, beta, iChildDepth );
+
+            _oDecisionTree.addNode(iParentDepth, score, aAllMoves[i]);
+            
+            this._unMakeMove(aAllMoves[i]);
+            
+            if( score <= alpha )
+               return alpha;   // fail hard alpha-cutoff
+            if( score < beta )
+               beta = score; // beta acts like min in MiniMax
+        }
+        return beta;
+    };
+    
+    this._evaluateBoard = function(){
+       ///////// CLOUD SHANNON EVALUATION FUNCTION
+       /*
+       f(p) = 200(K-K')
+       + 9(Q-Q')
+       + 5(R-R')
+       + 3(B-B' + N-N')
+       + 1(P-P')
+       - 0.5(D-D' + S-S' + I-I')
+       + 0.1(M-M') + ...
+ 
+        KQRBNP = number of kings, queens, rooks, bishops, knights and pawns
+        D,S,I = doubled, blocked and isolated pawns
+        M = Mobility (the number of legal moves)
+        */
+
+        var iRate = 200*(_aPieces[BLACK][KING] - _aPieces[WHITE][KING])
+                    + 9*(_aPieces[BLACK][QUEEN] - _aPieces[WHITE][QUEEN])
+                    + 5*(_aPieces[BLACK][ROOK] - _aPieces[WHITE][ROOK])
+                    + 3*(_aPieces[BLACK][BISHOP] - _aPieces[WHITE][BISHOP] + _aPieces[BLACK][KNIGHT] - _aPieces[WHITE][KNIGHT])
+                    + (_aPieces[BLACK][PAWN] - _aPieces[WHITE][PAWN]);
+
+                    
+
+        return iRate;
+    };
+    
+    this._findAllMoves = function(szEvalPlayerColor){
+        var aAllMovesList = new Array();
+        var aOpponentList = new Array();
+        for(var i=0; i<NUM_CELL; i++){
+            for(var j=0; j<NUM_CELL; j++){
+                if(_aCurBoard[i][j].type !== null){
+                    if(_aCurBoard[i][j].color === szEvalPlayerColor){
+                        var aSinglePieceMoveList = s_oMovesControllerFaster.getMovesList(i,j,_aCurBoard);
+                        for(var k=0; k<aSinglePieceMoveList.length; k++){
+                            var iDestRow = aSinglePieceMoveList[k].row;
+                            var iDestCol = aSinglePieceMoveList[k].col;
+                            aAllMovesList.push( {   sourcerow:i, sourcecol:j, destrow:iDestRow, destcol:iDestCol, 
+                                                    sourcetype:_aCurBoard[i][j].type, sourcecolor:_aCurBoard[i][j].color, sourcehistory:_aCurBoard[i][j].history,
+                                                    desttype:_aCurBoard[iDestRow][iDestCol].type, destcolor:_aCurBoard[iDestRow][iDestCol].color, desthistory:_aCurBoard[iDestRow][iDestCol].history,
+                                                    special:aSinglePieceMoveList[k].special
+                            });
+                        } 
+                    } else {
+                        aOpponentList.push({row:i, col:j});
+                    }
+                    
+                }
+            }
+        }
+        
+        return {moves: aAllMovesList, opponentlist:aOpponentList};
+    };
+    
+   
+    this._makeMove = function(oMove){    
+        
+        if(oMove.destcolor !== null){
+            _aPieces[oMove.destcolor][oMove.desttype]--;
+        }
+
+        /////SPECIAL
+        switch(oMove.special){
+            case BOARD_SPECIAL_CASTLING_RIGHT:{
+                    _aCurBoard[oMove.sourcerow][5] = {color: oMove.sourcecolor, type: ROOK, history: _aCurBoard[oMove.sourcerow][7].history};
+                    _aCurBoard[oMove.sourcerow][7] = {color: null, type: null, history: []};
+                    break;
+            }
+            case BOARD_SPECIAL_CASTLING_LEFT:{
+                    _aCurBoard[oMove.sourcerow][3] = {color: oMove.sourcecolor, type: ROOK, history: _aCurBoard[oMove.sourcerow][0].history};
+                    _aCurBoard[oMove.sourcerow][0] = {color: null, type: null, history: []};
+                    break;
+            }
+            case BOARD_SPECIAL_ENPASSANT:{
+                    var szOpponentColor = s_oBoardStateController.getOtherOpponent(oMove.sourcecolor);
+                    _aCurBoard[oMove.sourcerow][oMove.destcol] = {color: null, type: null, history: []};
+                    _aPieces[szOpponentColor][PAWN]--;
+                    break;
+            }
+            
+        }
+
+        _aCurBoard[oMove.destrow][oMove.destcol] = {color: oMove.sourcecolor, type: oMove.sourcetype, history: oMove.sourcehistory};
+        _aCurBoard[oMove.sourcerow][oMove.sourcecol] = {color: null, type: null, history: []};
+        
+        if((oMove.destrow === 0 || oMove.destrow === 7) && oMove.sourcetype === PAWN){
+            _aCurBoard[oMove.destrow][oMove.destcol] = {color: oMove.sourcecolor, type: QUEEN, history: oMove.sourcehistory};
+            _aPieces[oMove.sourcecolor][PAWN]--;
+            _aPieces[oMove.sourcecolor][QUEEN]++;
+        }
+        
+        
+    };
+    
+    this._unMakeMove = function(oMove){     
+        if(oMove.destcolor !== null){
+            _aPieces[oMove.destcolor][oMove.desttype]++;
+        }
+        
+        /////SPECIAL 
+        switch(oMove.special){
+            case BOARD_SPECIAL_CASTLING_RIGHT:{
+                    _aCurBoard[oMove.sourcerow][7] = {color: oMove.sourcecolor, type: ROOK, history: _aCurBoard[oMove.sourcerow][5].history};
+                    _aCurBoard[oMove.sourcerow][5] = {color: null, type: null, history: []};
+                    break;
+            }
+            case BOARD_SPECIAL_CASTLING_LEFT:{
+                    _aCurBoard[oMove.sourcerow][0] = {color: oMove.sourcecolor, type: ROOK, history: _aCurBoard[oMove.sourcerow][3].history};
+                    _aCurBoard[oMove.sourcerow][3] = {color: null, type: null, history: []};
+                    break;
+            }
+            case BOARD_SPECIAL_ENPASSANT:{
+                    var szOpponentColor = s_oBoardStateController.getOtherOpponent(oMove.sourcecolor);
+                    _aCurBoard[oMove.sourcerow][oMove.destcol] = {color: szOpponentColor, type: PAWN, history: []};
+                    _aPieces[szOpponentColor][PAWN]++;
+                    break;
+            }
+            
+        }
+        
+        _aCurBoard[oMove.sourcerow][oMove.sourcecol] = {color: oMove.sourcecolor, type: oMove.sourcetype, history: oMove.sourcehistory};
+        _aCurBoard[oMove.destrow][oMove.destcol] = {color: oMove.destcolor, type: oMove.desttype, history: oMove.desthistory};
+        
+        if((oMove.destrow === 0 || oMove.destrow === 7) && oMove.sourcetype === PAWN){
+            _aPieces[oMove.sourcecolor][PAWN]++;
+            _aPieces[oMove.sourcecolor][QUEEN]--;
+        }
+    };
+    
+    this.debugBoard = function(aBoard){
+        var aNewBoard = new Array();
+        for(var i=0; i<NUM_CELL; i++){
+            aNewBoard[i] = new Array();
+            for(var j=0; j<NUM_CELL; j++){
+                aNewBoard[i][j] = aBoard[i][j].getType() + "_" +aBoard[i][j].getColor();
+            }
+        }
+        
+        return aNewBoard;
+    };
+    
+    this._copyBoard = function(aBoard){
+        
+        _aPieces = new Array(BLACK, WHITE);
+        _aPieces[BLACK] = new Array();
+        _aPieces[WHITE] = new Array();
+        
+        _aPieces[BLACK][KING] = 0;
+        _aPieces[BLACK][QUEEN] = 0;
+        _aPieces[BLACK][ROOK] = 0;
+        _aPieces[BLACK][BISHOP] = 0;
+        _aPieces[BLACK][KNIGHT] = 0;
+        _aPieces[BLACK][PAWN] = 0;
+        
+        _aPieces[WHITE][KING] = 0;
+        _aPieces[WHITE][QUEEN] = 0;
+        _aPieces[WHITE][ROOK] = 0;
+        _aPieces[WHITE][BISHOP] = 0;
+        _aPieces[WHITE][KNIGHT] = 0;
+        _aPieces[WHITE][PAWN] = 0;
+        
+        var aNewBoard = new Array();
+        for(var i=0; i<NUM_CELL; i++){
+            aNewBoard[i] = new Array();
+            for(var j=0; j<NUM_CELL; j++){
+                aNewBoard[i][j] = {color: aBoard[i][j].getColor(), type: aBoard[i][j].getType(), history:aBoard[i][j].getPieceHistory()};
+                if(aBoard[i][j].getColor() !== null){
+                    _aPieces[aNewBoard[i][j].color][aNewBoard[i][j].type]++;
+                }
+            }
+        }
+        
+        return aNewBoard;
+    };
+    
+    
+    this._maxi = function(depth) {
+        if ( depth === SEARCH_DEPTH ) {
+            return this._evaluateBoard();
+        }
+        var  max = -INFINITE;
+
+        var oMoves = this._findAllMoves(BLACK);
+        var aAllMoves = oMoves.moves;
+        var aOpponentPieceList = oMoves.opponentlist;
+        var iChildDepth = depth+1;
+        for (var i=aAllMoves.length-1; i>=0; i--) {
+            
+            this._makeMove(aAllMoves[i]);
+            
+            var bCheck = s_oMovesControllerFaster.isInCheck(BLACK, _aCurBoard, aOpponentPieceList);
+            if(bCheck){
+                this._unMakeMove(aAllMoves[i]);
+                aAllMoves.splice(i,1);
+                continue;
+            }
+
+            _oDecisionTree.initNewNode(iChildDepth);
+
+            var score = this._mini( iChildDepth );
+            
+            _oDecisionTree.addNode(depth, score, aAllMoves[i]);
+            
+            this._unMakeMove(aAllMoves[i]);
+            
+            if( score > max )
+                max = score;
+        }
+        return max;
+    };
+ 
+    this._mini= function(depth) {
+        if ( depth === SEARCH_DEPTH ){
+            return this._evaluateBoard();
+        }
+        var min = INFINITE;
+
+        var oMoves = this._findAllMoves(WHITE);
+        var aAllMoves = oMoves.moves;
+        var aOpponentPieceList = oMoves.opponentlist;
+        var iChildDepth = depth+1;
+        for (var i=aAllMoves.length-1; i>=0; i--) {
+            
+            this._makeMove(aAllMoves[i]);
+            
+            var bCheck = s_oMovesControllerFaster.isInCheck(WHITE, _aCurBoard, aOpponentPieceList);
+            if(bCheck){
+                this._unMakeMove(aAllMoves[i]);
+                aAllMoves.splice(i,1);
+                continue;
+            }
+
+            _oDecisionTree.initNewNode(iChildDepth);
+            
+            var score = this._maxi( iChildDepth );
+            
+            _oDecisionTree.addNode(depth, score, aAllMoves[i]);
+            
+            this._unMakeMove(aAllMoves[i]);
+            
+            if( score < min )
+                min = score;
+        }
+        return min;
+    };
+    
+    this._init();
+}
+
+

@@ -1,240 +1,239 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/CInterface.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+function CInterface(oParentContainer) {
+    var _pStartPosAudio;
+    var _pStartPosExit;
+    var _pStartPosRestart;
+    var _pStartPosLaunch;
+    var _pStartPosHoleNum;
+    var _pStartPosPar;
+    var _oButExit;
+    var _oButRestart;
+    var _oLaunchText;
+    var _oParText;
+    var _oHoleNumText;
+    var _oHelpPanel;
+    var _oAudioToggle;
+    var _oPowerBar;
+    var _oPowerBarDim;
+    var _oMaskPowerBar;
+    var _oButCenterBallView;
+    var _oParTextStroke;
+    var _oLaunchTextStroke;
+    var _oHoleNumTextStroke;
+    var _oButFullscreen;
+    var _oAreYouSurePanel;
+    var _fRequestFullScreen = null;
+    var _fCancelFullScreen = null;
+    
+    var _pStartPosCenterBallView;
+    var _pStartPosFullscreen;
 
-<script>
-/* JSON object area */
-</script>
+    this._init = function (oParentContainer) {
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
-
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
-
-
-    </head>
-    <body class="">
+        _pStartPosLaunch = {x: (CANVAS_WIDTH / 2), y: 72};
+        _oLaunchTextStroke = new createjs.Text(TEXT_LAUNCH + ": 0", "40px " + PRIMARY_FONT, "#3e240b");
+        _oLaunchTextStroke.x = _pStartPosLaunch.x;
+        _oLaunchTextStroke.y = _pStartPosLaunch.y;
+        _oLaunchTextStroke.outline = 8;
+        _oLaunchTextStroke.textAlign = "center";
+        _oLaunchTextStroke.textBaseline = "alphabetic";
+        oParentContainer.addChild(_oLaunchTextStroke);
         
-
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
-
-		
-
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        _oLaunchText = new createjs.Text(TEXT_LAUNCH + ": 0", "40px " + PRIMARY_FONT, "#ffd800");
+        _oLaunchText.x = _pStartPosLaunch.x;
+        _oLaunchText.y = _pStartPosLaunch.y;
+        _oLaunchText.textAlign = "center";
+        _oLaunchText.textBaseline = "alphabetic";
+        oParentContainer.addChild(_oLaunchText);
 
 
+        _pStartPosPar = {x: 26, y: 72};
+        _oParTextStroke = new createjs.Text(TEXT_PAR + ": 0", "40px " + PRIMARY_FONT, "#3e240b");
+        _oParTextStroke.x = _pStartPosPar.x;
+        _oParTextStroke.y = _pStartPosPar.y;
+        _oParTextStroke.outline = 8;
+        _oParTextStroke.textAlign = "left";
+        _oParTextStroke.textBaseline = "alphabetic";
+        oParentContainer.addChild(_oParTextStroke);
+        
+        _oParText = new createjs.Text(TEXT_PAR + ": 0", "40px " + PRIMARY_FONT, "#ffd800");
+        _oParText.x = _pStartPosPar.x;
+        _oParText.y = _pStartPosPar.y;
+        _oParText.textAlign = "left";
+        _oParText.textBaseline = "alphabetic";
+        oParentContainer.addChild(_oParText);
+        
+        _pStartPosHoleNum = {x: CANVAS_WIDTH - 28, y: CANVAS_HEIGHT - 35};
+        _oHoleNumTextStroke = new createjs.Text(TEXT_HOLE + ": 1", "40px " + PRIMARY_FONT, "#3e240b");
+        _oHoleNumTextStroke.x = _pStartPosHoleNum.x;
+        _oHoleNumTextStroke.y = _pStartPosHoleNum.y;
+        _oHoleNumTextStroke.outline = 8;
+        _oHoleNumTextStroke.textAlign = "right";
+        _oHoleNumTextStroke.textBaseline = "alphabetic";
+        oParentContainer.addChild(_oHoleNumTextStroke);
+        
+        _oHoleNumText = new createjs.Text(TEXT_HOLE + ": 1", "40px " + PRIMARY_FONT, "#ffd800");
+        _oHoleNumText.x = _pStartPosHoleNum.x;
+        _oHoleNumText.y = _pStartPosHoleNum.y;
+        _oHoleNumText.textAlign = "right";
+        _oHoleNumText.textBaseline = "alphabetic";
+        oParentContainer.addChild(_oHoleNumText);
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+        var oSprite = s_oSpriteLibrary.getSprite('but_exit');
+        _pStartPosExit = {x: CANVAS_WIDTH - (oSprite.height / 2) - 10, y: (oSprite.height / 2) + 17};
+        _oButExit = new CGfxButton(_pStartPosExit.x, _pStartPosExit.y, oSprite, oParentContainer);
+        _oButExit.addEventListener(ON_MOUSE_UP, this._onExit, this);
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+        var oSprite = s_oSpriteLibrary.getSprite('but_restart_small');
+        _pStartPosRestart = {x: _pStartPosExit.x - oSprite.height - 10, y: _pStartPosExit.y};
+        _oButRestart = new CGfxButton(_pStartPosRestart.x, _pStartPosRestart.y, oSprite, oParentContainer);
+        _oButRestart.addEventListener(ON_MOUSE_UP, this._onRestart, this);
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+        if (DISABLE_SOUND_MOBILE === false || s_bMobile === false) {
+            var oSprite = s_oSpriteLibrary.getSprite('audio_icon');
+            _pStartPosAudio = {x: _pStartPosRestart.x - oSprite.height - 10, y: _pStartPosExit.y};
+            _oAudioToggle = new CToggle(_pStartPosAudio.x, _pStartPosAudio.y, oSprite, s_bAudioActive, oParentContainer);
+            _oAudioToggle.addEventListener(ON_MOUSE_UP, this._onAudioToggle, this);
+            
+            _pStartPosFullscreen = {x:_pStartPosAudio.x - oSprite.width/2 - 10,y:_pStartPosAudio.y};
+        }else{
+            _pStartPosFullscreen = {x:_pStartPosRestart.x - oSprite.width/2 - 10,y:_pStartPosRestart.y};
+        }
+        
+        var doc = window.document;
+        var docEl = doc.documentElement;
+        _fRequestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+        _fCancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+        
+        if(ENABLE_FULLSCREEN === false){
+            _fRequestFullScreen = false;
+        }
+        
+        if (_fRequestFullScreen && screenfull.enabled){
+            oSprite = s_oSpriteLibrary.getSprite('but_fullscreen');
+            
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+            _oButFullscreen = new CToggle(_pStartPosFullscreen.x,_pStartPosFullscreen.y,oSprite,s_bFullscreen,oParentContainer);
+            _oButFullscreen.addEventListener(ON_MOUSE_UP, this._onFullscreenRelease, this);
+        }
+        
+        var oSprite = s_oSpriteLibrary.getSprite('but_center_view');
+        _pStartPosCenterBallView = {x: (oSprite.height / 2) + 10, y: CANVAS_HEIGHT - (oSprite.height / 2) - 10};
+        _oButCenterBallView = new CGfxButton(_pStartPosCenterBallView.x, _pStartPosCenterBallView.y, oSprite, oParentContainer);
+        _oButCenterBallView.addEventListener(ON_MOUSE_UP, this._onCenterBall, this);
+        _oButCenterBallView.setVisible(false);
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
-            }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+        this.refreshButtonPos(s_iOffsetX, s_iOffsetY);
+    };
+
+    this.refreshButtonPos = function (iNewX, iNewY) {
+        _oButExit.setPosition(_pStartPosExit.x - iNewX, iNewY + _pStartPosExit.y);
+        _oButRestart.setPosition(_pStartPosRestart.x - iNewX, iNewY + _pStartPosRestart.y);
+        _oButCenterBallView.setPosition(_pStartPosCenterBallView.x + iNewX, _pStartPosCenterBallView.y - iNewY);
+        if (DISABLE_SOUND_MOBILE === false || s_bMobile === false) {
+            _oAudioToggle.setPosition(_pStartPosAudio.x - iNewX, iNewY + _pStartPosAudio.y);
+        }
+        
+        if (_fRequestFullScreen && screenfull.enabled){
+            _oButFullscreen.setPosition(_pStartPosFullscreen.x - iNewX,_pStartPosFullscreen.y + iNewY);
+        }
+        
+        _oLaunchText.y = _pStartPosLaunch.y + iNewY;
+        _oLaunchTextStroke.y = _oLaunchText.y;
+
+        _oHoleNumText.x = _pStartPosHoleNum.x - iNewX;
+        _oHoleNumText.y = _pStartPosHoleNum.y - iNewY;
+        _oHoleNumTextStroke.x = _oHoleNumText.x;
+        _oHoleNumTextStroke.y = _oHoleNumText.y;
+        
+        _oParText.x = _pStartPosPar.x + iNewX;
+        _oParText.y = _pStartPosPar.y + iNewY;
+        _oParTextStroke.x = _oParText.x;
+        _oParTextStroke.y = _oParText.y;
+    };
+
+    this.refreshPowerBar = function (fValue) {
+
+        _oMaskPowerBar.graphics.clear();
+        var iNewMaskWidth = Math.floor((fValue * _oPowerBarDim.width) / 100);
+        _oMaskPowerBar.graphics.beginFill("rgba(255,255,255,0.01)").drawRect(_oPowerBar.x, _oPowerBar.y, iNewMaskWidth, _oPowerBarDim.height);
+    };
+
+    this.unload = function () {
+        _oButExit.unload();
+        _oButExit = null;
+
+        if (DISABLE_SOUND_MOBILE === false || s_bMobile === false) {
+            _oAudioToggle.unload();
+            _oAudioToggle = null;
+        }
+
+        if (_fRequestFullScreen && screenfull.enabled){
+            _oButFullscreen.unload();
+        }
+        _oAreYouSurePanel = null;
+        s_oInterface = null;
+    };
+
+    this.refreshLaunch = function (iLaunch) {
+        _oLaunchText.text = TEXT_LAUNCH + ": " + iLaunch;
+        _oLaunchTextStroke.text = TEXT_LAUNCH + ": " + iLaunch;
+    };
+
+    this.setParText = function(szValue){
+        _oParText.text = TEXT_PAR + ": " + szValue;
+        _oParTextStroke.text = TEXT_PAR + ": " + szValue;
+    };
+
+    this.refreshHoleNum = function (iHole) {
+        _oHoleNumText.text = TEXT_HOLE + ": " + iHole;
+        _oHoleNumTextStroke.text = TEXT_HOLE + ": " + iHole;
+    };
+
+    this.setCenterBallViewVisible = function(bVal){
+        _oButCenterBallView.setVisible(bVal);
+    };
+
+    this.onExitFromHelp = function () {
+        _oHelpPanel.unload();
+    };
+
+    this._onAudioToggle = function () {
+        Howler.mute(s_bAudioActive);
+        s_bAudioActive = !s_bAudioActive;
+    };
+
+    this._onExit = function () {
+        _oAreYouSurePanel = new CAreYouSurePanel(s_oGame.onExit);
+    };
+
+    this._onRestart = function () {
+        s_oGame.restartLevel();
+    };
+
+    this._onCenterBall = function () {
+        _oButCenterBallView.setVisible(false);
+        s_oGame.centerBallView();
+    };
+    
+    this.resetFullscreenBut = function(){
+	_oButFullscreen.setActive(s_bFullscreen);
+    };
+
+    this._onFullscreenRelease = function(){
+        if(s_bFullscreen) { 
+		_fCancelFullScreen.call(window.document);
+	}else{
+		_fRequestFullScreen.call(window.document.documentElement);
+	}
+	
+	sizeHandler();
+    };
+
+    s_oInterface = this;
+
+    this._init(oParentContainer);
+
+    return this;
+}
+
+var s_oInterface = null;

@@ -1,240 +1,611 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/TrackballControls.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+/**
+ * @author Eberhard Graether / http://egraether.com/
+ * @author Mark Lundin  / http://mark-lundin.com
+ */
 
-<script>
-/* JSON object area */
-</script>
+THREE.TrackballControls = function ( object, domElement ) {
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
+    var _this = this;
+    var STATE = { NONE: -1, ROTATE: 0, ZOOM: 1, PAN: 2, TOUCH_ROTATE: 3, TOUCH_ZOOM_PAN: 4 };
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
+    this.object = object;
+    this.domElement = ( domElement !== undefined ) ? domElement : document;
 
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+    // API
+
+    this.enabled = true;
+
+    this.screen = { left: 0, top: 0, width: 0, height: 0 };
+
+    this.rotateSpeed = 1.0;
+    this.zoomSpeed = 1.2;
+    this.panSpeed = 0.3;
+
+    this.noRotate = false;
+    this.noZoom = false;
+    this.noPan = false;
+    this.noRoll = false;
+
+    this.staticMoving = false;
+    this.dynamicDampingFactor = 0.2;
+
+    this.minDistance = 0;
+    this.maxDistance = Infinity;
+
+    this.keys = [ 65 /*A*/, 83 /*S*/, 68 /*D*/ ];
+
+    // internals
+
+    this.target = new THREE.Vector3();
+
+    var EPS = 0.000001;
+
+    var lastPosition = new THREE.Vector3();
+
+    var _state = STATE.NONE,
+    _prevState = STATE.NONE,
+
+    _eye = new THREE.Vector3(),
+
+    _rotateStart = new THREE.Vector3(),
+    _rotateEnd = new THREE.Vector3(),
+
+    _zoomStart = new THREE.Vector2(),
+    _zoomEnd = new THREE.Vector2(),
+
+    _touchZoomDistanceStart = 0,
+    _touchZoomDistanceEnd = 0,
+
+    _panStart = new THREE.Vector2(),
+    _panEnd = new THREE.Vector2();
+
+    // for reset
+
+    this.target0 = this.target.clone();
+    this.position0 = this.object.position.clone();
+    this.up0 = this.object.up.clone();
+
+    // events
+
+    var changeEvent = { type: 'change' };
+    var startEvent = { type: 'start'};
+    var endEvent = { type: 'end'};
 
 
-    </head>
-    <body class="">
-        
+    // methods
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+    this.handleResize = function () {
 
-		
+        if ( this.domElement === document ) {
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            this.screen.left = 0;
+            this.screen.top = 0;
+            this.screen.width = window.innerWidth;
+            this.screen.height = window.innerHeight;
 
+        } else {
 
+            var box = this.domElement.getBoundingClientRect();
+            // adjustments come from similar code in the jquery offset() function
+            var d = this.domElement.ownerDocument.documentElement;
+            this.screen.left = box.left + window.pageXOffset - d.clientLeft;
+            this.screen.top = box.top + window.pageYOffset - d.clientTop;
+            this.screen.width = box.width;
+            this.screen.height = box.height;
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+        }
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+    };
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+    this.handleEvent = function ( event ) {
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+        if ( typeof this[ event.type ] == 'function' ) {
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+            this[ event.type ]( event );
+
+        }
+
+    };
+
+    var getMouseOnScreen = ( function () {
+
+        var vector = new THREE.Vector2();
+
+        return function ( pageX, pageY ) {
+
+            vector.set(
+                ( pageX - _this.screen.left ) / _this.screen.width,
+                ( pageY - _this.screen.top ) / _this.screen.height
+            );
+
+            return vector;
+
+        };
+
+    }() );
+
+    var getMouseProjectionOnBall = ( function () {
+
+        var vector = new THREE.Vector3();
+        var objectUp = new THREE.Vector3();
+        var mouseOnBall = new THREE.Vector3();
+
+        return function ( pageX, pageY ) {
+
+            mouseOnBall.set(
+                ( pageX - _this.screen.width * 0.5 - _this.screen.left ) / (_this.screen.width*.5),
+                ( _this.screen.height * 0.5 + _this.screen.top - pageY ) / (_this.screen.height*.5),
+                0.0
+            );
+
+            var length = mouseOnBall.length();
+
+            if ( _this.noRoll ) {
+
+                if ( length < Math.SQRT1_2 ) {
+
+                    mouseOnBall.z = Math.sqrt( 1.0 - length*length );
+
+                } else {
+
+                    mouseOnBall.z = .5 / length;
+
+                }
+
+            } else if ( length > 1.0 ) {
+
+                mouseOnBall.normalize();
+
+            } else {
+
+                mouseOnBall.z = Math.sqrt( 1.0 - length * length );
+
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+
+            _eye.copy( _this.object.position ).sub( _this.target );
+
+            vector.copy( _this.object.up ).setLength( mouseOnBall.y )
+            vector.add( objectUp.copy( _this.object.up ).cross( _eye ).setLength( mouseOnBall.x ) );
+            vector.add( _eye.setLength( mouseOnBall.z ) );
+
+            return vector;
+
+        };
+
+    }() );
+
+    this.rotateCamera = (function(){
+
+        var axis = new THREE.Vector3(),
+            quaternion = new THREE.Quaternion();
+
+
+        return function () {
+
+            var angle = Math.acos( _rotateStart.dot( _rotateEnd ) / _rotateStart.length() / _rotateEnd.length() );
+
+            if ( angle ) {
+
+                axis.crossVectors( _rotateStart, _rotateEnd ).normalize();
+
+                angle *= _this.rotateSpeed;
+
+                quaternion.setFromAxisAngle( axis, -angle );
+
+                _eye.applyQuaternion( quaternion );
+                _this.object.up.applyQuaternion( quaternion );
+
+                _rotateEnd.applyQuaternion( quaternion );
+
+                if ( _this.staticMoving ) {
+
+                    _rotateStart.copy( _rotateEnd );
+
+                } else {
+
+                    quaternion.setFromAxisAngle( axis, angle * ( _this.dynamicDampingFactor - 1.0 ) );
+                    _rotateStart.applyQuaternion( quaternion );
+
+                }
+
+            }
+        }
+
+    }());
+
+    this.zoomCamera = function () {
+
+        if ( _state === STATE.TOUCH_ZOOM_PAN ) {
+
+            var factor = _touchZoomDistanceStart / _touchZoomDistanceEnd;
+            _touchZoomDistanceStart = _touchZoomDistanceEnd;
+            _eye.multiplyScalar( factor );
+
+        } else {
+
+            var factor = 1.0 + ( _zoomEnd.y - _zoomStart.y ) * _this.zoomSpeed;
+
+            if ( factor !== 1.0 && factor > 0.0 ) {
+
+                _eye.multiplyScalar( factor );
+
+                if ( _this.staticMoving ) {
+
+                    _zoomStart.copy( _zoomEnd );
+
+                } else {
+
+                    _zoomStart.y += ( _zoomEnd.y - _zoomStart.y ) * this.dynamicDampingFactor;
+
+                }
+
+            }
+
+        }
+
+    };
+
+    this.panCamera = (function(){
+
+        var mouseChange = new THREE.Vector2(),
+            objectUp = new THREE.Vector3(),
+            pan = new THREE.Vector3();
+
+        return function () {
+
+            mouseChange.copy( _panEnd ).sub( _panStart );
+
+            if ( mouseChange.lengthSq() ) {
+
+                mouseChange.multiplyScalar( _eye.length() * _this.panSpeed );
+
+                pan.copy( _eye ).cross( _this.object.up ).setLength( mouseChange.x );
+                pan.add( objectUp.copy( _this.object.up ).setLength( mouseChange.y ) );
+
+                _this.object.position.add( pan );
+                _this.target.add( pan );
+
+                if ( _this.staticMoving ) {
+
+                    _panStart.copy( _panEnd );
+
+                } else {
+
+                    _panStart.add( mouseChange.subVectors( _panEnd, _panStart ).multiplyScalar( _this.dynamicDampingFactor ) );
+
+                }
+
+            }
+        }
+
+    }());
+
+    this.checkDistances = function () {
+
+        if ( !_this.noZoom || !_this.noPan ) {
+
+            if ( _eye.lengthSq() > _this.maxDistance * _this.maxDistance ) {
+
+                _this.object.position.addVectors( _this.target, _eye.setLength( _this.maxDistance ) );
+
+            }
+
+            if ( _eye.lengthSq() < _this.minDistance * _this.minDistance ) {
+
+                _this.object.position.addVectors( _this.target, _eye.setLength( _this.minDistance ) );
+
+            }
+
+        }
+
+    };
+
+    this.update = function () {
+
+        _eye.subVectors( _this.object.position, _this.target );
+
+        if ( !_this.noRotate ) {
+
+            _this.rotateCamera();
+
+        }
+
+        if ( !_this.noZoom ) {
+
+            _this.zoomCamera();
+
+        }
+
+        if ( !_this.noPan ) {
+
+            _this.panCamera();
+
+        }
+
+        _this.object.position.addVectors( _this.target, _eye );
+
+        _this.checkDistances();
+
+        _this.object.lookAt( _this.target );
+
+        if ( lastPosition.distanceToSquared( _this.object.position ) > EPS ) {
+
+            _this.dispatchEvent( changeEvent );
+
+            lastPosition.copy( _this.object.position );
+
+        }
+
+    };
+
+    this.reset = function () {
+
+        _state = STATE.NONE;
+        _prevState = STATE.NONE;
+
+        _this.target.copy( _this.target0 );
+        _this.object.position.copy( _this.position0 );
+        _this.object.up.copy( _this.up0 );
+
+        _eye.subVectors( _this.object.position, _this.target );
+
+        _this.object.lookAt( _this.target );
+
+        _this.dispatchEvent( changeEvent );
+
+        lastPosition.copy( _this.object.position );
+
+    };
+
+    // listeners
+
+    function keydown( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        window.removeEventListener( 'keydown', keydown );
+
+        _prevState = _state;
+
+        if ( _state !== STATE.NONE ) {
+
+            return;
+
+        } else if ( event.keyCode === _this.keys[ STATE.ROTATE ] && !_this.noRotate ) {
+
+            _state = STATE.ROTATE;
+
+        } else if ( event.keyCode === _this.keys[ STATE.ZOOM ] && !_this.noZoom ) {
+
+            _state = STATE.ZOOM;
+
+        } else if ( event.keyCode === _this.keys[ STATE.PAN ] && !_this.noPan ) {
+
+            _state = STATE.PAN;
+
+        }
+
+    }
+
+    function keyup( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        _state = _prevState;
+
+        window.addEventListener( 'keydown', keydown, false );
+
+    }
+
+    function mousedown( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        if ( _state === STATE.NONE ) {
+
+            _state = event.button;
+
+        }
+
+        if ( _state === STATE.ROTATE && !_this.noRotate ) {
+
+            _rotateStart.copy( getMouseProjectionOnBall( event.pageX, event.pageY ) );
+            _rotateEnd.copy( _rotateStart );
+
+        } else if ( _state === STATE.ZOOM && !_this.noZoom ) {
+
+            _zoomStart.copy( getMouseOnScreen( event.pageX, event.pageY ) );
+            _zoomEnd.copy(_zoomStart);
+
+        } else if ( _state === STATE.PAN && !_this.noPan ) {
+
+            _panStart.copy( getMouseOnScreen( event.pageX, event.pageY ) );
+            _panEnd.copy(_panStart)
+
+        }
+
+        document.addEventListener( 'mousemove', mousemove, false );
+        document.addEventListener( 'mouseup', mouseup, false );
+
+        _this.dispatchEvent( startEvent );
+
+    }
+
+    function mousemove( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        if ( _state === STATE.ROTATE && !_this.noRotate ) {
+
+            _rotateEnd.copy( getMouseProjectionOnBall( event.pageX, event.pageY ) );
+
+        } else if ( _state === STATE.ZOOM && !_this.noZoom ) {
+
+            _zoomEnd.copy( getMouseOnScreen( event.pageX, event.pageY ) );
+
+        } else if ( _state === STATE.PAN && !_this.noPan ) {
+
+            _panEnd.copy( getMouseOnScreen( event.pageX, event.pageY ) );
+
+        }
+
+    }
+
+    function mouseup( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        _state = STATE.NONE;
+
+        document.removeEventListener( 'mousemove', mousemove );
+        document.removeEventListener( 'mouseup', mouseup );
+        _this.dispatchEvent( endEvent );
+
+    }
+
+    function mousewheel( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        var delta = 0;
+
+        if ( event.wheelDelta ) { // WebKit / Opera / Explorer 9
+
+            delta = event.wheelDelta / 40;
+
+        } else if ( event.detail ) { // Firefox
+
+            delta = - event.detail / 3;
+
+        }
+
+        _zoomStart.y += delta * 0.01;
+        _this.dispatchEvent( startEvent );
+        _this.dispatchEvent( endEvent );
+
+    }
+
+    function touchstart( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        switch ( event.touches.length ) {
+
+            case 1:
+                _state = STATE.TOUCH_ROTATE;
+                _rotateStart.copy( getMouseProjectionOnBall( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY ) );
+                _rotateEnd.copy( _rotateStart );
+                break;
+
+            case 2:
+                _state = STATE.TOUCH_ZOOM_PAN;
+                var dx = event.touches[ 0 ].pageX - event.touches[ 1 ].pageX;
+                var dy = event.touches[ 0 ].pageY - event.touches[ 1 ].pageY;
+                _touchZoomDistanceEnd = _touchZoomDistanceStart = Math.sqrt( dx * dx + dy * dy );
+
+                var x = ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ) / 2;
+                var y = ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY ) / 2;
+                _panStart.copy( getMouseOnScreen( x, y ) );
+                _panEnd.copy( _panStart );
+                break;
+
+            default:
+                _state = STATE.NONE;
+
+        }
+        _this.dispatchEvent( startEvent );
+
+
+    }
+
+    function touchmove( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        switch ( event.touches.length ) {
+
+            case 1:
+                _rotateEnd.copy( getMouseProjectionOnBall( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY ) );
+                break;
+
+            case 2:
+                var dx = event.touches[ 0 ].pageX - event.touches[ 1 ].pageX;
+                var dy = event.touches[ 0 ].pageY - event.touches[ 1 ].pageY;
+                _touchZoomDistanceEnd = Math.sqrt( dx * dx + dy * dy );
+
+                var x = ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ) / 2;
+                var y = ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY ) / 2;
+                _panEnd.copy( getMouseOnScreen( x, y ) );
+                break;
+
+            default:
+                _state = STATE.NONE;
+
+        }
+
+    }
+
+    function touchend( event ) {
+
+        if ( _this.enabled === false ) return;
+
+        switch ( event.touches.length ) {
+
+            case 1:
+                _rotateEnd.copy( getMouseProjectionOnBall( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY ) );
+                _rotateStart.copy( _rotateEnd );
+                break;
+
+            case 2:
+                _touchZoomDistanceStart = _touchZoomDistanceEnd = 0;
+
+                var x = ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ) / 2;
+                var y = ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY ) / 2;
+                _panEnd.copy( getMouseOnScreen( x, y ) );
+                _panStart.copy( _panEnd );
+                break;
+
+        }
+
+        _state = STATE.NONE;
+        _this.dispatchEvent( endEvent );
+
+    }
+
+    this.domElement.addEventListener( 'contextmenu', function ( event ) { event.preventDefault(); }, false );
+
+    this.domElement.addEventListener( 'mousedown', mousedown, false );
+
+    this.domElement.addEventListener( 'mousewheel', mousewheel, false );
+    this.domElement.addEventListener( 'DOMMouseScroll', mousewheel, false ); // firefox
+
+    this.domElement.addEventListener( 'touchstart', touchstart, false );
+    this.domElement.addEventListener( 'touchend', touchend, false );
+    this.domElement.addEventListener( 'touchmove', touchmove, false );
+
+    window.addEventListener( 'keydown', keydown, false );
+    window.addEventListener( 'keyup', keyup, false );
+
+    this.handleResize();
+
+    // force an update at start
+    this.update();
+
+};
+
+THREE.TrackballControls.prototype = Object.create( THREE.EventDispatcher.prototype );

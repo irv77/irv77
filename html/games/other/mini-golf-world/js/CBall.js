@@ -1,240 +1,374 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-		
-		<!-- Begin comScore Tag -->
-		<script>
-		 var _comscore = _comscore || [];
-		 _comscore.push({ c1: "2", c2: "3005684" });
-		 (function() {
-		   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-		   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-		   el.parentNode.insertBefore(s, el);
-		 })();
-		</script>
-		<noscript>
-		 <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005684&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-		<script type="text/javascript">
-			var _comscore = _comscore || [];
-			_comscore.push({c1:"2",
-				c2:"14990625",
-				application_id:"kids-cbc-2",
-				name:"kids-cbc-2.school-age.content",
-				ns_site:"cmf-fmc",
-				content1:"website",
-				class1:"cmf.children.english",
-				class2:"website"
-			});
-		
-			(function() {
-				var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-				el.parentNode.insertBefore(s, el);
-			})();
-		</script>
-		<noscript>
-			<img src="http://b.scorecardresearch.com/p?c1=2&c2=14990625&cv=2.0&cj=1" />
-		</noscript>
-		<!-- End comScore Tag -->
-	
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore</title>
-        <meta name="description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " />
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:site" content="@cbckids">
-<meta name="twitter:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore">
-<meta name="twitter:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. ">
-<meta name="twitter:creator" content="@cbckids">
-<meta name="twitter:image" content="http://www.cbc.ca/kidscbc2/content/images/Kids2_LOGO.png">
-<!-- Open Graph data -->
-<meta property="og:title" content="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" />
-<meta property="og:type" content="blog" />
-<meta property="og:url" content="https://www.cbc.ca/kidscbc2/content/games/mini-golf-world/index.html/js/CBall.js/" />
-<meta property="og:image" content="http://www.cbc.ca/kidscbc2/content/static-images/FB_Share_Kids2_v2.jpg" />
-<meta property="og:description" content="Play free kids games, watch videos, and explore activities, quirky quizzes and fun facts. Watch Artzooka, Big Block Sing Song and more. " /> 
-<meta property="og:site_name" content="CBC Kids" />
-<meta property="article:section" content="CBC Kids" />
-<meta property="article:author" content="https://www.facebook.com/cbckidsca" />
-<meta property="article:publisher" content="https://www.facebook.com/cbckidsca" />
+function CBall(iXPos, iYPos, oSprite, oElementContainer) {
+    var _bIsMoving;
 
-<script>
-/* JSON object area */
-</script>
+    var _iMouseDistance;
+    var _iShotPower;
+    var _iMousePowerDistanceRange;
+    var _iNumBlink;
+    var _iSpriteHeight;
+    var _iOffsetArrowOnTerrain;
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="page-image" content="">
-		
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
-		
-		<!-- SITE share_title =  -->
-		
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/013d82c6.vendor.v.1632943976" />
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <!--<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/main.v.1632943976" /> -->
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/2.0-version-cd" /> 
-				<link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/styles/theme" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/quiz.v.1632943976" />
-        <link rel="stylesheet" href="https://www.cbc.ca/kidscbc2/?css=styles/video_extras.v.1632943976" />
-        <!-- endbuild -->
-        <link rel="alternate" type="application/rss+xml" title="Page not found - Kids' CBC 2 | Play Games, Watch Video, Explore" href="/kidscbc2/the-feed/rss">
-        <script src="https://www.cbc.ca/kidscbc2/scripts/modernizr"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery2"></script>
-        <!-- socialize.js script for DEV 
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_hyjJSoiIvdYWw1PY-3VFgzbUaMqeRrb0gtAQfXJ5e2ILwwejxqrbDDPci7g3kvX7"></script>
-        -->
-		<!-- socialize.js script for PROD -->
-        <script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_D_R4jG9HPDjelwI5F2eqWHGI-vMdNUVrQq7THCL2DoR6iDli2OKe-LOznINJv12e"></script>
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-		
-		<!--
-		<link rel="canonical" href="" />
-		-->
-		
-		<script src="/kidscbc2/scripts/now_leaving"></script>
-
-<style>
-			/* new games */
-.games .icon {
-	background-image: url(/kidscbc2/content/static-images/icons/games-nav-new.png) !important;
-	background-repeat: no-repeat !important;
-	background-position: 0 0 !important;
-	background-size: cover !important;
-}
-		</style>
+    var _oParent;
+    var _oBall;
+    var _oBallSprite;
+    var _oLine;
+    var _oDirection;
+    var _oClickArea;
+    var _oArrow;
+    var _oMaskArrow;
+    var _oMaskBall;
+    var _oCircleMaskBall;
+    var _oBallWater;
+    var _oPressIndicator;
+    var _oHelpCursor;
+    var _oListenerMouseDown;
+    var _oListenerMouseMove;
+    var _oListenerMouseUp;
+    
+    var _v2DScreenReferenceVector;
 
 
-    </head>
-    <body class="">
+    this._init = function (iXPos, iYPos, oSprite, oElementContainer) {
+        _bIsMoving = false;
+        
+        _iNumBlink = 3;
+        _iShotPower = 0;
+        _iMousePowerDistanceRange = MAX_MOUSE_DISTANCE_POWER_ACTIVATED - MIN_MOUSE_DISTANCE_POWER_ACTIVATED;
+        _iSpriteHeight = oSprite.height;
+
+        _iOffsetArrowOnTerrain = 10;
+
+        //Manually calculated 2D vector (normalized) that move ball long 3D X Axes
+        _v2DScreenReferenceVector = new CVector2(-0.845, 0.534);
+
+        _oBall = new createjs.Container();
+        _oBall.x = iXPos;
+        _oBall.y = iYPos;
+        oElementContainer.addChild(_oBall);
+
+        var oPressSprite = s_oSpriteLibrary.getSprite("press_indicator");
+        _oPressIndicator = createBitmap(oPressSprite);
+        _oPressIndicator.regX = oPressSprite.width * 0.5;
+        _oPressIndicator.regY = oPressSprite.height * 0.5;
+        _oPressIndicator.scaleX = 0;
+        _oPressIndicator.scaleY = 0;
+        _oBall.addChild(_oPressIndicator);
+
+        _oLine = new createjs.Shape();
+        _oBall.addChild(_oLine);
+
+        _oArrow = new createjs.Container();
+        _oArrow.visible = false;
+        _oArrow.y = _iOffsetArrowOnTerrain;
+        _oBall.addChild(_oArrow);
+
+        var oWaterBallSprite = s_oSpriteLibrary.getSprite("ball_water");
+        _oBallWater = createBitmap(oWaterBallSprite);
+        _oBallWater.regX = oWaterBallSprite.width * 0.54;
+        _oBallWater.regY = oWaterBallSprite.height * 0.5;
+        _oBall.addChild(_oBallWater);
+
+        _oBallSprite = createBitmap(oSprite);
+        _oBallSprite.regX = oSprite.width * 0.5;
+        _oBallSprite.regY = oSprite.height * 0.5;
+        _oBall.addChild(_oBallSprite);
+
+        _oMaskBall = new createjs.Shape();
+        _oMaskBall.graphics.beginFill("rgba(255,255,255,0.01)").r(0,0,oSprite.width, oSprite.height);
+        _oMaskBall.x = -oSprite.width/2;
+        _oMaskBall.y = -oSprite.height/2;
+        _oMaskBall.scaleY = 1;
+        _oBall.addChild(_oMaskArrow);
+
+        _oCircleMaskBall = new createjs.Shape();
+        _oCircleMaskBall.graphics.beginFill("rgba(255,0,0,0.01)").drawCircle(0, 0, oSprite.width/2);
+        _oBall.addChild(_oCircleMaskBall);
+
+        _oBallSprite.mask = _oMaskBall;
+
+        _oClickArea = new createjs.Shape();
+        _oClickArea.graphics.beginFill("rgba(255,0,0,0.01)").drawCircle(0,0,100);
+        _oBall.addChild(_oClickArea);
+        
+        _oListenerMouseDown = _oBall.on("mousedown", this._onClickPoint);
+        _oListenerMouseMove = _oBall.on("pressmove", this._onDragPoint);
+        _oListenerMouseUp = _oBall.on("pressup", this._onReleaseForce);
+
+        var iStartRot = 147;
+        
+        var oSprite = s_oSpriteLibrary.getSprite("arrow");
+        var oArrowBG = createBitmap(oSprite);
+        oArrowBG.regY = oSprite.height/2;
+        oArrowBG.rotation = iStartRot;
+        _oArrow.addChild(oArrowBG);
+        
+        _oMaskArrow = new createjs.Shape();
+        _oMaskArrow.graphics.beginFill("rgba(255,255,255,0.01)").r(0,-oSprite.height/2,oSprite.width, oSprite.height);
+        _oMaskArrow.scaleX = 0;
+        _oMaskArrow.rotation = iStartRot;
+        _oArrow.addChild(_oMaskArrow);
+        
+        var oSprite = s_oSpriteLibrary.getSprite("arrow_fill");
+        var oArrowFill = createBitmap(oSprite);
+        oArrowFill.regY = oSprite.height/2;
+        oArrowFill.mask = _oMaskArrow;
+        oArrowFill.rotation = iStartRot;
+        _oArrow.addChild(oArrowFill);
+        
+        var oSprite = s_oSpriteLibrary.getSprite("arrow_frame");
+        var oArrowFrame = createBitmap(oSprite);
+        oArrowFrame.regY = oSprite.height/2;
+        oArrowFrame.rotation = iStartRot;
+        _oArrow.addChild(oArrowFrame);
+        
+        this.pressIndicatorAnim();
+    };
+    
+    this._onClickPoint = function(evt){
+        
+    };
+
+    this._onDragPoint = function(evt) {
+        
+        if(_bIsMoving){
+            return;
+        }
+        _oArrow.visible = true;
+        
+        var v3DBallPosition = {x: s_oGame.get3DBall().position.x, y: s_oGame.get3DBall().position.y, z:s_oGame.get3DBall().position.z}; 
+        
+        var v2DScreenDirectionVect = new CVector2(evt.localX, evt.localY);
+
+        var iAngle = Math.degrees(angleBetweenVectors(_v2DScreenReferenceVector, v2DScreenDirectionVect));
+        //From 150 to 124 ANGLE CORRECTION, BECAUSE MAPPING 2D ROTATION FROM 3D. USED TO ALIGN MOUSE DRAG TO VISUAL LINE TRAJECTOR
+        var iAngleCorrection; 
+        if( (iAngle > 0 && iAngle <= 66)){
+            iAngleCorrection = -(iAngle)*13/33 + 150;
+        } else if(iAngle < 0 && iAngle >= -114){
+            iAngleCorrection = iAngle*13/56 + 150;
+        } else if(iAngle > 66){
+            iAngleCorrection = Math.abs(iAngle)*13/57 + 2070/19;
+        } else {
+            iAngleCorrection = -(iAngle)*13/34 + 1380/17;
+        }
+        var oCorrectedPos = rotateVector2D(Math.radians(iAngleCorrection),v2DScreenDirectionVect);
         
 
-<script type="text/javascript" src="/g/stats/js/cbc-stats-top.js"></script>
+        var v3DLineEndPosition = {x: v3DBallPosition.x + oCorrectedPos.x, y: v3DBallPosition.y - oCorrectedPos.y, z:v3DBallPosition.z};        
+        
+        var o2DLinePos = convert3dPosTo2dScreen(v3DLineEndPosition, s_oGame.getCamera());
 
-		
+        _oDirection = {lineX: o2DLinePos.x, lineY: o2DLinePos.y, ballX: oCorrectedPos.x, ballY: oCorrectedPos.y};
+        
+        
+        _iMouseDistance = Math.sqrt(evt.localX*evt.localX + evt.localY*evt.localY);
+        
+        var iMinDistance;
+        if(s_bMobile){
+            iMinDistance = MIN_MOUSE_DISTANCE_POWER_ACTIVATED_MOBILE;
+        } else {
+            iMinDistance = MIN_MOUSE_DISTANCE_POWER_ACTIVATED;
+        }
+        
+        _iShotPower = (_iMouseDistance - iMinDistance)/_iMousePowerDistanceRange*MAX_SHOT_POWER;
+        
+        _oParent._drawLine(evt.localX, evt.localY);
+        _oParent._drawArrow();
+       
+    };
 
-<script>
-window.location = "https://www.cbc.ca/kids/404";
-</script>
-        <div class="container">
-                        <div id="navsidebar" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-                <ul class="nav navmenu-nav">
-						<li class="nav-bar-back" id="mobile-nav-back-button"><span class="copy">Back &gt;</span></li>
-                        <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                        <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                        <li class="watch"><a href="https://www.cbc.ca/kidscbc2/videos"><span class="icon"></span><span class="copy">Watch</span></a></li>
-						<li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                </ul>
-            </div>     
-            <div class="navbar navbar-default row Bitter" role="navigation">
-                <div class="container-fluid col-xs-12 col-sm-12 col-md-12">
-                    <div id="open_sidebar" class="navbar-header">
-                        <button id="hamburger_btn" type="button" class="navbar-toggle hidden-sm hidden-md hidden-lg" data-toggle="offcanvas" data-target="#navsidebar" data-canvas=".container" data-placement="left">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span> 
-                        </button>
-							
-							<a id="head_logo" class="navbar-brand" href="https://www.cbc.ca/kidscbc2/">Kids' CBC</a>
-							
-                    </div>
-                    <div id="navdesktop" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="home"><a href="https://www.cbc.ca/kidscbc2/"><span class="icon"></span><span class="copy">Home</span></a></li>
-                            <li class="explore"><a href="https://www.cbc.ca/kidscbc2/the-feed"><span class="icon"></span><span class="copy">Explore</span></a></li>
-                            <li class="watch"><a href="https://www.cbc.ca/kidscbc2/watch"><span class="icon"></span><span class="copy">Watch</span></a></li>
-                            <li class="play"><a href="https://www.cbc.ca/kidscbc2/games"><span class="icon"></span><span class="copy">Play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    this._onReleaseForce = function (evt) {
+
+        if(_bIsMoving){
+            return;
+        }
+    
+        _oArrow.visible = false;
+        
+        _oLine.graphics.clear();
+        if(_iShotPower <= 0){
+            return;
+        } else if(_iShotPower > MAX_SHOT_POWER) {
+            _iShotPower = MAX_SHOT_POWER;
+        }
+        
+        var vPowerVector = new CVector2(_oDirection.ballX, _oDirection.ballY);
+        vPowerVector.normalize();
+
+        vPowerVector.scalarProduct(_iShotPower);
+        
+        s_oGame.launchBall({x: vPowerVector.getX(), y: -vPowerVector.getY()});
+
+        _oParent.setMoving(true);
+        _oParent.pressIndicatorStop();
+        
+        _iShotPower = 0;
+        
+        playSound("hit_ball", 1, false);
+
+    };
+
+    this._drawLine = function(iX, iY){
+        _oLine.graphics.clear();
+        _oLine.graphics.setStrokeDash([14,14], 2);
+        _oLine.graphics.setStrokeStyle(5);
+        _oLine.graphics.beginStroke("rgba(61,34,11,1)");
+        
+        _oLine.graphics.moveTo(0, _iOffsetArrowOnTerrain);
+        
+        _oLine.graphics.lineTo(iX, iY);
+    };
+
+    this._drawArrow = function(){
+        var vArrowDirection = new CVector2(_oDirection.lineX - _oBall.x, _oDirection.lineY - _oBall.y);
+        var iArrowAngle = Math.degrees(angleBetweenVectors(_v2DScreenReferenceVector, vArrowDirection));
+        _oArrow.rotation = iArrowAngle;
+        
+        var iMin = 0.17; //Based on X alpha portion of arrow
+        
+        _oMaskArrow.scaleX = (_iShotPower/MAX_SHOT_POWER)*(1-iMin) + iMin;
+    };
 
 
+    this.unload = function () {
+        _oBall.removeAllEventListeners();
+        oElementContainer.removeChild(_oBall);
+        
+        _oBall.off("mousedown", _oListenerMouseDown);
+        _oBall.off("mousemove", _oListenerMouseMove);
+        _oBall.off("mouseup", _oListenerMouseUp);
+        
+    };
+    
+    this.removeHelpAnim = function(){
+        new createjs.Tween.removeTweens(_oHelpCursor);
+        new createjs.Tween.removeTweens(_oMaskArrow);
+    };
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Sorry, we can't find the page you requested</h2>
-                </div>
-            </div>
+    this.setHelpAnim = function(){
+        var oSprite = s_oSpriteLibrary.getSprite("help_touch");
+        _oHelpCursor = createBitmap(oSprite);
+        _oHelpCursor.regX = oSprite.width * 0.33;
+        _oHelpCursor.regY = oSprite.height * 0.1;
+        _oBall.addChild(_oHelpCursor);
+        
+        this._helpCursorAnim(1000);
+        this._helpArrowAnim(1000);
+    };
 
-            <footer class="">
-        	    <div class="nav">
-                    <a href="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" target="_blank">Terms of Use</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/privacy.html" target="_blank">Privacy</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/copyright.html" target="_blank">Copyright</a>&nbsp;&nbsp;&nbsp;
-                    <a href="http://www.cbc.ca/aboutcbc/discover/policies.html" target="_blank">Other Policies</a> <br/>
-                    <span class="copyright">Copyright &copy; CBC 2024</span> <br/>
-					<span id="CMF">CMF | FMC</span>
-                </div>
-            </footer>
-        </div>
+    this._helpCursorAnim = function(iTime){
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/df471a86.vendor"></script>
-        <!-- <script src="https://www.cbc.ca/kidscbc2/scripts/jquery"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/bootstrap"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/isotope.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/swfobject"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/imagesloaded.pkgd"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/jquery.infinitescroll"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/manual-trigger"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/Imager"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/offcanvas"></script> -->
+        createjs.Tween.get(_oHelpCursor).to({x: -200, y: 120}, iTime, createjs.Ease.cubicInOut).call(function () {
+            createjs.Tween.get(_oHelpCursor).to({x : 0, y: 0}, iTime, createjs.Ease.cubicInOut).call(function () {
+                _oParent._helpCursorAnim(iTime);
+            });
+        });
+    };
 
-        <!-- Google Analytics -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-45172096-2');ga('send','pageview',{'anonymizeIp': true});
-        </script>
+    this._helpArrowAnim = function(iTime){
+        _oArrow.visible = true;
+        _oArrow.rotation = 180;
+        
+        createjs.Tween.get(_oMaskArrow).to({scaleX: 1}, iTime, createjs.Ease.cubicInOut).call(function () {
+            createjs.Tween.get(_oMaskArrow).to({scaleX: 0}, iTime, createjs.Ease.cubicInOut).call(function () {
+                _oParent._helpArrowAnim(iTime);
+            });
+        });
+    };
 
-        <!-- Omniture SiteCatalyst -->
-		
-                    <script type="text/javascript">
-            if(!CBC) { var CBC = {}; }
-            if(!CBC.APP) { CBC.APP = {}; }
-            if(!CBC.APP.SC) { CBC.APP.SC = {}; }
-            if(!CBC.APP.SC.DTM) { CBC.APP.SC.DTM = {}; } 
-            if(!CBC.APP.SC.DTM.DATA) { CBC.APP.SC.DTM.DATA = {}; } 
-            CBC.APP.SC.DTM.DATA.contentarea = "kids";
-            CBC.APP.SC.DTM.DATA.contenttype = "index";
-            CBC.APP.SC.DTM.DATA.subsection1 = "content";CBC.APP.SC.DTM.DATA.subsection2 = "games";CBC.APP.SC.DTM.DATA.subsection3 = "mini-golf-world";CBC.APP.SC.DTM.DATA.pillar = "legacyee";</script>
-				
-		
-        <!-- Modified global footer: /g/i/footer.html -->
-        <script type="text/javascript" src="/g/stats/devicedetect.js"></script>
-        <script type="text/javascript" src="/g/stats/pagetracker.js"></script>
-        <!-- ClickTale Bottom part -->
-        <script type='text/javascript'>
-            if (document.location.pathname.toLowerCase() != "/news/arts/" && document.location.pathname.toLowerCase() != "/news/arts/") {
-                document.write(unescape("%3Cscript%20src='" + (document.location.protocol == 'https:' ? 'https://clicktalecdn.sslcs.cdngc.net/' :'http://cdn.clicktale.net/') + "www08/ptc/1e64634f-c5ee-4755-b47c-87bab90f7f07.js'%20type='text/javascript'%3E%3C/script%3E"));
+    this.blink = function(){
+        createjs.Tween.get(_oBall).to({alpha:0}, 100 - _iNumBlink*15).to({alpha:1}, 300-_iNumBlink*45).wait(100 -_iNumBlink*20).call(function(){
+            _iNumBlink--;
+            if(_iNumBlink>0){
+                _oParent.blink();
+            } else {
+                _iNumBlink = 3;
             }
-        </script>
-        <!-- ClickTale end of Bottom part -->
-	<script src="https://www.cbc.ca/kidscbc2/scripts/lightbox"></script>
-        <!-- build:js scripts/main.js -->
-        <script src="https://www.cbc.ca/kidscbc2/scripts/main"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ticker"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/event_tracking"></script>
-        <script src="https://www.cbc.ca/kidscbc2/scripts/ie_update"></script> 
-        <!-- endbuild -->
-    </body>
-</html>
+        });
+    };
+
+    this.pressIndicatorAnim = function(){
+        
+        _oPressIndicator.scaleX = _oPressIndicator.scaleY = 0;
+        _oPressIndicator.alpha = 1;
+        
+        new createjs.Tween.get(_oPressIndicator).to({scaleX:1, scaleY:1},1500, createjs.Ease.cubicOut).call(function(){
+            _oParent.pressIndicatorAnim();
+        });
+        new createjs.Tween.get(_oPressIndicator).to({alpha:0},1500, createjs.Ease.cubicOut)
+    };
+    
+    this.pressIndicatorStop = function(){
+        _oPressIndicator.scaleX = _oPressIndicator.scaleY = 0;
+        new createjs.Tween.removeTweens(_oPressIndicator);
+    };
+    
+    this.setMoving = function(bVal){
+        _bIsMoving = bVal;
+    };
+
+    this.resetMask = function(){
+        _oBallWater.visible = false;
+        
+        _oBallSprite.mask = _oMaskBall;
+        _oMaskBall.scaleY = 1;
+    };
+
+    this.setWaterMask = function(iValue){
+        _oBallWater.visible = true;
+        _oBallWater.alpha = iValue;
+        
+        _oBallSprite.mask = _oCircleMaskBall;
+        _oCircleMaskBall.y = _iSpriteHeight*iValue -_iSpriteHeight;
+    };
+
+    this.setHoleMask = function(iValue){
+        _oBallWater.visible = false;
+        
+        _oBallSprite.mask = _oCircleMaskBall;
+        _oCircleMaskBall.y = _iSpriteHeight*iValue -_iSpriteHeight;
+    };
+
+    this.setVisible = function (bVisible) {
+        _oBall.visible = bVisible;
+    };
+
+    this.setPosition = function (iXPos, iYPos) {
+        _oBall.x = iXPos;
+        _oBall.y = iYPos;
+    };
+
+    this.setAlpha = function (iValue) {
+        _oBall.alpha = iValue;
+    };
+
+    this.setAngle = function (iAngle) {
+        _oBall.rotation = iAngle;
+    };
+
+    this.getX = function () {
+        return _oBall.x;
+    };
+
+    this.getY = function () {
+        return _oBall.y;
+    };
+
+    this.scale = function (fValue) {
+        _oBall.scaleX = fValue;
+        _oBall.scaleY = fValue;
+    };
+
+    this.getScale = function () {
+        return _oBall.scaleX;
+    };
+
+    this.childIndex = function (iValue) {
+        oElementContainer.setChildIndex(_oBall, iValue);
+    };
+
+    this._init(iXPos, iYPos, oSprite, oElementContainer);
+
+    _oParent = this;
+    return this;
+}

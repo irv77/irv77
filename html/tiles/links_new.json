@@ -4,6 +4,30 @@
       "title": "New/Updated Games!",
       "games": [
       [
+        "Janissary Tower",
+        "https://irv77.netlify.app/html/games/other/janissary-battles/logo.png",
+        "/html/games/other/janissary-tower/index.html",
+        ""
+      ],
+      [
+        "Master Chess",
+        "https://irv77.netlify.app/html/games/other/master-chess/sprites/200x200.jpg",
+        "/html/games/other/master-chess/index.html",
+        ""
+      ],
+      [
+        "Mini Golf World",
+        "https://irv77.netlify.app/html/games/other/mini-golf-world/sprites/200x200.jpg",
+        "/html/games/other/mini-golf-world/index.html",
+        ""
+      ],
+      [
+        "Janissary Battles",
+        "https://irv77.netlify.app/html/games/other/janissary-battles/icons/janissary-battles-512x512.png",
+        "/html/games/other/janissary-battles/index.html",
+        ""
+      ],
+      [
         "4 Colors Monument Edition",
         "https://irv77.netlify.app/html/games/other/4-colors/sprites/200x200.jpg",
         "/html/games/other/4-colors/index.html",

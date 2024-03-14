@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
       [
+        "FortZ",
+        "https://irv77.netlify.app/html/games/other/fortz/logo.png",
+        "/html/games/other/fortz/index.html",
+        ""
+      ],
+      [
         "Janissary Tower",
         "https://irv77.netlify.app/html/games/other/janissary-tower/logo.jpg",
         "/html/games/other/janissary-tower/index.html",

@@ -15,7 +15,7 @@ body {
   }
 
   hr {
-    max-width: 75%;
+    width: 75%;
     margin-bottom: 16px;
   }
 
@@ -122,6 +122,7 @@ body {
         margin: 3rem auto;
         width: 75%;
         max-width: 900px;
+        padding-left: 0;
     }
 
     .section_faq ul li {
@@ -132,7 +133,7 @@ body {
     .section_faq .question {
         margin-bottom: 1px;
         padding: 20px;
-        width: 100%;
+        width: 95%;
         background-color: rgba(0,0,0,0.5);
         border-radius: 15px;
         display: flex;
@@ -146,7 +147,7 @@ body {
 
     .section_faq .answer {
         max-height: 0;
-        width: 890px;
+        width: 94%;
         background-color: rgba(0,0,0,0.3);
         margin-left: 25px;
         overflow: hidden;

@@ -218,3 +218,12 @@ copyrightContainer.style.width = "100%";
 copyrightContainer.style.textAlign = "center";
 // Append the <p> element to the <div>
 copyrightContainer.appendChild(copyrightParagraph);
+
+// FAQ Dropdowns
+const questions = document.querySelectorAll('.question')
+
+    questions.forEach(function (question) {
+        question.addEventListener('click', function () {
+            question.classList.toggle('open')
+        })
+    })

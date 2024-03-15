@@ -292,6 +292,7 @@ h2 {
   padding-bottom: 3.2px;
   font-size: 2em;
   font-family: "Bam";
+  color: var(--theme-t);
 }
 
 h2 span {

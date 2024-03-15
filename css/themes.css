@@ -28,7 +28,7 @@ body[data-theme="light"] {
 body[data-theme="dark"] {
   --background: #000000;
   --theme: #242424;
-  --theme-ts: #44444460;
+  --theme-ts: #444444;
   --theme-t: #c58b02;
   --text: #b89113;
   --text-secondary: #8f690a;
@@ -86,4 +86,22 @@ body[data-theme="spill"] {
   --theme-t: #16c53c;
   --text: #007bff;
   --text-secondary: #f0ebd9;
+}
+
+body[data-theme="darker"] {
+  --background: #000;
+  --theme: #161616;
+  --theme-ts: #0b0b0b;
+  --theme-t: #ffffff;
+  --text: #414141;
+  --text-secondary: #232323;
+}
+
+body[data-theme="fo"] {
+  --background: #872015;
+  --theme: #bf2413;
+  --theme-ts: #e3b865;
+  --theme-t: #fff;
+  --text: #fff;
+  --text-secondary: #bbbbbb;
 }

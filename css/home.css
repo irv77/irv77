@@ -31,7 +31,6 @@ h1 {
 h2 {
 	color: var(--text);
 	text-align:center;
-  	color:white;
 }
 #cover:hover {
 	transition: transform 1s ease-in-out;
@@ -153,7 +152,7 @@ body {
 	color: var(--text);
 }  
 a {
-	color: rgb(223, 255, 170);
+	color: rgb(169, 182, 149);
 }
 
 #navbar #top-bar {

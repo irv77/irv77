@@ -460,6 +460,12 @@
           "/html/games/other/fnaw/index.html",
           ""
       ],
+      [
+        "FortZ",
+        "https://irv77.netlify.app/html/games/other/fortz/logo.png",
+        "/html/games/other/fortz/index.html",
+        ""
+      ],
         [
           "Fruit Ninja",
           "https://irv77.netlify.app/html/games/other/fruitninja/FruitNinjaTeaser.jpg",
@@ -591,12 +597,18 @@
         "https://irv77.netlify.app/html/games/other/hordekiller/logo.png",
         "/html/games/other/hordekiller/index.html",
         ""
-    ],
+      ],
         [
           "Idle Shark",
           "https://irv77.netlify.app/html/games/other/idle-shark/img/sharkgame.png",
           "/html/games/other/idle-shark/index.html",
           ""
+      ],
+      [
+        "Janissary Battles",
+        "https://irv77.netlify.app/html/games/other/janissary-battles/icons/janissary-battles-512x512.png",
+        "/html/games/other/janissary-battles/index.html",
+        ""
       ],
         [
           "Jetpack Joyride",
@@ -652,6 +664,12 @@
           "/html/games/other/mario/index.html",
           ""
       ],
+      [
+        "Master Chess",
+        "https://irv77.netlify.app/html/games/other/master-chess/sprites/200x200.jpg",
+        "/html/games/other/master-chess/index.html",
+        ""
+      ],
         [
           "Merge Round Racers",
           "https://irv77.netlify.app/html/games/other/merge-round-racers/splash.png",
@@ -669,6 +687,12 @@
           "https://irv77.netlify.app/html/games/other/minesweeper/assets/clock_icon.png",
           "/html/games/other/minesweeper/index.html",
           ""
+      ],
+      [
+        "Mini Golf World",
+        "https://irv77.netlify.app/html/games/other/mini-golf-world/sprites/200x200.jpg",
+        "/html/games/other/mini-golf-world/index.html",
+        ""
       ],
         [
           "Minecraft (Classic)",

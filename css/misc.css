@@ -107,6 +107,63 @@ body {
         transform: scale(1.2);
       }
 
+      .section_faq {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_faq h1 {
+        font-size: 3rem;
+    }
+
+    .section_faq ul {
+        margin: 3rem auto;
+        width: 75%;
+        max-width: 900px;
+    }
+
+    .section_faq ul li {
+        list-style: none;
+        margin-bottom: 8px;
+    }
+
+    .section_faq .question {
+        margin-bottom: 1px;
+        padding: 20px;
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 400;
+        cursor: pointer;
+        color: var(--text);
+    }
+
+    .section_faq .answer {
+        max-height: 0;
+        width: 890px;
+        background-color: rgba(0,0,0,0.3);
+        margin-left: 25px;
+        overflow: hidden;
+        font-size: 20px;
+        transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+        color: var(--text-secondary);
+    }
+
+    .section_faq .answer span {
+        display: inline-block;
+        padding: 1.2rem;
+    }
+
+    .section_faq .question.open + .answer {
+        max-height: 1200px;
+    }
+
   #navbar #top-bar {
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -115,3 +172,19 @@ body {
       font-family: Title;
       src: url(../img/MokotoGlitchMark.ttf);
   }
+
+  @font-face {
+    font-family: CopyR;
+    src: url(../img/CopyrightViolation.ttf);
+    }
+
+.copy p {
+    margin-top: 19.2px;
+    margin-bottom: 19.2px;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    font-family: "CopyR";
+	  font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.5);
+}

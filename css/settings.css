@@ -69,9 +69,9 @@ p {
 }
 
 .console-input input {
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(255, 255, 255, .05);
   color: var(--text-secondary);
-  border: none;
+  border: 3px solid var(--theme);
   border-radius: 5px;
   padding: 10px;
   font-size: 1em;
@@ -121,4 +121,21 @@ p {
 @font-face {
   font-family: Title;
   src: url(../img/MokotoGlitchMark.ttf);
+}
+
+@font-face {
+	font-family: CopyR;
+	src: url(../img/CopyrightViolation.ttf);
+  }
+
+  .copy p {
+    margin-top: 19.2px;
+    margin-bottom: 19.2px;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    font-family: "CopyR";
+	  font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--text);
 }

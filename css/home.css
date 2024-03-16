@@ -18,6 +18,33 @@ body {
 	margin-top: 2%;
 	margin-bottom: 6%;	
 }
+.content2 {
+	display: flex;
+	position: relative;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+	color: var(--text);
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+}
+.content2 h1 {
+	color: var(--theme-t);
+	font-size: 6em;
+	text-align: center;
+	font-weight: bold;
+	text-align:center;
+    font-family: "Title";
+    text-shadow: var(--theme-t) 3px 0 10px;
+	padding-top: 15%;
+	padding-bottom: 3%;
+	margin: 0;
+  }
+  .content2 a {
+	color: var(--text);
+	text-align:center;
+	font-family: Arial, sans-serif;
+  }
 h1 {
 	color: var(--theme-t);
 	font-size: 3em;

@@ -19,17 +19,42 @@ body {
     margin-bottom: 16px;
   }
 
+  #subtitle {
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    animation: subtitleAnim 1.5s ease-in-out infinite;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #subtitle a {
+    color: #aaaaff;
+    font-size: 1.4em;
+  }
+  #subtitle a:visited {
+    color: #aa55ff;
+  }
+
   .about {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
-    position: relative;
     flex-grow: 1;
     justify-content: center;
     background: rgba(0, 0, 0, .1);
     border-radius: 10px;
     padding: 15px;
     width: 65%;
+  }
+
+  .about .info {
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
 
   .about p {

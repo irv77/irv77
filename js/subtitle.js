@@ -348,7 +348,7 @@ const say = [
 "\"I dont need me!\"",
 "\"Rodeo Stars Is a Ridable Buckling!\"",
 "\"Kambal Karibal Is Fighting Cheska!\"",
-"\"Great job!\"",
+"\"Great job!\""
 ];
 
 var seCode = ['KeyA', 'KeyX', 'KeyE', 'KeyL'];

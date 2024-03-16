@@ -168,6 +168,7 @@ body {
         font-weight: 400;
         cursor: pointer;
         color: var(--text);
+        font-family: "Bam";
     }
 
     .section_faq .answer {
@@ -203,6 +204,11 @@ body {
     font-family: CopyR;
     src: url(../img/CopyrightViolation.ttf);
     }
+
+    @font-face {
+      font-family: Bam;
+      src: url(../img/Bamtang.ttf);
+      }
 
 .copy p {
     margin-top: 19.2px;

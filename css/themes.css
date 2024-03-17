@@ -105,3 +105,18 @@ body[data-theme="fo"] {
   --text: #fff;
   --text-secondary: #bbbbbb;
 }
+
+@font-face {
+  font-family: Title;
+  src: url(../img/MokotoGlitchMark.ttf);
+}
+
+@font-face {
+font-family: CopyR;
+src: url(../img/CopyrightViolation.ttf);
+}
+
+@font-face {
+  font-family: Bam;
+  src: url(../img/Bamtang.ttf);
+}

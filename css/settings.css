@@ -13,8 +13,9 @@ h1{
 
 h2{
   color: var(--text);
-  font-size: 26px;
+  font-size: 32px;
   margin-bottom: 15.580px;
+  font-family: "Bam";
 }
 
 option {
@@ -23,9 +24,9 @@ option {
 
 .section-title {
   color: var(--text);
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 32px;
+  margin-bottom: 15.580px;
+  font-family: "Bam";
 }
 
 input {
@@ -112,30 +113,4 @@ p {
   font-size: 1em;
   margin-right: 10px;
   cursor: pointer;
-}
-
-#navbar #top-bar {
-	background-color: rgba(0, 0, 0, 0.5);
-  }
-
-@font-face {
-  font-family: Title;
-  src: url(../img/MokotoGlitchMark.ttf);
-}
-
-@font-face {
-	font-family: CopyR;
-	src: url(../img/CopyrightViolation.ttf);
-  }
-
-  .copy p {
-    margin-top: 19.2px;
-    margin-bottom: 19.2px;
-    width: 100%;
-    padding: 0;
-    border-radius: 0;
-    font-family: "CopyR";
-	  font-size: 1.2em;
-    background: rgba(0, 0, 0, 0.5);
-    color: var(--text);
 }

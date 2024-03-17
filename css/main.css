@@ -321,28 +321,8 @@ h2 span {
   transition: all 0.3s ease-in-out;
 }
 
-#navbar #top-bar {
-	background-color: rgba(0, 0, 0, 0.5);
-  }
-
 .topbar.scrolled {
   transform: translateY(-65%);
   background-color: var(--background);
   box-shadow: 0 2px 4px rgba(128, 128, 128, 0.1); /* add a subtle shadow when scrolled */
 }
-
-@font-face {
-	font-family: CopyR;
-	src: url(../img/CopyrightViolation.ttf);
-  }
-
-@font-face {
-	font-family: Bam;
-	src: url(../img/Bamtang.ttf);
-  }
-
-  .copy {
-	font-family: "CopyR";
-	font-size: 1.2em;
-  background: rgba(0, 0, 0, 0.5);
-  }

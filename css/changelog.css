@@ -14,10 +14,12 @@ main {
     text-align: center;
     font-family: "Title";
     text-shadow: var(--theme-t) 3px 0 10px;
+    font-size: 3rem;
   }
   
   h2 {
     margin: 0;
+    font-family: "Bam";
   }
 
   p {
@@ -77,25 +79,6 @@ table {
   .add { color: #0bb351; }
   .remove { color: #e74c3c; }
   .update { color: #3498db; }
+  .fix { color: #d5a60d; }
   .system { color: #b700ff; }
   .blocked { color: #bdc3c7; }
-
-  #navbar #top-bar {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  @font-face {
-    font-family: Title;
-    src: url(../img/MokotoGlitchMark.ttf);
- }
-
-  @font-face {
-	font-family: CopyR;
-	src: url(../img/CopyrightViolation.ttf);
-  }
-
-  .copy {
-	font-family: "CopyR";
-	font-size: 1.2em;
-	background: rgba(0, 0, 0, 0.5);
-  }

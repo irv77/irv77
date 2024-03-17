@@ -32,6 +32,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
       #navbar #top-bar {
         padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
       }
 
       #navbar #top-bar nav ul {
@@ -125,6 +126,17 @@ window.addEventListener('DOMContentLoaded', function() {
         right: 0;
       }
       
+      .copy p {
+        margin-top: 19.2px;
+        margin-bottom: 19.2px;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        font-family: "CopyR";
+        font-size: 1.2em;
+        background: rgba(0, 0, 0, 0.5);
+        color: var(--text);
+      }
     </style>
 
     <div id="top-bar">

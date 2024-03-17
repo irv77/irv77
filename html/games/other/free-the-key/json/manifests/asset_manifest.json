@@ -1,0 +1,186 @@
+{
+    "json_1x": [
+        {
+            "src": "assets_@1x.json",
+            "id": "assets"
+        },
+        {
+            "src": "assets_2_@1x.json",
+            "id": "assets_2"
+        }
+    ],
+    "json_2x": [
+        {
+            "src": "assets_@2x.json",
+            "id": "assets"
+        },
+        {
+            "src": "assets_2_@2x.json",
+            "id": "assets_2"
+        }
+    ],
+    "snd_webaudio": [
+        {
+            "src": "game_sfx",
+            "id": "GAME_SFX",
+            "sprites": [
+                {
+                    "start": 0,
+                    "id": "silence",
+                    "duration": 3
+                },
+                {
+                    "start": 4,
+                    "id": "drop_block",
+                    "duration": 0.504
+                },
+                {
+                    "start": 6,
+                    "id": "fall_in",
+                    "duration": 2.527
+                },
+                {
+                    "start": 10,
+                    "id": "fire",
+                    "duration": 3
+                },
+                {
+                    "start": 14,
+                    "id": "game_over",
+                    "duration": 4.431
+                },
+                {
+                    "start": 20,
+                    "id": "gong",
+                    "duration": 3.471
+                },
+                {
+                    "start": 25,
+                    "id": "gong2",
+                    "duration": 12.712
+                },
+                {
+                    "start": 39,
+                    "id": "intro",
+                    "duration": 7.338
+                },
+                {
+                    "start": 48,
+                    "id": "move_block",
+                    "duration": 1.071
+                },
+                {
+                    "start": 51,
+                    "id": "page_slide",
+                    "duration": 0.373
+                },
+                {
+                    "start": 53,
+                    "id": "star1",
+                    "duration": 1.49
+                },
+                {
+                    "start": 56,
+                    "id": "star2",
+                    "duration": 1.2
+                },
+                {
+                    "start": 59,
+                    "id": "star3",
+                    "duration": 1.135
+                }
+            ]
+        }
+    ],
+    "snd_sprite": {
+        "id": "GAME_SFX",
+        "src": "game_sfx",
+        "sprites": [
+            {
+                "start": 0,
+                "id": "silence",
+                "duration": 3
+            },
+            {
+                "start": 4,
+                "id": "drop_block",
+                "duration": 0.504
+            },
+            {
+                "start": 6,
+                "id": "fall_in",
+                "duration": 2.527
+            },
+            {
+                "start": 10,
+                "id": "fire",
+                "duration": 3
+            },
+            {
+                "start": 14,
+                "id": "game_over",
+                "duration": 4.431
+            },
+            {
+                "start": 20,
+                "id": "gong",
+                "duration": 3.471
+            },
+            {
+                "start": 25,
+                "id": "gong2",
+                "duration": 12.712
+            },
+            {
+                "start": 39,
+                "id": "intro",
+                "duration": 7.338
+            },
+            {
+                "start": 48,
+                "id": "move_block",
+                "duration": 1.071
+            },
+            {
+                "start": 51,
+                "id": "page_slide",
+                "duration": 0.373
+            },
+            {
+                "start": 53,
+                "id": "star1",
+                "duration": 1.49
+            },
+            {
+                "start": 56,
+                "id": "star2",
+                "duration": 1.2
+            },
+            {
+                "start": 59,
+                "id": "star3",
+                "duration": 1.135
+            }
+        ]
+    },
+    "bm_font_1x": [
+        {
+            "src": "wolves_@1x.xml",
+            "id": "wolves"
+        },
+        {
+            "src": "tempus_sans_@1x.xml",
+            "id": "tempus_sans"
+        }
+    ],
+    "bm_font_2x": [
+        {
+            "src": "wolves_@2x.xml",
+            "id": "wolves"
+        },
+        {
+            "src": "tempus_sans_@2x.xml",
+            "id": "tempus_sans"
+        }
+    ]
+}

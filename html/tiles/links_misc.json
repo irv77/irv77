@@ -58,6 +58,12 @@
           ""
         ],
         [
+          "8 Ball Pool",
+          "https://irv77.netlify.app/html/games/other/8-ball-pool/logo.webp",
+          "/html/games/other/8-ball-pool/index.html",
+          ""
+        ],
+        [
           "9007199254740992",
           "https://irv77.netlify.app/html/games/other/9007199254740992/logo-4.png",
           "/html/games/other/9007199254740992/index.html",
@@ -151,6 +157,12 @@
           "Ball Hop",
           "https://irv77.netlify.app/html/games/other/ball-hop/ballhop.png",
           "/html/games/other/ball-hop/index.html",
+          ""
+        ],
+        [
+          "Baseball Fury",
+          "https://irv77.netlify.app/html/games/other/baseball-fury/logo.png",
+          "/html/games/other/baseball-fury/index.html",
           ""
         ],
         [
@@ -310,6 +322,12 @@
           "/html/games/other/csgo-clicker/index.html",
           ""
       ],
+      [
+        "Cube Flip",
+        "https://irv77.netlify.app/html/games/other/cube-flip/logo.png",
+        "/html/games/other/cube-flip/index.html",
+        ""
+      ],
         [
           "Cut the Rope",
           "https://irv77.netlify.app/html/games/other/ctr/logo.png",
@@ -464,6 +482,12 @@
         "FortZ",
         "https://irv77.netlify.app/html/games/other/fortz/logo.png",
         "/html/games/other/fortz/index.html",
+        ""
+      ],
+      [
+        "Free the Key",
+        "https://irv77.netlify.app/html/games/other/free-the-key/logo.webp",
+        "/html/games/other/free-the-key/index.html",
         ""
       ],
         [
@@ -658,6 +682,12 @@
           "/html/games/other/madalin-stunt-cars-3/index.html",
           ""
       ],
+      [
+        "Marble Dash",
+        "https://irv77.netlify.app/html/games/other/marble-dash/logo.webp",
+        "/html/games/other/marble-dash/index.html",
+        ""
+      ],
         [
           "Mari0",
           "https://irv77.netlify.app/html/games/other/mario/m0.png",
@@ -668,6 +698,12 @@
         "Master Chess",
         "https://irv77.netlify.app/html/games/other/master-chess/sprites/200x200.jpg",
         "/html/games/other/master-chess/index.html",
+        ""
+      ],
+      [
+        "Maze Planet 3D",
+        "https://irv77.netlify.app/html/games/other/maze-planet-3d/logo.jpg",
+        "/html/games/other/maze-planet-3d/index.html",
         ""
       ],
         [
@@ -802,6 +838,18 @@
           "/html/games/other/picky-package/index.html",
           ""
       ],
+      [
+        "Pizza Tower",
+        "https://irv77.netlify.app/html/games/other/pizza-tower/logo.jpg",
+        "/html/games/other/pizza-tower/index.html",
+        ""
+      ],
+      [
+        "Poor Bunny",
+        "https://irv77.netlify.app/html/games/other/poor-bunnies/favicon.png",
+        "/html/games/other/poor-bunnies/index.html",
+        ""
+      ],
         [
           "PortalGO",
           "https://irv77.netlify.app/html/games/other/portalgo/pgo.png",
@@ -826,11 +874,23 @@
           "/html/games/other/rabbit-samurai2/index.html",
           ""
       ],
+      [
+        "Recoil",
+        "https://irv77.netlify.app/html/games/other/recoil/webapp/cover.jpg",
+        "/html/games/other/recoil/index.html",
+        ""
+      ],
         [
           "Retro Bowl",
           "https://irv77.netlify.app/html/games/other/retrobowl/img/splash.png",
           "/html/games/other/retrobowl/index.html",
           ""
+      ],
+      [
+        "Rio Rex",
+        "https://irv77.netlify.app/html/games/other/rio-rex/e65ee3a5-b1c5-4003-abb8-b52cb215bd10.png",
+        "/html/games/other/rio-rex/index.html",
+        ""
       ],
       [
         "Roblox",
@@ -880,11 +940,23 @@
           "/html/games/other/scrapmetal/index.html",
           ""
       ],
+      [
+        "Shortcut Run",
+        "https://irv77.netlify.app/html/games/other/shortcut-run/icons/icon-512.png",
+        "/html/games/other/shortcut-run/index.html",
+        ""
+      ],
         [
           "Slime Rush TD",
           "https://irv77.netlify.app/html/games/other/slime-rush-td/splash.png",
           "/html/games/other/slime-rush-td/index.html",
           ""
+      ],
+      [
+        "Sling Drift",
+        "https://irv77.netlify.app/html/games/other/sling-drift/logo.png",
+        "/html/games/other/sling-drift/index.html",
+        ""
       ],
         [
           "Slither.io",
@@ -933,6 +1005,12 @@
           "https://irv77.netlify.app/html/games/other/snowbattle/img/logo.png",
           "/html/games/other/snowbattle/index.html",
           ""
+      ],
+      [
+        "Snow Rider 3D",
+        "https://irv77.netlify.app/html/games/other/snow-rider-3d/logo.png",
+        "/html/games/other/snow-rider-3d/index.html",
+        ""
       ],
         [
           "Soccer Random",
@@ -1011,6 +1089,12 @@
           "https://irv77.netlify.app/html/games/other/stormthehouse2/stormthehouse2.jpg",
           "/html/games/other/stormthehouse2/index.html",
           ""
+      ],
+      [
+        "Striker Dummies",
+        "https://irv77.netlify.app/html/games/other/striker-dummies/e9a16c6f058d25f9e9e4b2cd18fddc3e.jpg",
+        "/html/games/other/striker-dummies/index.html",
+        ""
       ],
       [
         "Stunt Car Challenge 3",
@@ -1096,6 +1180,12 @@
           "/html/games/other/theheist/index.html",
           ""
       ],
+      [
+        "The Little Giant",
+        "https://irv77.netlify.app/html/games/other/the-little-giant/logo.jpg",
+        "/html/games/other/the-little-giant/index.html",
+        ""
+      ],
         [
           "There is No Game",
           "https://irv77.netlify.app/html/games/other/thereisnogame/logo.png",
@@ -1131,6 +1221,12 @@
           "https://irv77.netlify.app/html/games/other/tunnelrush/tunnel.jpg",
           "/html/games/other/tunnelrush/index.html",
           ""
+      ],
+      [
+        "Two Punk Racing",
+        "https://irv77.netlify.app/html/games/other/two-punk-racing/logo.webp",
+        "/html/games/other/two-punk-racing/index.html",
+        ""
       ],
       [
         "Ultimate Car Driving",

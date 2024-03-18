@@ -1,0 +1,16 @@
+{
+"companyName": "Bytehop Studios",
+"productName": "Cube Flip - Grid Puzzles",
+"productVersion": "0.1",
+"dataUrl": "CubeFlip_GD.data.unityweb",
+"wasmCodeUrl": "CubeFlip_GD.wasm.code.unityweb",
+"wasmFrameworkUrl": "CubeFlip_GD.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#252425",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.2f1"
+}

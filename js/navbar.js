@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', function() {
       .theme {
         position: absolute;
         top: 8px;
-        right: 51px;
+        right: 61px;
         width: 1.3em;
       }
 

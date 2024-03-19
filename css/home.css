@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 body {
-	background: var(--home);    
+	background: var(--home);  
+	background-size: cover;
+	background-position: right; 
+	background-attachment: fixed; 
 	color: var(--text);
 	font-family: Arial, sans-serif;
 	margin: 0px;
@@ -15,7 +18,7 @@ body {
 	flex-direction: column;
 	color: var(--text);
 	font-family: "Raleway", sans-serif;
-	margin-top: 2%;
+	margin-top: 5%;
 	margin-bottom: 6%;	
 }
 .content2 {
@@ -58,6 +61,9 @@ h1 {
 h2 {
 	color: var(--text);
 	text-align:center;
+}
+h1#font {
+	margin-top: 14px;
 }
 #cover:hover {
 	transition: transform 1s ease-in-out;

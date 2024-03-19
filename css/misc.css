@@ -1,20 +1,24 @@
 body {
     background: var(--page); 
+    background-size: cover;
+	  background-position: right; 
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     color: var(--text);
     margin: 0px;
   }
   h1 {
     color: var(--theme-t);
-    font-size: 2em;
+    font-size: 3rem;
     text-align: center;
     margin-top: 50px;
     font-family: "Title";
     text-shadow: var(--theme-t) 3px 0 10px;
-    margin-top: 65px;
+    margin-top: 70px;
   }
 
   hr {
+    border: 1px solid var(--text);
     width: 75%;
     margin-bottom: 16px;
   }
@@ -100,8 +104,8 @@ body {
 
     button {
         background: var(--theme);
-        width: 30vw;
-        height: 2em;
+        width: 40vw;
+        height: 2.5em;
         padding: 10px;
         border-radius: 10px;
         cursor: pointer;
@@ -141,7 +145,7 @@ body {
     }
 
     .section_faq h1 {
-        font-size: 3rem;
+        margin-top: 39.840px;
     }
 
     .section_faq ul {

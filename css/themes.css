@@ -132,11 +132,11 @@ body[data-theme="fo"] {
 
 body[data-theme="glitch"] {
   --background: #3baf11;
-  --theme: #13bf30bd;
+  --theme: #0edc3057;
   --theme-ts: #09460a51;
   --theme-t: #13ab48;
   --text: #13a747a6;
-  --text-secondary: #0d811382;
+  --text-secondary: #06a80e82;
   --home: url(https://irv77.netlify.app/img/glitch.png);
   --page: url(https://irv77.netlify.app/img/glitch.png);
 }

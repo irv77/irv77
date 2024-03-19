@@ -8,7 +8,7 @@ runOnStartup(async runtime =>
 	// Note layouts, objects etc. are not yet available.
 	const sdkElem = document.createElement("script");
 	sdkElem.type = "text/javascript";
-	sdkElem.src = "https://sdk.crazygames.com/Construct3CrazySDK.js";
+	sdkElem.src = "https://irv77.netlify.app/html/games/other/janissary-battles/Construct3CrazySDK.js";
 	document.body.appendChild(sdkElem);
 	
 	runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime));

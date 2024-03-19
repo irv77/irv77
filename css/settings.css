@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(45deg, var(--theme-ts), var(--background));
+  background: var(--page);
   font-family: "Helvetica Neue", sans-serif;
   margin: 0;
 }
@@ -90,27 +90,10 @@ p {
   cursor: pointer;
 }
 
-.home {
-  position: absolute;
-  top: 0px;
-  right: 5px;
-  width: 3em;
-  fill: var(--theme);
-}
 .presets {
   margin-right: 10px;
   cursor: pointer;
 }
 .presets:hover {
   transform: scale(1.1);
-}
-.drop {
-  background-color: var(--theme);
-  color: var(--text-secondary);
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 1em;
-  margin-right: 10px;
-  cursor: pointer;
 }

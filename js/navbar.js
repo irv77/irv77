@@ -33,6 +33,7 @@ window.addEventListener('DOMContentLoaded', function() {
       #navbar #top-bar {
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.5);
       }
 
       #navbar #top-bar nav ul {
@@ -54,6 +55,13 @@ window.addEventListener('DOMContentLoaded', function() {
         transition: background-color 0.3s ease;
       }
 
+      .theme {
+        position: absolute;
+        top: 8px;
+        right: 51px;
+        width: 1.3em;
+      }
+
       .settings {
         position: absolute;
         top: 5px;
@@ -63,6 +71,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
       path {
         transition: fill 0.3s ease;
+      }
+
+      .theme:hover path {
+        stroke: var(--text-secondary);
       }
 
       .settings:hover path {
@@ -167,6 +179,10 @@ window.addEventListener('DOMContentLoaded', function() {
           <svg  xmlns="http://www.w3.org/2000/svg"  class="svg"  viewBox="0 0 24 24"    stroke="var(--text)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
             <path d="M20 4v8" /><path d="M16 4.5v7" /><path d="M12 5v16" /><path d="M8 5.5v5" /><path d="M4 6v4" /><path d="M20 8h-16" />
           </svg><span> Extras</span></a></a></li>
+          <li><a href="https://irv77.netlify.app/html/themes.html">
+          <svg  xmlns="http://www.w3.org/2000/svg"  class="theme"  viewBox="0 0 24 24"    stroke="var(--text)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
+          <path d="M3 21v-4a4 4 0 1 1 4 4h-4" /><path d="M21 3a16 16 0 0 0 -12.8 10.2" /><path d="M21 3a16 16 0 0 1 -10.2 12.8" /><path d="M10.6 9a9 9 0 0 1 4.4 4.4" /></svg>
+        </a></li>
           <li><a href="https://irv77.netlify.app/html/settings.html">
           <svg  xmlns="http://www.w3.org/2000/svg"  class="settings"  viewBox="0 0 24 24"    stroke="var(--text)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
           <path d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M6 4v4" /><path d="M6 12v8" /><path d="M10 16a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M12 4v10" /><path d="M12 18v2" /><path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M18 4v1" /><path d="M18 9v11" />

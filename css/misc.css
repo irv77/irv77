@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, var(--theme-ts), var(--background)); 
+    background: var(--page); 
     font-family: Arial, sans-serif;
     color: var(--text);
     margin: 0px;

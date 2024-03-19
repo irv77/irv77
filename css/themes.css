@@ -5,6 +5,8 @@ body[data-theme="default"] {
   --theme-t: #cc4343;
   --text: #e5e5e5;
   --text-secondary: #ffffff;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="classic"] {
@@ -14,15 +16,19 @@ body[data-theme="classic"] {
   --theme-t: #eaeaff;
   --text: #d4d4d4;
   --text-secondary: #9e9e9e;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="light"] {
-  --background: #bfbfbf;
-  --theme: #345c95;
+  --background: #cccccc;
+  --theme: #527fbf;
   --theme-ts: #579eff;
-  --theme-t: #1db7da;
-  --text: #8282b9;
-  --text-secondary: #7464b3;
+  --theme-t: #10e8ef;
+  --text: #ffffff;
+  --text-secondary: #d2d2d2;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="dark"] {
@@ -32,6 +38,8 @@ body[data-theme="dark"] {
   --theme-t: #c58b02;
   --text: #b89113;
   --text-secondary: #8f690a;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="con"] {
@@ -41,15 +49,19 @@ body[data-theme="con"] {
   --theme-t: #0cace6;      
   --text: #d0d0db;
   --text-secondary: #f4f3ff;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }  
 
 body[data-theme="sumpeach"] {
   --background: #08253d;
   --theme: #b55e71;
   --theme-ts: #ff7190;
-  --theme-t: rgb(230, 35, 35);
+  --theme-t: #e62323;
   --text: #ffffff;
   --text-secondary: #ff9a9a;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="cansh"] {
@@ -59,6 +71,8 @@ body[data-theme="cansh"] {
   --theme-t: #f01039;
   --text: #de348c;
   --text-secondary: #970e0e;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="rblue"] {
@@ -68,6 +82,8 @@ body[data-theme="rblue"] {
   --theme-t: #a12fff;
   --text: #bdb9a2;
   --text-secondary: #fff5e3;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="retro"] {
@@ -77,6 +93,8 @@ body[data-theme="retro"] {
   --theme-t: #edae7a;
   --text: #edc3a1;
   --text-secondary: #ffe6d6;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="spill"] {
@@ -86,24 +104,41 @@ body[data-theme="spill"] {
   --theme-t: #16c53c;
   --text: #007bff;
   --text-secondary: #f0ebd9;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="darker"] {
-  --background: #000;
+  --background: #000000;
   --theme: #161616;
   --theme-ts: #0b0b0b;
   --theme-t: #ffffff;
   --text: #414141;
   --text-secondary: #232323;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
 }
 
 body[data-theme="fo"] {
   --background: #872015;
   --theme: #bf2413;
   --theme-ts: #e3b865;
-  --theme-t: #fff;
-  --text: #fff;
+  --theme-t: #ffffff;
+  --text: #ffffff;
   --text-secondary: #bbbbbb;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="glitch"] {
+  --background: #3baf11;
+  --theme: #13bf30bd;
+  --theme-ts: #09460a51;
+  --theme-t: #13ab48;
+  --text: #13a747a6;
+  --text-secondary: #0d811382;
+  --home: url(https://irv77.netlify.app/img/glitch.png);
+  --page: url(https://irv77.netlify.app/img/glitch.png);
 }
 
 @font-face {

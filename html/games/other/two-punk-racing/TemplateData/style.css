@@ -97,7 +97,7 @@
     border: 0;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
-    background: url("https://cdn.glitch.com/161fba10-08d4-4007-b3c4-cf3478168729%2Fbg-galaxy3-6.png?1557025303102");
+    background: url("https://irv77.netlify.app/html/games/other/two-punk-racing/TemplateData/bg-galaxy3-6.png");
     background-attachment: fixed;
     background-color: rgba(200, 139, 58, 0.5);
     padding: 18px 46px;
@@ -120,7 +120,7 @@
     background: linear-gradient(0deg,
             rgba(200, 139, 58, 0.5),
             rgba(200, 139, 58, 0.3)),
-        url("https://cdn.glitch.com/161fba10-08d4-4007-b3c4-cf3478168729%2Fbg-galaxy3-6.png?1557025303102");
+        url("https://irv77.netlify.app/html/games/other/two-punk-racing/TemplateData/bg-galaxy3-6.png");
     background-attachment: fixed;
     background-color: rgba(200, 139, 58);
 }

@@ -6,6 +6,167 @@
 		<link rel="stylesheet" href="Emulatrix.css">
 	</head>
 	<body>
+		<script src="vendor/jszip/jszip.min.js"></script>
+<script>
+    function isMobileDevice(){return!!(navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/webOS/i)||navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPad/i)||navigator.userAgent.match(/iPod/i)||navigator.userAgent.match(/BlackBerry/i)||navigator.userAgent.match(/Windows Phone/i))}
+    //function alertCustom(title,message,accept){try{var alertContainer = document.createElement("div");alertContainer.style.position = "fixed";alertContainer.style.top = 0;alertContainer.style.bottom = 0;alertContainer.style.left = 0;alertContainer.style.right = 0;alertContainer.style.zIndex = 9999;alertContainer.style.backgroundColor = "rgba(0,0,0,0.5)";var alertForm = document.createElement("div");alertForm.style.position = "relative";alertForm.style.top = "50%";alertForm.style.left = 0;alertForm.style.right = 0;alertForm.style.marginLeft = "auto";alertForm.style.marginRight = "auto";alertForm.style.transform = "translateY(-50%)";alertForm.style.width = "400px";alertForm.style.backgroundColor = "#f2f2f2";alertForm.style.textAlign = "center";var alertTitle = document.createElement("div");alertTitle.style.textAlign = "left";alertTitle.style.paddingLeft = "10px";alertTitle.style.backgroundColor = "#3a76b1";alertTitle.style.fontFamily = "Arial";alertTitle.style.fontSize = "16px";alertTitle.style.fontWeight = "bold";alertTitle.style.color = "white";alertTitle.style.lineHeight = 2.5;alertTitle.innerHTML = title;var alertMessage = document.createElement("div");alertMessage.style.padding = "20px";alertMessage.style.fontFamily = "Arial";alertMessage.style.fontSize = "16px";alertMessage.style.color = "black";alertMessage.style.textAlign = "center";alertMessage.style.lineHeight = 2;alertMessage.innerHTML = message;var alertButton = document.createElement("div");alertButton.style.padding = "10px";alertButton.style.backgroundColor = "#d2d2d2";alertButton.style.border = "1px solid #b2b2b2";alertButton.style.fontFamily = "Arial";alertButton.style.fontSize = "16px";alertButton.style.color = "black";alertButton.style.textAlign = "center";alertButton.style.lineHeight = 1.5;alertButton.style.display = "inline-block";alertButton.style.marginBottom = "10px";alertButton.style.paddingLeft = "40px";alertButton.style.paddingRight = "40px";alertButton.style.cursor = "pointer";alertButton.addEventListener("click",function(event){document.body.removeChild(alertContainer);});alertButton.innerHTML = accept;alertForm.appendChild(alertTitle);alertForm.appendChild(alertMessage);alertForm.appendChild(alertButton);alertContainer.appendChild(alertForm);document.body.appendChild(alertContainer);}catch(err){}}
+
+    var userLanguage = window.navigator.userLanguage || window.navigator.language;
+
+    var ROMDATA = "";
+    var ROMNAME = "";
+    var DOSGAME = false;
+    var MOVEMENTS_IDLE = 0;
+    var STATE_CHECK_TIMES = 8;
+    var STRING_HOW_DESKTOP1 = "";
+    var STRING_HOW_DESKTOP2 = "";
+    var STRING_HOW_MOBILE = "";
+    var STRING_HOW_MOBILE_IOS = "Emulatrix<br/>is not compatible<br/>with iOS systems.";
+    var STRING_SAFARI = "Emulatrix<br/>is not compatible<br/>with the Safari Web browser.";
+    var STRING_INSERTCOIN = "INSERT COIN = 1";
+    var STRING_SELECTGAME = "Select game";
+    var STRING_UPLOADFILE = "Upload file";
+    var STRING_DOWNLOADFILE = "Download file";
+    var STRING_LOADSTATE = "Upload game state";
+    var STRING_SAVESTATE = "Download game state";
+    var STRING_GOBACK = "Go back...";
+    var STRING_RELOAD = "Reload game";
+    var STRING_READINGFILE = "Reading file...";
+    var STRING_STARTINGEMULATOR = "Starting SEGA Genesis...";
+    var STRING_SELECTFOLDER = "Select the folder";
+    var STRING_KEYBOARDANDMOUSE = "KEYBOARD<br/>AND MOUSE";
+    var STRING_ERROREXTENSION_TITLE = "MESSAGE";
+    var STRING_ERROREXTENSION_MESSAGE = "Please check that the game file has an allowed<br />format: NES, SMC, SFC, SRM, GB, GBC,<br />GBA, BIN, SMD, MD or ZIP.";
+    var STRING_ERROREXTENSION_ACCEPT = "OK";
+    var STRING_SAVING = "Saving, please wait...";
+    var STRING_LOADING = "Loading, please wait...";
+    var STRING_SAVED = "File saved in Downloads.";
+    var STRING_SOUND = "Game sound";
+    var STRING_DECREASE = "Decrease cycles";
+    var STRING_INCREASE = "Increase cycles";
+
+    function runGame() {				
+        var blob = null;
+        var xhr = new XMLHttpRequest();
+        var fileReader = new FileReader();
+        xhr.open("GET", "/api/getrom/10107");
+        //xhr.setRequestHeader('Authorization', 'Bearer ' + '1234567890');
+        xhr.responseType = "blob"; 
+        fileReader.onload  = function(event) {
+            ROMDATA = this.result;
+            ROMNAME = "oldgame.bin";
+            DOSGAME = false;
+            document.getElementById("container").style.display = "block";
+            document.getElementById("container").focus();
+
+            document.getElementById("container").contentDocument.location.replace("/vendor/emulatrix/Emulatrix_SegaGenesis.htm");
+            //console.log("Emulation started...");
+        }
+        xhr.onload = function() {
+            blob = xhr.response;
+            var extension = "/roms/genesis/FixItFelixFelix-md-airwalk.zip".split(".").pop().toLowerCase();
+            var platform = "genesis";
+            if (extension=="zip" && platform !="arcade") {
+                var new_zip = new JSZip();
+                new_zip.loadAsync(blob)
+                .then(function(zip) {
+                    var file = "";
+                    $.each(zip.files, function (index, zipEntry) {
+                        var extension = zipEntry.name.split(".").pop().toLowerCase();
+                        if (extension=="bin" | extension=="smd" | extension=="md" | extension=="smc" | extension=="sfc" | extension=="nes" | extension=="gb" | extension=="gbc" | extension=="gg") { 
+                            file = zipEntry.name;
+                            return;
+                        }                
+                    });
+                    return zip.file(file).async("blob");
+                })
+                .then(function success(data) {
+                    //console.log(data);
+                    fileReader.readAsArrayBuffer(data);
+                }, function error(e) {
+                    console.log("Error: unzip file...");
+                }); 
+                //return false;
+            } else {
+                fileReader.readAsArrayBuffer(blob);
+            }
+        }
+        xhr.send();				
+    }
+
+    const resX = 320;
+    const resY = 224;
+
+    function updateEmViewSize() {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        var containerParent = document.getElementById('emContainerParent');
+        //console.log('resy='+resY+' height='+height);
+        containerParent.style.maxWidth = (resX*3) + 'px';
+        if (resY*3 > height) {
+            containerParent.style.maxWidth = (resX*2) + 'px';
+            if (resY*2 > height) {
+                containerParent.style.maxWidth = (resX) + 'px';
+            }
+        }
+    }
+    function fsUpdateSize() {
+        var height = window.screen.height-20;
+        var emView = document.getElementById("emView");
+        var emContainer = document.getElementById("emContainer");
+        var containerParent = document.getElementById('emContainerParent');
+        const aspect = emContainer.offsetWidth/emContainer.offsetHeight;
+        containerParent.style.maxWidth = height * aspect + 'px';
+        //console.log(height * aspect);
+
+    }
+
+    function emulatorLoad() {
+        $(".em-ui-buttons").show();
+        
+        $("#em_sound").click(function() {
+            document.getElementById("container").contentWindow.toggleSound();
+        });
+        $("#em_fullscreen").click(function() {
+            var elem = document.getElementById("container");
+            //var emContainer = document.getElementById("emContainerParent");
+            //var iframe = document.getElementById("container");
+            //var elmnt = iframe.contentWindow.document.getElementById("container");
+            //var elem = document.getElementById("emView");            
+            if ((document.fullScreenElement && document.fullScreenElement !== null) || (!document.mozFullScreen && !document.webkitIsFullScreen)) {                
+                elementOpenFullscreen(elem);
+                //fsUpdateSize();
+            } else {
+                elementCloseFullscreen(elem);
+                //updateEmViewSize();
+            }
+        });	
+
+        runGame();
+        setInterval(function() { // KEEPING FOCUS IN THE CONTAINER
+            document.getElementById("container").focus();
+        }, 250);
+    }
+
+    document.addEventListener("DOMContentLoaded", function(event) {                 
+        updateEmViewSize();
+    });
+
+    var elemContainer = document.getElementById("emContainer");
+    elemContainer.insertAdjacentHTML('afterbegin', '<iframe id="container" src="about:blank"></iframe>');
+
+</script>
+<script>
+var isFullScreen = false;
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+    $(".em-ui-buttons").hide();	
+    $("#em_start").click(function() {
+        $(".em-ui-overlay").hide();
+        emulatorLoad();
+    });
+});
+</script>
 		<script>
 			var container_width;
 			var container_height;

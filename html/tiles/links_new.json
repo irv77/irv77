@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
       [
+        "Doom",
+        "https://irv77.netlify.app/html/games/other/dos/Doom.jpg",
+        "/html/games/other/doom/index.html",
+        "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
+      ],
+      [
         "Two Punk Racing",
         "https://irv77.netlify.app/html/games/other/two-punk-racing/logo.webp",
         "/html/games/other/two-punk-racing/index.html",

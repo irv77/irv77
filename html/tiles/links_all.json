@@ -2013,6 +2013,12 @@
           "/html/games/other/miscgame/contracool.html",
           ""
       ],
+      [
+        "Doom",
+        "https://irv77.netlify.app/html/games/other/dos/Doom.jpg",
+        "/html/games/other/doom/index.html",
+        "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
+      ],
         [
           "Double Dragon ",
           "https://irv77.netlify.app/html/games/other/miscgame/dd.jpg",
@@ -2037,12 +2043,120 @@
           "/html/games/other/example/f13.html",
           ""
       ],
+      [
+        "Mario Kart 64",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/mk64.jpg",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mk64.z64",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mk64.z64",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mk64.z64"
+    ],
+      [
+        "Mario Kart DS",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/mkds.jpg",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mkds.nds",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mkds.nds",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mkds.nds"
+    ],
         [
           "Mega Man 2 ",
           "https://irv77.netlify.app/html/games/other/miscgame/mm2.jpg",
           "/html/games/other/miscgame/megamandos.html",
           ""
       ],
+      [
+        "Mother 3",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/mother3.png",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba"
+    ],
+      [
+        "New Super Mario Bros",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/nsmb.jpg",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=nsmb.nds",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=nsmb.nds",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=nsmb.nds"
+    ],
+      [
+        "Paper Mario 64",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/pm64.jpg",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=pm64.z64",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=pm64.z64",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=pm64.z64"
+    ],
+      [
+        "Pokemon Sapphire",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/pokemon-sapphire.jpg",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=pokemon-sapphire.gba",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=pokemon-sapphire.gba",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=pokemon-sapphire.gba"
+    ],
+      [
+        "River City Ransom ",
+        "https://irv77.netlify.app/html/games/other/example/rcr.jpg",
+        "/html/games/other/example/rivercity.html",
+        ""
+    ],
+      [
+        "Super Mario 64",
+        "https://irv77.netlify.app/html/games/other/sm64/sm64.jpg",
+        "/html/games/other/sm64/index.html",
+        ""
+    ],
+      [
+        "Super Mario Bros. ",
+        "https://irv77.netlify.app/html/games/other/miscgame/sm.png",
+        "/html/games/other/miscgame/mariones.html",
+        ""
+    ],
+      [
+        "Super Mario Bros. 2 ",
+        "https://irv77.netlify.app/html/games/other/example/sm2.jpg",
+        "/html/games/other/example/sm2.html",
+        ""
+    ],
+      [
+        "Super Mario Bros. 3 ",
+        "https://irv77.netlify.app/html/games/other/example/sm3.jpg",
+        "/html/games/other/example/sm3.html",
+        ""
+    ],
+    [
+      "Mario &; Luigi - Superstar Saga",
+      "https://irv77.netlify.app/html/games/other/webretro/thumb/superstar-saga.jpg",
+      "/html/games/other/webretro/index.html?core=autodetect&rom=superstar-saga.gba",
+      "",
+      "/html/games/other/webretro/index.html?core=autodetect&rom=superstar-saga.gba",
+      "/html/games/other/webretro/index.html?core=autodetect&rom=superstar-saga.gba"
+  ],
+  [
+          "Mike Tysons Punch Out",
+          "https://irv77.netlify.app/html/games/other/webretro/thumb/mtpo.jpg",
+          "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes",
+          "",
+          "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes",
+          "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes"
+      ],
+      [
+        "The Legend of Zelda ",
+        "https://irv77.netlify.app/html/games/other/miscgame/zeld.png",
+        "/html/games/other/miscgame/zeldanes.html",
+        ""
+    ],
+    [
+      "Mike Tysons Punch Out",
+      "https://irv77.netlify.app/html/games/other/webretro/thumb/mtpo.jpg",
+      "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes",
+      "",
+      "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes",
+      "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes"
+  ],
         [
           "The Legend Of Zelda - Links Awakening",
           "https://irv77.netlify.app/html/games/other/webretro/thumb/linksawakeningdx.jpg",
@@ -2060,90 +2174,6 @@
           "/html/games/other/webretro/index.html?core=autodetect&rom=minish-cap.gba"
       ],
         [
-          "Mario Kart 64",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/mk64.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mk64.z64",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mk64.z64",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mk64.z64"
-      ],
-        [
-          "Mario Kart DS",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/mkds.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mkds.nds",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mkds.nds",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mkds.nds"
-      ],
-        [
-          "Mother 3",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/mother3.png",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba"
-      ],
-        [
-          "New Super Mario Bros",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/nsmb.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=nsmb.nds",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=nsmb.nds",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=nsmb.nds"
-      ],
-        [
-          "Paper Mario 64",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/pm64.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=pm64.z64",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=pm64.z64",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=pm64.z64"
-      ],
-        [
-          "Pokemon Sapphire",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/pokemon-sapphire.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=pokemon-sapphire.gba",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=pokemon-sapphire.gba",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=pokemon-sapphire.gba"
-      ],
-        [
-          "River City Ransom ",
-          "https://irv77.netlify.app/html/games/other/example/rcr.jpg",
-          "/html/games/other/example/rivercity.html",
-          ""
-      ],
-        [
-          "Super Mario 64",
-          "https://irv77.netlify.app/html/games/other/sm64/sm64.jpg",
-          "/html/games/other/sm64/index.html",
-          ""
-      ],
-        [
-          "Super Mario Bros. ",
-          "https://irv77.netlify.app/html/games/other/miscgame/sm.png",
-          "/html/games/other/miscgame/mariones.html",
-          ""
-      ],
-        [
-          "Super Mario Bros. 2 ",
-          "https://irv77.netlify.app/html/games/other/example/sm2.jpg",
-          "/html/games/other/example/sm2.html",
-          ""
-      ],
-        [
-          "Super Mario Bros. 3 ",
-          "https://irv77.netlify.app/html/games/other/example/sm3.jpg",
-          "/html/games/other/example/sm3.html",
-          ""
-      ],
-        [
-          "The Legend of Zelda ",
-          "https://irv77.netlify.app/html/games/other/miscgame/zeld.png",
-          "/html/games/other/miscgame/zeldanes.html",
-          ""
-      ],
-        [
           "Super Mario World",
           "https://irv77.netlify.app/html/games/other/webretro/thumb/super-mario-world.jpg",
           "/html/games/other/webretro/index.html?core=autodetect&rom=world.smc",
@@ -2159,6 +2189,14 @@
           "/html/games/other/webretro/index.html?core=autodetect&rom=earthbound.sfc",
           "/html/games/other/webretro/index.html?core=autodetect&rom=earthbound.sfc"
       ],
+      [
+        "Earthbound Zero",
+        "https://irv77.netlify.app/html/games/other/webretro/thumb/mother.jpg",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mother.nes",
+        "",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mother.nes",
+        "/html/games/other/webretro/index.html?core=autodetect&rom=mother.nes"
+    ],
         [
           "Final Fantasy",
           "https://irv77.netlify.app/html/games/other/webretro/thumb/finalfantasy.webp",
@@ -2166,14 +2204,6 @@
           "",
           "/html/games/other/webretro/index.html?core=autodetect&rom=finalfantasy.nes",
           "/html/games/other/webretro/index.html?core=autodetect&rom=finalfantasy.nes"
-      ],
-        [
-          "Mike Tysons Punch Out",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/mtpo.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mtpo.nes"
       ],
         [
           "The Legend of Zelda - A Link to the Past",
@@ -2190,14 +2220,6 @@
           "",
           "/html/games/other/webretro/index.html?core=autodetect&rom=metroid.sfc",
           "/html/games/other/webretro/index.html?core=autodetect&rom=metroid.sfc"
-      ],
-        [
-          "Earthbound Zero",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/mother.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother.nes",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother.nes",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother.nes"
       ],
         [
           "Super Mario Kart",
@@ -2224,14 +2246,6 @@
           "/html/games/other/webretro/index.html?core=autodetect&rom=sonic-advance.gba"
       ],
         [
-          "Mario &; Luigi - Superstar Saga",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/superstar-saga.jpg",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=superstar-saga.gba",
-          "",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=superstar-saga.gba",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=superstar-saga.gba"
-      ],
-        [
           "Wario Land 4",
           "https://irv77.netlify.app/html/games/other/webretro/thumb/warioland4.png",
           "/html/games/other/webretro/index.html?core=autodetect&rom=warioland4.gba",
@@ -2246,20 +2260,6 @@
           "",
           "/html/games/other/webretro/index.html?core=autodetect&rom=kirbo.smc",
           "/html/games/other/webretro/index.html?core=autodetect&rom=kirbo.smc"
-      ],
-        [
-          "Mother 3 (no crying until the end)",
-          "https://irv77.netlify.app/html/games/other/webretro/thumb/mother3.png",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba",
-          "Mother (known as EarthBound outside Japan) is a video game series that consists of three role-playing video games: Mother (1989), known as EarthBound Beginnings outside Japan",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba",
-          "/html/games/other/webretro/index.html?core=autodetect&rom=mother3.gba"
-      ],
-        [
-          "Doom",
-          "https://irv77.netlify.app/html/games/other/dos/Doom.jpg",
-          "/html/games/other/doom/index.html",
-          "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
       ],
         [
           "Super Street Fighter II TURBO",

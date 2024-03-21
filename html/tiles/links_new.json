@@ -3,174 +3,192 @@
     {
       "title": "New/Updated Games!",
       "games": [
-      [
-        "Doom",
-        "https://irv77.netlify.app/html/games/other/dos/Doom.jpg",
-        "/html/games/other/doom/index.html",
-        "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
-      ],
-      [
-        "Two Punk Racing",
-        "https://irv77.netlify.app/html/games/other/two-punk-racing/logo.webp",
-        "/html/games/other/two-punk-racing/index.html",
-        ""
-      ],
-      [
-        "Snow Rider 3D",
-        "https://irv77.netlify.app/html/games/other/snow-rider-3d/logo.png",
-        "/html/games/other/snow-rider-3d/index.html",
-        ""
-      ],
-      [
-        "Pizza Tower",
-        "https://irv77.netlify.app/html/games/other/pizza-tower/logo.jpg",
-        "/html/games/other/pizza-tower/index.html",
-        ""
-      ],
-      [
-        "Cube Flip",
-        "https://irv77.netlify.app/html/games/other/cube-flip/logo.png",
-        "/html/games/other/cube-flip/index.html",
-        ""
-      ],
-      [
-        "Baseball Fury",
-        "https://irv77.netlify.app/html/games/other/baseball-fury/logo.png",
-        "/html/games/other/baseball-fury/index.html",
-        ""
-      ],
-      [
-        "Poor Bunny",
-        "https://irv77.netlify.app/html/games/other/poor-bunnies/favicon.png",
-        "/html/games/other/poor-bunnies/index.html",
-        ""
-      ],
-      [
-        "Striker Dummies",
-        "https://irv77.netlify.app/html/games/other/striker-dummies/e9a16c6f058d25f9e9e4b2cd18fddc3e.jpg",
-        "/html/games/other/striker-dummies/index.html",
-        ""
-      ],
-      [
-        "Rio Rex",
-        "https://irv77.netlify.app/html/games/other/rio-rex/e65ee3a5-b1c5-4003-abb8-b52cb215bd10.png",
-        "/html/games/other/rio-rex/index.html",
-        ""
-      ],
-      [
-        "Recoil",
-        "https://irv77.netlify.app/html/games/other/recoil/webapp/cover.jpg",
-        "/html/games/other/recoil/index.html",
-        ""
-      ],
-      [
-        "Gun Mayhem 2",
-        "https://irv77.netlify.app/img/gh2.jpg",
-        "/html/games/flash/index.html?swf=gunmayhem2.swf",
-        ""
-      ],
-      [
-        "Shortcut Run",
-        "https://irv77.netlify.app/html/games/other/shortcut-run/icons/icon-512.png",
-        "/html/games/other/shortcut-run/index.html",
-        ""
-      ],
-      [
-        "The Little Giant",
-        "https://irv77.netlify.app/html/games/other/the-little-giant/logo.jpg",
-        "/html/games/other/the-little-giant/index.html",
-        ""
-      ],
-      [
-        "8 Ball Pool",
-        "https://irv77.netlify.app/html/games/other/8-ball-pool/logo.webp",
-        "/html/games/other/8-ball-pool/index.html",
-        ""
-      ],
-      [
-        "Sling Drift",
-        "https://irv77.netlify.app/html/games/other/sling-drift/logo.png",
-        "/html/games/other/sling-drift/index.html",
-        ""
-      ],
-      [
-        "Free the Key",
-        "https://irv77.netlify.app/html/games/other/free-the-key/logo.webp",
-        "/html/games/other/free-the-key/index.html",
-        ""
-      ],
-      [
-        "Maze Planet 3D",
-        "https://irv77.netlify.app/html/games/other/maze-planet-3d/logo.jpg",
-        "/html/games/other/maze-planet-3d/index.html",
-        ""
-      ],
-      [
-        "Marble Dash",
-        "https://irv77.netlify.app/html/games/other/marble-dash/logo.webp",
-        "/html/games/other/marble-dash/index.html",
-        ""
-      ],
-      [
-        "Stunt Car Challenge 3",
-        "https://irv77.netlify.app/html/games/other/stunt-car-challenge-3/logo.png",
-        "/html/games/other/stunt-car-challenge-3/index.html",
-        ""
-      ],
-      [
-        "Ultimate Car Driving",
-        "https://irv77.netlify.app/html/games/other/ultimate-car-driving/logo.png",
-        "/html/games/other/ultimate-car-driving/index.html",
-        ""
-      ],
-      [
-        "FortZ",
-        "https://irv77.netlify.app/html/games/other/fortz/logo.png",
-        "/html/games/other/fortz/index.html",
-        ""
-      ],
-      [
-        "Master Chess",
-        "https://irv77.netlify.app/html/games/other/master-chess/sprites/200x200.jpg",
-        "/html/games/other/master-chess/index.html",
-        ""
-      ],
-      [
-        "Mini Golf World",
-        "https://irv77.netlify.app/html/games/other/mini-golf-world/sprites/200x200.jpg",
-        "/html/games/other/mini-golf-world/index.html",
-        ""
-      ],
-      [
-        "Janissary Battles",
-        "https://irv77.netlify.app/html/games/other/janissary-battles/icons/janissary-battles-512x512.png",
-        "/html/games/other/janissary-battles/index.html",
-        ""
-      ],
-      [
-        "4 Colors Monument Edition",
-        "https://irv77.netlify.app/html/games/other/4-colors/sprites/200x200.jpg",
-        "/html/games/other/4-colors/index.html",
-        ""
-      ],
-      [
-        "Highway Traffic",
-        "https://irv77.netlify.app/html/games/other/highway-traffic/logo.jpg",
-        "/html/games/other/highway-traffic/index.html",
-        ""
-      ],
-      [
-        "Monkey Mart",
-        "https://irv77.netlify.app/html/games/other/monkey-mart/logo.png",
-        "/html/games/other/monkey-mart/index.html",
-        ""
-      ],
-      [
-        "Tetris Advance",
-        "https://irv77.netlify.app/html/games/other/tetr.js/tetr_js/icons/favicon.ico",
-        "/html/games/other/tetr.js/index.html",
-        "Tetris but more advance named Tetr.js Enchanced"
-      ]
+        [
+          "Money Land",
+          "https://irv77.netlify.app/html/games/other/money-land/logo.webp",
+          "/html/games/other/money-land/index.html",
+          ""
+        ],
+        [
+          "Wheely 1",
+          "https://irv77.netlify.app/img/w1.jpg",
+          "/html/games/flash/index.html?swf=wheely1.swf",
+          ""
+        ],
+        [
+          "4x4 Drive Offroad",
+          "https://irv77.netlify.app/html/games/other/drive-offfroad/logo.jpg",
+          "/html/games/other/drive-offroad/index.html",
+          ""
+        ],
+        [
+          "Doom",
+          "https://irv77.netlify.app/html/games/other/dos/Doom.jpg",
+          "/html/games/other/doom/index.html",
+          "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
+        ],
+        [
+          "Two Punk Racing",
+          "https://irv77.netlify.app/html/games/other/two-punk-racing/logo.webp",
+          "/html/games/other/two-punk-racing/index.html",
+          ""
+        ],
+        [
+          "Snow Rider 3D",
+          "https://irv77.netlify.app/html/games/other/snow-rider-3d/logo.png",
+          "/html/games/other/snow-rider-3d/index.html",
+          ""
+        ],
+        [
+          "Pizza Tower",
+          "https://irv77.netlify.app/html/games/other/pizza-tower/logo.jpg",
+          "/html/games/other/pizza-tower/index.html",
+          ""
+        ],
+        [
+          "Cube Flip",
+          "https://irv77.netlify.app/html/games/other/cube-flip/logo.png",
+          "/html/games/other/cube-flip/index.html",
+          ""
+        ],
+        [
+          "Baseball Fury",
+          "https://irv77.netlify.app/html/games/other/baseball-fury/logo.png",
+          "/html/games/other/baseball-fury/index.html",
+          ""
+        ],
+        [
+          "Poor Bunny",
+          "https://irv77.netlify.app/html/games/other/poor-bunnies/favicon.png",
+          "/html/games/other/poor-bunnies/index.html",
+          ""
+        ],
+        [
+          "Striker Dummies",
+          "https://irv77.netlify.app/html/games/other/striker-dummies/e9a16c6f058d25f9e9e4b2cd18fddc3e.jpg",
+          "/html/games/other/striker-dummies/index.html",
+          ""
+        ],
+        [
+          "Rio Rex",
+          "https://irv77.netlify.app/html/games/other/rio-rex/e65ee3a5-b1c5-4003-abb8-b52cb215bd10.png",
+          "/html/games/other/rio-rex/index.html",
+          ""
+        ],
+        [
+          "Recoil",
+          "https://irv77.netlify.app/html/games/other/recoil/webapp/cover.jpg",
+          "/html/games/other/recoil/index.html",
+          ""
+        ],
+        [
+          "Gun Mayhem 2",
+          "https://irv77.netlify.app/img/gh2.jpg",
+          "/html/games/flash/index.html?swf=gunmayhem2.swf",
+          ""
+        ],
+        [
+          "Shortcut Run",
+          "https://irv77.netlify.app/html/games/other/shortcut-run/icons/icon-512.png",
+          "/html/games/other/shortcut-run/index.html",
+          ""
+        ],
+        [
+          "The Little Giant",
+          "https://irv77.netlify.app/html/games/other/the-little-giant/logo.jpg",
+          "/html/games/other/the-little-giant/index.html",
+          ""
+        ],
+        [
+          "8 Ball Pool",
+          "https://irv77.netlify.app/html/games/other/8-ball-pool/logo.webp",
+          "/html/games/other/8-ball-pool/index.html",
+          ""
+        ],
+        [
+          "Sling Drift",
+          "https://irv77.netlify.app/html/games/other/sling-drift/logo.png",
+          "/html/games/other/sling-drift/index.html",
+          ""
+        ],
+        [
+          "Free the Key",
+          "https://irv77.netlify.app/html/games/other/free-the-key/logo.webp",
+          "/html/games/other/free-the-key/index.html",
+          ""
+        ],
+        [
+          "Maze Planet 3D",
+          "https://irv77.netlify.app/html/games/other/maze-planet-3d/logo.jpg",
+          "/html/games/other/maze-planet-3d/index.html",
+          ""
+        ],
+        [
+          "Marble Dash",
+          "https://irv77.netlify.app/html/games/other/marble-dash/logo.webp",
+          "/html/games/other/marble-dash/index.html",
+          ""
+        ],
+        [
+          "Stunt Car Challenge 3",
+          "https://irv77.netlify.app/html/games/other/stunt-car-challenge-3/logo.png",
+          "/html/games/other/stunt-car-challenge-3/index.html",
+          ""
+        ],
+        [
+          "Ultimate Car Driving",
+          "https://irv77.netlify.app/html/games/other/ultimate-car-driving/logo.png",
+          "/html/games/other/ultimate-car-driving/index.html",
+          ""
+        ],
+        [
+          "FortZ",
+          "https://irv77.netlify.app/html/games/other/fortz/logo.png",
+          "/html/games/other/fortz/index.html",
+          ""
+        ],
+        [
+          "Master Chess",
+          "https://irv77.netlify.app/html/games/other/master-chess/sprites/200x200.jpg",
+          "/html/games/other/master-chess/index.html",
+          ""
+        ],
+        [
+          "Mini Golf World",
+          "https://irv77.netlify.app/html/games/other/mini-golf-world/sprites/200x200.jpg",
+          "/html/games/other/mini-golf-world/index.html",
+          ""
+        ],
+        [
+          "Janissary Battles",
+          "https://irv77.netlify.app/html/games/other/janissary-battles/icons/janissary-battles-512x512.png",
+          "/html/games/other/janissary-battles/index.html",
+          ""
+        ],
+        [
+          "4 Colors Monument Edition",
+          "https://irv77.netlify.app/html/games/other/4-colors/sprites/200x200.jpg",
+          "/html/games/other/4-colors/index.html",
+          ""
+        ],
+        [
+          "Highway Traffic",
+          "https://irv77.netlify.app/html/games/other/highway-traffic/logo.jpg",
+          "/html/games/other/highway-traffic/index.html",
+          ""
+        ],
+        [
+          "Monkey Mart",
+          "https://irv77.netlify.app/html/games/other/monkey-mart/logo.png",
+          "/html/games/other/monkey-mart/index.html",
+          ""
+        ],
+        [
+          "Tetris Advance",
+          "https://irv77.netlify.app/html/games/other/tetr.js/tetr_js/icons/favicon.ico",
+          "/html/games/other/tetr.js/index.html",
+          "Tetris but more advance named Tetr.js Enchanced"
+        ]
       ]
     }
   ]

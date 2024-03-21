@@ -663,6 +663,12 @@
           "https://irv77.netlify.app/img/um.jpg",
           "/html/games/flash/index.html?swf=unfairmario.swf",
           "Unfair Mario is a platform game inspired by Mario and Trap Adventure 2. Can you complete the level without triggering the hidden traps?"
+        ],
+        [
+          "Wheely 1",
+          "https://irv77.netlify.app/img/w1.jpg",
+          "/html/games/flash/index.html?swf=wheely1.swf",
+          ""
         ]
       ]
     }

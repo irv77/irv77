@@ -249,7 +249,7 @@
           "https://irv77.netlify.app/img/h2.jpg",
           "/html/games/flash/index.html?swf=hobo2.swf",
           "Hobo 2 is the fantastic sequel to the popular original title – this time you must fight inside a deadly prison against your cell mates. Our hobo wants to rampage through the prison and escape to freedom – he wants to smash his way to the outside and cause as much damage and mayhem as possible."
-        ],
+         ],
         [
           "Hobo 3: Wanted",
           "https://irv77.netlify.app/img/h3.png",
@@ -663,6 +663,12 @@
           "https://irv77.netlify.app/img/um.jpg",
           "/html/games/flash/index.html?swf=unfairmario.swf",
           "Unfair Mario is a platform game inspired by Mario and Trap Adventure 2. Can you complete the level without triggering the hidden traps?"
+        ],
+        [
+          "Wheely 1",
+          "https://irv77.netlify.app/img/w1.jpg",
+          "/html/games/flash/index.html?swf=wheely1.swf",
+          ""
         ]
       ]
     },
@@ -715,6 +721,12 @@
           "4 Colors Monument Edition",
           "https://irv77.netlify.app/html/games/other/4-colors/sprites/200x200.jpg",
           "/html/games/other/4-colors/index.html",
+          ""
+        ],
+        [
+          "4x4 Drive Offroad",
+          "https://irv77.netlify.app/html/games/other/drive-offroad/logo.jpg",
+          "/html/games/other/drive-offroad/index.html",
           ""
         ],
         [
@@ -1406,6 +1418,12 @@
           "Minecraft 1.8.8",
           "https://irv77.netlify.app/html/games/other/minecraft2/splash.png",
           "/html/games/other/minecraft2/index.html",
+          ""
+        ],
+        [
+          "Money Land",
+          "https://irv77.netlify.app/html/games/other/money-land/logo.webp",
+          "/html/games/other/money-land/index.html",
           ""
         ],
         [

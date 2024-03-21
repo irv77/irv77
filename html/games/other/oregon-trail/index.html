@@ -1,0 +1,143 @@
+<!doctype html>
+
+<!-- copied from https://raw.githubusercontent.com/mdn/webassembly-examples/master/understanding-text-format/logger2.html (CC0) -->
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Oregon Trail</title>
+    <link rel='icon' type='image/x-icon' href='favicon.ico'/>
+
+    <style>
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #384464; 
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: var(--b1); 
+        border-radius: 10px;
+        box-shadow: inset 0 0 5px grey;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #181b25; 
+      }
+      body {
+        background: var(--bg);
+        color: #f4f5e2;
+        --bd: #181b25;
+        --bg: #2b223d;
+        --b1: #383873;
+        --b2: #5050c4;
+      }
+      
+      a {
+        color: aquamarine;
+      }
+
+      h1 {
+        font-size: 45px;
+        text-align: center;
+        padding: 1%;
+        margin: 0;
+        font-family: Georgia, serif;
+      }
+      h2 {
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+      }
+      hr {
+        color: #feffe2;
+        border: 1px solid;
+      }
+      #output {
+        border: 6px groove var(--bd);
+        background-color: var(--b1);
+        width: 570px;
+        height: 550px;
+        font-family: monospace, serif;
+        font-size: 30px;
+        overflow-y: scroll;
+        margin-top: 10px;
+      }
+      #output div{
+        margin-bottom: 13px;
+        margin-left: 15px;
+      }
+      .container {
+        display: flex;
+        margin: 0 auto;
+      }
+
+      iframe {
+        border: 6px groove var(--bd);
+        margin: 10px;
+      }
+
+      .extra {
+        width: 98.5%;
+        padding: 5px;
+        border: 6px solid var(--bd);
+        border-radius: 10px;
+        background: var(--b2);
+        text-align: center;
+        color: #e0e1cc;
+      }
+
+      kbd {
+        background: var(--bd);
+        padding: 0.2rem 0.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>The Oregon Trail</h1>
+    <hr/>
+    <p>Clicking on the game should play sound. Originally copied from <a href="https://diekmann.github.io/wasm-fizzbuzz/doom/">This webiste</a>. Find all the original details in the README of this <a href="README.md">File</a>.</p>
+    <p id="focushint"></p>
+    <br>
+    <a style="margin-left: 5px;" href="doom.html">Fullscreen</a>
+    <br>
+    <div class="container">
+      <div id="ibm5170-oregon20" width="880" height="550" tabindex="0">This is where the Oregon Trail screen should render.</div>
+      <video ref="machines/pcx86/ibm/video/vga/1986-10-27/ibm-vga-autolockfs.xml"/>
+      <span>&nbsp;</span>
+      <div id="output">
+        <h2>Controls</h2>
+        <div><kbd>ESC</kbd> = Menu</div>
+        <div><kbd>&#x23CE;</kbd> = Menu Select</div>
+        <div><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> = Move Up/Left/Down/Right</div>
+        <div><kbd>←</kbd> <kbd>→</kbd> = Look Left/Right</div>
+        <div><kbd>Q</kbd> = Shoot</div>
+        <div><kbd>E</kbd> = Use/Open Gate/Next</div>
+        <div><kbd>Shift</kbd> = Sprint</div>
+        <div><kbd>Map</kbd> = Map</div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  <div class="extra">
+    © Voxonoly Studios 2024. By using this site/service, you agree to the use of cookies
+  </div>
+  <script src="pcx86.js"></script>
+  <script>
+    embedPCx86("ibm5170-oregon20","machine.xml","components.xsl");
+  </script>
+  </body>
+
+</html>

@@ -1,9 +1,48 @@
+<!doctype html>
 <html>
-    <head>
-    </head>
-    <body>
-            <video id="video" width="1280" height="720" controls preload="metadata" crossorigin="anonymous">
-                <source src="S01E01.mkv" type="video/webm">
-            </video>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Stranger Things</title>
+  <link rel='icon' type='image/x-icon' href='favicon.ico' />
+  <link rel='stylesheet' href='style.css' />
+</head>
+
+<body>
+  <div class="navbar"></div>
+  <h1>Stranger Things</h1>
+  <hr />
+  <p>In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they
+    search for answers, the children unravel a series of extraordinary mysteries.</p>
+  <p id="focushint"></p>
+  <br>
+  <a style="margin-left: 5px;" href="st_main.html">Fullscreen</a>
+  <br>
+  <div class="container">
+      <video controls preload="metadata" crossorigin="anonymous" width="1040" height="585" poster="st.png">
+        <source
+            src="https://dl.dropbox.com/scl/fi/yr7tpp8w2ay6bpobm3sgz/S01E01.mkv?rlkey=sczmxizux9ja6plmlhiwxfzdn&dl=0"
+            type="video/webm">
+    </video>
+    <span>&nbsp;</span>
+    <div id="output">
+      <h2>Episodes</h2>
+      <div><kbd>S01E01</kbd> Chapter One: The Vanishing of Will Byers</div>
+      <div><kbd>S01E02</kbd> Chapter Two: The Weirdo on Maple Street</div>
+      <div><kbd>S01E03</kbd> Chapter Three: Holly, Jolly</div>
+      <div><kbd>S01E04</kbd> Chapter Four: The Body</div>
+      <div><kbd>S01E05</kbd> Chapter Five: The Flea and the Acrobat</div>
+      <div><kbd>S01E06</kbd> Chapter Six: The Monster</div>
+      <div><kbd>S01E07</kbd> Chapter Seven: The Bathtub</div>
+      <div><kbd>S01E08</kbd> Chapter Eight: The Upside Down</div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="copy"></div>
+  <script src="navbar.js"></script>
+</body>
+
 </html>

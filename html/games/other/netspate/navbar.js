@@ -121,14 +121,14 @@ window.addEventListener('DOMContentLoaded', function() {
         <ul>
           <li class="space"><img style="cursor: default;" src="logo.png" class="navlogo" draggable="false">
           </li>
-          <li class="hvuncen"><a href="https://irv77.github.io/test/index.html">
+          <li class="hvuncen"><a href="https://irv77.netlify.app/html/games/other/netspat/index.html">
           <svg  xmlns="http://www.w3.org/2000/svg"  class="svg"  viewBox="0 0 24 24"  fill="var(--b3)"  stroke="var(--bc)"  stroke-width="2.25"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
             <path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
           </svg><span> Home</span></a></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/html/movies.html">
           <svg  xmlns="http://www.w3.org/2000/svg"  class="svg"  viewBox="0 0 24 24"  fill="var(--b3)"  stroke="var(--bc)"  stroke-width="1.75"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 4l0 16" /><path d="M16 4l0 16" /><path d="M4 8l4 0" /><path d="M4 16l4 0" /><path d="M4 12l16 0" /><path d="M16 8l4 0" /><path d="M16 16l4 0" />          </svg><span> Movies</span></a></li>
-          <li class="hvuncen"><a href="https://irv77.github.io/test/st.html"><svg  xmlns="http://www.w3.org/2000/svg"  class="svg"  viewBox="0 0 24 24"  fill="var(--b3)"  stroke="var(--bc)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
+          <li class="hvuncen"><a href="https://irv77.netlify.app/html/games/other/netspat/st.html"><svg  xmlns="http://www.w3.org/2000/svg"  class="svg"  viewBox="0 0 24 24"  fill="var(--b3)"  stroke="var(--bc)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">
             <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M16 3l-4 4l-4 -4" /><path d="M15 7v13" /><path d="M18 15v.01" /><path d="M18 12v.01" />          </svg><span> TV Shows</span></a></li>
           <li class="hvuncen"><a href="https://irv77.netlify.app/html/extra.html">
           <svg  xmlns="http://www.w3.org/2000/svg"  class="svg"  viewBox="0 0 24 24"    stroke="var(--bc)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="ionicon s-ion-icon">

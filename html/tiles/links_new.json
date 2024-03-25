@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
         [
+          "NetSpate",
+          "https://irv77.netlify.app/img/netspate.png",
+          "https://netspate.netlify.app",
+          ""
+        ],
+        [
           "Money Land",
           "https://irv77.netlify.app/html/games/other/money-land/logo.webp",
           "/html/games/other/money-land/index.html",

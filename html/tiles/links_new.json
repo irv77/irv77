@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
         [
+          "Granny",
+          "https://irv77.netlify.app/html/games/other/granny/logo.png",
+          "/html/games/other/granny/index.html",
+          ""
+        ],
+        [
           "NetSpate",
           "https://irv77.netlify.app/img/netspate.png",
           "https://netspate.netlify.app",

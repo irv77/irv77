@@ -4,6 +4,96 @@
       "title": "New/Updated Games!",
       "games": [
         [
+          "Highway Racer",
+          "https://irv77.netlify.app/html/games/other/highway-racer/logo.jpg",
+          "/html/games/other/highway-racer/index.html",
+          ""
+        ],
+        [
+          "Moto Road Rash 3D",
+          "https://irv77.netlify.app/html/games/other/moto-road-rash/thumbnail.jpg",
+          "/html/games/other/moto-road-rash/index.html",
+          ""
+        ],
+        [
+          "Burger Bounty",
+          "https://irv77.netlify.app/html/games/other/burger-bounty/logo.png",
+          "/html/games/other/burger-bounty/index.html",
+          ""
+        ],
+        [
+          "Ice Scream 1",
+          "https://irv77.netlify.app/html/games/other/ice-scream-1/logo.png",
+          "/html/games/other/ice-scream-1/index.html",
+          ""
+        ],
+        [
+          "The Visitor",
+          "https://irv77.netlify.app/img/the-visitor.webp",
+          "/html/games/flash/index.html?swf=thevisitor.swf",
+          ""
+        ],
+        [
+          "Red Ball 4",
+          "https://irv77.netlify.app/html/games/other/red-ball-4/logo.png",
+          "/html/games/other/red-ball-4/index.html",
+          ""
+        ],
+        [
+          "Eggy Car",
+          "https://irv77.netlify.app/html/games/other/eggy-car/icon-256.png",
+          "/html/games/other/eggy-car/index.html",
+          ""
+        ],
+        [
+          "30 Dollar Soundboard",
+          "https://irv77.netlify.app/html/games/other/sdw/logo.png",
+          "/html/games/other/sdw/index.html",
+          ""
+        ],
+        [
+          "Pillar Valley",
+          "https://irv77.netlify.app/html/games/other/pillar-valley/logo.png",
+          "/html/games/other/pillar-valley/",
+          ""
+        ],
+        [
+          "Rolling Forests",
+          "https://irv77.netlify.app/html/games/other/rolling-forests/logo.png",
+          "/html/games/other/rolling-forests/index.html",
+          ""
+        ],
+        [
+          "Deadly Descent",
+          "https://irv77.netlify.app/html/games/other/deadly-descent/logo.jpg",
+          "/html/games/other/deadly-descent/index.html",
+          ""
+        ],
+        [
+          "Bridge Builder",
+          "https://irv77.netlify.app/html/games/other/bridge-builder/logo.webp",
+          "/html/games/other/bridge-builder/index.html",
+          ""
+        ],
+        [
+          "Neon Flytron",
+          "https://irv77.netlify.app/html/games/other/neon-flytron/logo.jpg",
+          "/html/games/other/neon-flytron/index.html",
+          ""
+        ],
+        [
+          "Kids vs Ice Cream",
+          "https://irv77.netlify.app/img/kids-vs-ice-cream.jpg",
+          "/html/games/flash/index.html?swf=kids_vs_icecream.swf",
+          ""
+        ],
+        [
+          "Slide in the Woods",
+          "https://irv77.netlify.app/html/games/other/slide-in-the-woods/logo.png",
+          "/html/games/other/slide-in-the-woods/index.html",
+          ""
+        ],
+        [
           "Granny",
           "https://irv77.netlify.app/html/games/other/granny/logo.png",
           "/html/games/other/granny/index.html",
@@ -181,12 +271,6 @@
           "4 Colors Monument Edition",
           "https://irv77.netlify.app/html/games/other/4-colors/sprites/200x200.jpg",
           "/html/games/other/4-colors/index.html",
-          ""
-        ],
-        [
-          "Highway Traffic",
-          "https://irv77.netlify.app/html/games/other/highway-traffic/logo.jpg",
-          "/html/games/other/highway-traffic/index.html",
           ""
         ],
         [

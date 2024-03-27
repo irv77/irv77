@@ -4,6 +4,12 @@
       "title": "Tools",
       "games": [
         [
+          "30 Dollar Soundboard",
+          "https://irv77.netlify.app/html/games/other/sdw/logo.png",
+          "/html/games/other/sdw/index.html",
+          ""
+        ],
+        [
           "Fake Update",
           "https://irv77.netlify.app/html/games/other/fakeupdate/assets/img/1.png",
           "/html/games/other/fakeupdate/index.html",

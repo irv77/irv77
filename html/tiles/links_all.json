@@ -299,6 +299,12 @@
           "Johnny Rocketfingers 2 is a point-and-click adventure game that lets you play as Johnny Rocketfingers, the toughest, bravest, strongest guy around. This time, you will have to find who's out to get you, and give them a little visit."
         ],
         [
+          "Kids vs Ice Cream",
+          "https://irv77.netlify.app/img/kids-vs-ice-cream.jpg",
+          "/html/games/flash/index.html?swf=kids_vs_icecream.swf",
+          ""
+        ],
+        [
           "Learn to Fly",
           "https://irv77.netlify.app/img/ltf.jpg",
           "/html/games/flash/index.html?swf=learntofly.swf",
@@ -641,6 +647,12 @@
           "The Impossible Quiz is an online trivia quiz that features only very hard questions. Many of the questions have double meanings, tricks and puns and requires you to think outside the box. Out of the four answers, only one answer is right. There are in total 110 questions."
         ],
         [
+          "The Visitor",
+          "https://irv77.netlify.app/img/the-visitor.webp",
+          "/html/games/flash/index.html?swf=thevisitor.swf",
+          ""
+        ],
+        [
           "The World's Hardest Game",
           "https://irv77.netlify.app/img/whg.png",
           "/html/games/flash/index.html?swf=theworldshardestgame.swf",
@@ -838,24 +850,6 @@
           ""
         ],
         [
-          "Big Tower Tiny Square",
-          "https://irv77.netlify.app/html/games/other/btts/splash.png",
-          "/html/games/other/btts/index.html",
-          ""
-        ],
-        [
-          "Biters.io",
-          "https://irv77.netlify.app/html/games/other/biters-io/biters.png",
-          "/html/games/other/biters-io/index.html",
-          ""
-        ],
-        [
-          "BitLife",
-          "https://irv77.netlify.app/html/games/other/bitlife/logo.png",
-          "/html/games/other/bitlife/index.html",
-          ""
-        ],
-        [
           "Basket n Ball",
           "https://irv77.netlify.app/html/games/other/basketnball/images/ball-basket-for-cover.png",
           "/html/games/other/basketnball/index.html",
@@ -874,9 +868,21 @@
           ""
         ],
         [
-          "BUNnGUN",
-          "https://irv77.netlify.app/html/games/other/bunngun/bng.jpg",
-          "/html/games/other/bunngun/index.html",
+          "Big Tower Tiny Square",
+          "https://irv77.netlify.app/html/games/other/btts/splash.png",
+          "/html/games/other/btts/index.html",
+          ""
+        ],
+        [
+          "Biters.io",
+          "https://irv77.netlify.app/html/games/other/biters-io/biters.png",
+          "/html/games/other/biters-io/index.html",
+          ""
+        ],
+        [
+          "BitLife",
+          "https://irv77.netlify.app/html/games/other/bitlife/logo.png",
+          "/html/games/other/bitlife/index.html",
           ""
         ],
         [
@@ -908,6 +914,24 @@
           "Boxing Random",
           "https://irv77.netlify.app/html/games/other/boxing-random/512x512.jpg",
           "/html/games/other/boxing-random/index.html",
+          ""
+        ],
+        [
+          "Bridge Builder",
+          "https://irv77.netlify.app/html/games/other/bridge-builder/logo.webp",
+          "/html/games/other/bridge-builder/index.html",
+          ""
+        ],
+        [
+          "BUNnGUN",
+          "https://irv77.netlify.app/html/games/other/bunngun/bng.jpg",
+          "/html/games/other/bunngun/index.html",
+          ""
+        ],
+        [
+          "Burger Bounty",
+          "https://irv77.netlify.app/html/games/other/burger-bounty/logo.png",
+          "/html/games/other/burger-bounty/index.html",
           ""
         ],
         [
@@ -1019,6 +1043,12 @@
           ""
         ],
         [
+          "Deadly Descent",
+          "https://irv77.netlify.app/html/games/other/deadly-descent/logo.jpg",
+          "/html/games/other/deadly-descent/index.html",
+          ""
+        ],
+        [
           "Deal or No Deal",
           "https://irv77.netlify.app/html/games/other/deal-or-no-deal/index.jpg",
           "/html/games/other/deal-or-no-deal/index.html",
@@ -1064,6 +1094,12 @@
           "Eat.io",
           "https://irv77.netlify.app/html/games/other/eatio/eatio.png",
           "/html/games/other/eatio/index.html",
+          ""
+        ],
+        [
+          "Eggy Car",
+          "https://irv77.netlify.app/html/games/other/eggy-car/icon-256.png",
+          "/html/games/other/eggy-car/index.html",
           ""
         ],
         [
@@ -1289,15 +1325,21 @@
           ""
         ],
         [
-          "Highway Traffic",
-          "https://irv77.netlify.app/html/games/other/highway-traffic/logo.jpg",
-          "/html/games/other/highway-traffic/index.html",
+          "Highway Racer",
+          "https://irv77.netlify.app/html/games/other/highway-racer/logo.jpg",
+          "/html/games/other/highway-racer/index.html",
           ""
         ],
         [
           "Horde Killer",
           "https://irv77.netlify.app/html/games/other/hordekiller/logo.png",
           "/html/games/other/hordekiller/index.html",
+          ""
+        ],
+        [
+          "Ice Scream 1",
+          "https://irv77.netlify.app/html/games/other/ice-scream-1/logo.png",
+          "/html/games/other/ice-scream-1/index.html",
           ""
         ],
         [
@@ -1451,6 +1493,12 @@
           ""
         ],
         [
+          "Moto Road Rash 3D",
+          "https://irv77.netlify.app/html/games/other/moto-road-rash/thumbnail.jpg",
+          "/html/games/other/moto-road-rash/index.html",
+          ""
+        ],
+        [
           "Motox3m",
           "https://irv77.netlify.app/html/games/other/motox3m/splash.jpg",
           "/html/games/other/motox3m/index.html",
@@ -1484,6 +1532,12 @@
           "N Gon",
           "https://irv77.netlify.app/html/games/other/n-gon/bot.png",
           "/html/games/other/n-gon/index.html",
+          ""
+        ],
+        [
+          "Neon Flytron",
+          "https://irv77.netlify.app/html/games/other/neon-flytron/logo.jpg",
+          "/html/games/other/neon-flytron/index.html",
           ""
         ],
         [
@@ -1565,6 +1619,12 @@
           ""
         ],
         [
+          "Red Ball 4",
+          "https://irv77.netlify.app/html/games/other/red-ball-4/logo.png",
+          "/html/games/other/red-ball-4/index.html",
+          ""
+        ],
+        [
           "Retro Bowl",
           "https://irv77.netlify.app/html/games/other/retrobowl/img/splash.png",
           "/html/games/other/retrobowl/index.html",
@@ -1580,6 +1640,12 @@
           "Roblox",
           "https://irv77.netlify.app/html/games/other/roblox/roblox.jpeg",
           "/html/games/other/roblox/index.html",
+          ""
+        ],
+        [
+          "Rolling Forests",
+          "https://irv77.netlify.app/html/games/other/rolling-forests/logo.png",
+          "/html/games/other/rolling-forests/index.html",
           ""
         ],
         [
@@ -1631,6 +1697,12 @@
           ""
         ],
         [
+          "Slide in the Woods",
+          "https://irv77.netlify.app/html/games/other/slide-in-the-woods/logo.png",
+          "/html/games/other/slide-in-the-woods/index.html",
+          ""
+        ],
+        [
           "Slime Rush TD",
           "https://irv77.netlify.app/html/games/other/slime-rush-td/splash.png",
           "/html/games/other/slime-rush-td/index.html",
@@ -1662,7 +1734,7 @@
         ],
         [
           "SlowRoads.io",
-          "https://irv77.netlify.app/html/games/other/slowroads/favicon_circle.svg",
+          "https://irv77.netlify.app/html/games/other/slowroads/logo.jpg",
           "/html/games/other/slowroads/index.html",
           ""
         ],

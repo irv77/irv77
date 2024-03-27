@@ -299,6 +299,12 @@
           "Johnny Rocketfingers 2 is a point-and-click adventure game that lets you play as Johnny Rocketfingers, the toughest, bravest, strongest guy around. This time, you will have to find who's out to get you, and give them a little visit."
         ],
         [
+          "Kids vs Ice Cream",
+          "https://irv77.netlify.app/img/kids-vs-ice-cream.jpg",
+          "/html/games/flash/index.html?swf=kids_vs_icecream.swf",
+          ""
+        ],
+        [
           "Learn to Fly",
           "https://irv77.netlify.app/img/ltf.jpg",
           "/html/games/flash/index.html?swf=learntofly.swf",
@@ -639,6 +645,12 @@
           "https://irv77.netlify.app/img/impossiblequiz.png",
           "/html/games/flash/index.html?swf=TheImpossibleQuiz.swf",
           "The Impossible Quiz is an online trivia quiz that features only very hard questions. Many of the questions have double meanings, tricks and puns and requires you to think outside the box. Out of the four answers, only one answer is right. There are in total 110 questions."
+        ],
+        [
+          "The Visitor",
+          "https://irv77.netlify.app/img/the-visitor.webp",
+          "/html/games/flash/index.html?swf=thevisitor.swf",
+          ""
         ],
         [
           "The World's Hardest Game",

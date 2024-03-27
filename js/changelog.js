@@ -12,16 +12,12 @@ const logArr = [
   },
   **/
   {
-    version: `1.9.9`,
+    version: `1.10.0`,
     date: `Mar 26, 2024 `,
     list: [
       {
         label: [`add`],
         detail: `Added Slide in the Woods`
-      },
-      {
-        label: [`add`],
-        detail: `Added Slow Roads`
       },
       {
         label: [`add`],
@@ -73,12 +69,16 @@ const logArr = [
       },
       {
         label: [`add`],
-        detail: `Added Moto Road Race 3D`
+        detail: `Added Moto Road Rash 3D`
       },
       {
         label: [`update`],
-        detail: `Changed/Updated Highway Traffic`
+        detail: `Changed/Updated Highway Traffic/Racer`
       },
+      {
+        label: [`update`],
+        detail: `Changed some game icons`
+      }
     ]
   },
   {

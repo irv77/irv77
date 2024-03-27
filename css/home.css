@@ -319,3 +319,10 @@ a {
 .square a {
 	color: rgb(169, 182, 149);
 }
+
+ul {
+	list-style-type: none;
+	list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+}

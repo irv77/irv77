@@ -12,7 +12,7 @@ const logArr = [
   },
   **/
   {
-    version: `1.10.1`,
+    version: `1.10.2`,
     date: `Mar 26, 2024 `,
     list: [
       {

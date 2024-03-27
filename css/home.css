@@ -320,7 +320,7 @@ a {
 	color: rgb(169, 182, 149);
 }
 
-ul {
+.changelog-entry ul {
 	list-style-type: none;
 	list-style-position: inside;
     margin-left: 0;

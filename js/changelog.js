@@ -12,6 +12,76 @@ const logArr = [
   },
   **/
   {
+    version: `1.9.9`,
+    date: `Mar 26, 2024 `,
+    list: [
+      {
+        label: [`add`],
+        detail: `Added Slide in the Woods`
+      },
+      {
+        label: [`add`],
+        detail: `Added Slow Roads`
+      },
+      {
+        label: [`add`],
+        detail: `Added Kids vs Icecream`
+      },
+      {
+        label: [`add`],
+        detail: `Added Neon Flytron`
+      },
+      {
+        label: [`add`],
+        detail: `Added Build Bridges`
+      },
+      {
+        label: [`add`],
+        detail: `Added Deadly Descent`
+      },
+      {
+        label: [`add`],
+        detail: `Added Rolling Forests`
+      },
+      {
+        label: [`add`],
+        detail: `Added Pillar Valley`
+      },
+      {
+        label: [`add`],
+        detail: `Added 30 Dollar Soundboard`
+      },
+      {
+        label: [`add`],
+        detail: `Added Eggy Car`
+      },
+      {
+        label: [`add`],
+        detail: `Added Red Ball 4`
+      },
+      {
+        label: [`add`],
+        detail: `Added The Visitor`
+      },
+      {
+        label: [`add`],
+        detail: `Added Ice Scream 1`
+      },
+      {
+        label: [`add`],
+        detail: `Added Burger Bounty`
+      },
+      {
+        label: [`add`],
+        detail: `Added Moto Road Race 3D`
+      },
+      {
+        label: [`update`],
+        detail: `Changed/Updated Highway Traffic`
+      },
+    ]
+  },
+  {
     version: `1.9.7`,
     date: `Mar 25, 2024 `,
     list: [

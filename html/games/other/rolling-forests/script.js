@@ -15,7 +15,7 @@ var sun;
 var ground;
 var rollingGroundSphere;
 var ball;
-var rollingSpeed = 0.008;
+var rollingSpeed = 0.001;
 var ballRollingSpeed;
 var worldRadius = 26;
 var heroRadius = 0.2;
@@ -568,9 +568,9 @@ function explode() {
 
 function doDifficultyLogic() {
   if (score === 0) {
-    rollingSpeed = 0.008;
+    rollingSpeed = 0.001;
   } else if (rollingSpeed < 0.0095) {
-    rollingSpeed += 0.00001
+    rollingSpeed += 0.0000001
   }
   
   if (score === 0) {

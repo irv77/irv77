@@ -12,6 +12,24 @@ const logArr = [
   },
   **/
   {
+    version: `1.10.5`,
+    date: `Mar 27, 2024 `,
+    list: [
+      {
+        label: [`update`],
+        detail: `Reorginized/fixed flash games`
+      },
+      {
+        label: [`fix`],
+        detail: `Fixed 1v1.lol`
+      },
+      {
+        label: [`fix`],
+        detail: `Fixed Justfall.lol`
+      }
+    ]
+  },
+  {
     version: `1.10.3`,
     date: `Mar 26, 2024 `,
     list: [

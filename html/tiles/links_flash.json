@@ -4,17 +4,22 @@
       "title": "Flash Games",
       "games": [
         [
-          "Alien Homonid",
-          "https://irv77.netlify.app/img/ah.png",
-          "/html/games/flash/index.html?swf=alien_hominid.swf",
-          "Alien Hominid is a side-scrolling shooter in a similar vein to games such as Metal Slug, where one hit instantly kills and has a two-player simultaneous play. Players take over as the titular hominid, who has to fend off waves of secret agents."
+          "Abobos Big Adventure",
+          "https://irv77.netlify.app/img/aba.jpg",
+          "/html/games/flash/index.html?swf=abobbos-big-adventure.swf",
+          "In Abobo's Big Adventure, players control the muscular character Abobo from the Double Dragon series, who embarks on a quest to save his son. The game features levels and bosses inspired by classic video games such as Super Mario Bros. and The Legend of Zelda, with retro graphics and humorous elements that pay homage to the golden age of gaming."
         ],
         [
           "Age Of War",
           "https://irv77.netlify.app/img/aow.jpg",
           "/html/games/flash/index.html?swf=age_of_war.swf",
-          "Age of War is an epic base defense strategy game where you fight a continuous war. Keep creating units to protect your base and destroy the enemy. When you earn enough XP, your civilization will evolve through the ages, offering new technologies to utilize in combat.",
-          "/html/games/flash/index.html?swf=age_f_war.swf"
+          "Age of War is an epic base defense strategy game where you fight a continuous war. Keep creating units to protect your base and destroy the enemy. When you earn enough XP, your civilization will evolve through the ages, offering new technologies to utilize in combat."
+        ],
+        [
+          "Alien Homonid",
+          "https://irv77.netlify.app/img/ah.png",
+          "/html/games/flash/index.html?swf=alien_hominid.swf",
+          "Alien Hominid is a side-scrolling shooter in a similar vein to games such as Metal Slug, where one hit instantly kills and has a two-player simultaneous play. Players take over as the titular hominid, who has to fend off waves of secret agents."
         ],
         [
           "Apple Shooter",
@@ -29,12 +34,6 @@
           "Asteroids is an iconic arcade game where players pilot a spaceship through an asteroid field, shooting the rocks while dodging collisions. The game features progressively difficult levels with faster and more numerous asteroids, testing players' reflexes and strategy. Successful players must be quick-thinking and precise in their movements."
         ],
         [
-          "Abobos Big Adventure",
-          "https://irv77.netlify.app/img/aba.jpg",
-          "/html/games/flash/index.html?swf=abobbos-big-adventure.swf",
-          "In Abobo's Big Adventure, players control the muscular character Abobo from the Double Dragon series, who embarks on a quest to save his son. The game features levels and bosses inspired by classic video games such as Super Mario Bros. and The Legend of Zelda, with retro graphics and humorous elements that pay homage to the golden age of gaming."
-        ],
-        [
           "Avalanche",
           "https://irv77.netlify.app/img/avalanche.png",
           "/html/games/flash/index.html?swf=avalanche.swf",
@@ -45,12 +44,6 @@
           "https://irv77.netlify.app/img/afl.jpg",
           "/html/games/flash/index.html?swf=afl.swf",
           "Axis Football League is a fun and fast-paced American Football game in which you can compete in various football matches and leagues."
-        ],
-        [
-          "Bloxorz",
-          "https://irv77.netlify.app/img/bx.jpg",
-          "/html/games/flash/index.html?swf=bloxorz.swf",
-          "Bloxorz is a simple yet addictive game – move a block around a floating platform using the arrows, dropping it through the square hole to complete the level. That's it! Simple as it sounds, the levels get more and more taxing, though we can assure you that they are all actually solveable!"
         ],
         [
           "Bloons Tower Defence",
@@ -71,10 +64,22 @@
           "Bloons Tower Defense 3 is a tower defense game in which you deploy monkeys with darts to pop balloons. The game is a spin-off from the Bloons game series and the sequel to Bloons Tower Defense 2."
         ],
         [
+          "Bloxorz",
+          "https://irv77.netlify.app/img/bx.jpg",
+          "/html/games/flash/index.html?swf=bloxorz.swf",
+          "Bloxorz is a simple yet addictive game – move a block around a floating platform using the arrows, dropping it through the square hole to complete the level. That's it! Simple as it sounds, the levels get more and more taxing, though we can assure you that they are all actually solveable!"
+        ],
+        [
           "BoxHead 2",
           "https://irv77.netlify.app/img/b2p.png",
           "/html/games/flash/index.html?swf=boxhead2.swf",
           "Boxhead: 2Play Rooms is a zombie shooter that has multiplayer functionality. The game is the fourth in the Boxhead series, but the first one with multiplayer."
+        ],
+        [
+          "Breaking the Bank",
+          "https://irv77.netlify.app/img/btb.jpg",
+          "/html/games/flash/index.html?swf=breakingthebank.swf",
+          "Henry Stickmin attempts to break into a bank, built in the middle of a desert. He stands next to a wall and wonders how to break inside."
         ],
         [
           "Bubble Shooter",
@@ -113,28 +118,28 @@
           "In Dad 'N Me, the player controls a small, purple, gorilla like creature who starts the game in a neighbourhood of humans. The main objective of the game is to beat up anyone who stands in your way, whether they be innocent children, bullies or adults."
         ],
         [
-          "Don't Whack Your Teacher",
-          "https://irv77.netlify.app/img/dwyt.jpg",
-          "/html/games/flash/index.html?swf=dwyt.swf",
-          "Don't Whack Your Teacher (usually known as Whack Your Teacher) is a game where you do exactly that. In this one, you have 13 unique ways to kill your teacher."
-        ],
-        [
           "Defend Your Castle",
           "https://irv77.netlify.app/img/dyc.jpg",
           "/html/games/flash/index.html?swf=102209_castle202c.swf",
           "Defend Your Castle is a series of video games developed by XGen Studios. The original version of Defend Your Castle is a Macromedia Flash-based browser game. It requires the player to kill all enemy units before they destroy the player's castle.Dragon Ball: Devolution is an unofficial fighting game in the Dragon Ball Series released for browsers. The game contains a massive roster of characters from all corners of the franchise, in an artstyle resembling Dragon Ball Z: Goku's Fierce Battle Story."
         ],
         [
-          "Dragon Ball Z Devolution",
-          "https://irv77.netlify.app/img/dbzd.jpg",
-          "/html/games/flash/index.html?swf=dbzd.swf",
-          "Dragon Ball: Devolution is an unofficial fighting game in the Dragon Ball Series released for browsers. The game contains a massive roster of characters from all corners of the franchise, in an artstyle resembling Dragon Ball Z: Goku's Fierce Battle Story."
+          "Don't Whack Your Teacher",
+          "https://irv77.netlify.app/img/dwyt.jpg",
+          "/html/games/flash/index.html?swf=dwyt.swf",
+          "Don't Whack Your Teacher (usually known as Whack Your Teacher) is a game where you do exactly that. In this one, you have 13 unique ways to kill your teacher."
         ],
         [
           "Dragon Ball Z",
           "https://irv77.netlify.app/img/dbz.jpg",
           "/html/games/flash/index.html?swf=dragonballz.swf",
-          ""
+          "A unknown Dragon Ball Z game is an unofficial fighting game in the Dragon Ball Series released for browsers. The game contains a couple massive roster of characters from the corners of the franchise, in a 2d pixel artstyle resembling Dragon Ball Z: Goku's Fierce Battle Story."
+        ],
+        [
+          "Dragon Ball Z Devolution",
+          "https://irv77.netlify.app/img/dbzd.jpg",
+          "/html/games/flash/index.html?swf=dbzd.swf",
+          "Dragon Ball: Devolution is an unofficial fighting game in the Dragon Ball Series released for browsers. The game contains a massive roster of characters from all corners of the franchise, in an artstyle resembling Dragon Ball Z: Goku's Fierce Battle Story."
         ],
         [
           "Duck Hunt",
@@ -170,13 +175,13 @@
           "Earn to Die",
           "https://irv77.netlify.app/img/etd.jpg",
           "/html/games/flash/index.html?swf=earntodie.swf",
-          ""
+          "Earn to Die is a free driving and upgrading game in which you drive your vehicles through a zombie apocalypse, destroying them along the way. You'll gain additional cars as you progress through the game, and you'll be able to upgrade them into the ultimate zombie-slaying machines!"
         ],
         [
           "Earn to Die 2",
           "https://irv77.netlify.app/img/etd2.jpg",
           "/html/games/flash/index.html?swf=earntodie2.swf",
-          ""
+          "Earn to Die 2 is the sequel to the highly lauded Earn to Die. Rather than returning to the familiar desert landscape of the previous game, it takes players deep into the bowels of zombie-infested cities. Prepare for more mayhem and devastation as you navigate your way through hordes of zombies in order to make it out alive."
         ],
         [
           "Electricman 2",
@@ -185,34 +190,10 @@
           "You're in a tournament against other stickmen who are trying to beat you for the grand prize. Beat out every one of these stickmen using your electrifying power moves. There are no rules and several rounds with a varying of opponents that you need to defeat."
         ],
         [
-          "The Fancy Pants Adventures",
-          "https://irv77.netlify.app/img/fpa.webp",
-          "/html/games/flash/index.html?swf=fancypantsadventure.swf",
-          "It is a platforming game that is focused on speed and momentum. World 1 also introduces various trophies, side goals (squiggles and stars), and a variety of colors and styles of pants for the player to try on."
-        ],
-        [
           "Escaping the Prison",
           "https://irv77.netlify.app/img/etp.jpg",
           "/html/games/flash/index.html?swf=etp.swf",
           "Escaping The Prison is a fantastically fun stick figure game where you... Well, escape the prison! After being thrown in a prison cell, you must use anything and everything at your disposal to escape!"
-        ],
-        [
-          "Stealing the Diamond",
-          "https://irv77.netlify.app/img/std.jpg",
-          "/html/games/flash/index.html?swf=std.swf",
-          "Stealing the Diamond is the third game in the Henry Stickmin series. It takes place after Escaping the Prison and before Infiltrating The Airship, and is considered Episode 2 of the Henry Stickmin Collection."
-        ],
-        [
-          "Breaking the Bank",
-          "https://irv77.netlify.app/img/btb.jpg",
-          "/html/games/flash/index.html?swf=breakingthebank.swf",
-          "Henry Stickmin attempts to break into a bank, built in the middle of a desert. He stands next to a wall and wonders how to break inside."
-        ],
-        [
-          "Infiltrating the Airship",
-          "https://irv77.netlify.app/img/ita.jpg",
-          "/html/games/flash/index.html?swf=infiltratingtheairship.swf",
-          "Infiltrating the Airship is the fourth game in the Henry Stickmin series. It is the sequel to Stealing the Diamond and takes place before Fleeing the Complex and is named as Episode 3 of the Henry Stickmin story. The game has four different endings and one fake ending."
         ],
         [
           "Fleeing the Complex",
@@ -227,16 +208,16 @@
           "In Freeway Fury 2 the player is a daredevil jumping from car to car at high speed, striving to get as many stunt points as possible. The game plays as a vertical, top-down racer reminiscent of Spy Hunter: if the player's car gets badly damaged, they can jump onto another one and proceed."
         ],
         [
+          "Gun Mayhem 2",
+          "https://irv77.netlify.app/img/gh2.jpg",
+          "/html/games/flash/index.html?swf=gunmayhem2.swf",
+          "Gun Mayhem 2 is an action-packed 2D platformer shooting game. Fight in chaotic battles packed with weapons and explosives. There are various game modes to explore and progress through in the game."
+        ],
+        [
           "Gunblood",
           "https://irv77.netlify.app/img/gb.png",
           "/html/games/flash/index.html?swf=1gunblood.swf",
           "This town isn't big enough for the two of us, so draw! If you have ever wanted to be a part of a western duel, then look no further than Gunblood! Choose from one of ten wild west characters and attempt to outshoot your opponents! Nine rounds of intense, reaction based duels await you in this visceral game! After every successful duel, you are met with another, more challenging opponent and your odds of survival greatly decrease!"
-        ],
-        [
-          "Gun Mayhem 2",
-          "https://irv77.netlify.app/img/gh2.jpg",
-          "/html/games/flash/index.html?swf=gunmayhem2.swf",
-          ""
         ],
         [
           "Hobo",
@@ -260,7 +241,7 @@
           "Hobo 4: Total War",
           "https://irv77.netlify.app/img/h4.jpg",
           "/html/games/flash/index.html?swf=hobo4.swf",
-          ""
+          "This time our beloved Hobo takes on the whole army. He is a wanted menace and everyone wants him dead. Prepare for total war, Hobo style!"
         ],
         [
           "Hobo 5: Space Brawls",
@@ -281,6 +262,12 @@
           "After defeating the devil in Hell, Hobo is sent to Heaven, but God and his angel are getting angry by his attitude of life, so he must fight against the holy powers."
         ],
         [
+          "Infiltrating the Airship",
+          "https://irv77.netlify.app/img/ita.jpg",
+          "/html/games/flash/index.html?swf=infiltratingtheairship.swf",
+          "Infiltrating the Airship is the fourth game in the Henry Stickmin series. It is the sequel to Stealing the Diamond and takes place before Fleeing the Complex and is named as Episode 3 of the Henry Stickmin story. The game has four different endings and one fake ending."
+        ],
+        [
           "Interactive Buddy",
           "https://irv77.netlify.app/img/ib.webp",
           "/html/games/flash/index.html?swf=interactivebuddy.swf",
@@ -290,7 +277,7 @@
           "Interactive Buddy 2",
           "https://irv77.netlify.app/img/ib2.webp",
           "/html/games/flash/index.html?swf=interactivebuddy2.swf",
-          ""
+          "The sequel to Interactive Buddy! Interact with the buddy using many new items and weapons!"
         ],
         [
           "Johnny Rocketfingers 2",
@@ -302,7 +289,7 @@
           "Kids vs Ice Cream",
           "https://irv77.netlify.app/img/kids-vs-ice-cream.jpg",
           "/html/games/flash/index.html?swf=kids_vs_icecream.swf",
-          ""
+          "Shoot your retrofitted potato gun at insane hungry children, who are trying to climb onto your truck, tear it apart, and steal all the ice cream inside. Knock kids down with ice cream to earn cash and upgrades."
         ],
         [
           "Learn to Fly",
@@ -329,10 +316,10 @@
           "Mario-Combat is an action platformer by D-SuN. It portrays the popular video game character Mario in an attack on Bowser's castle."
         ],
         [
-          "Miami Shark",
-          "https://irv77.netlify.app/img/ms.webp",
-          "/html/games/flash/index.html?swf=miami-shark.swf",
-          "Miami Shark is an intense action game in which you control a shark that needs to cause havoc in the Miami water."
+          "Mario Kart Flash",
+          "https://irv77.netlify.app/img/mcf.jpg",
+          "/html/games/flash/index.html?swf=mariokartflash.swf",
+          "You might know Mario Kart, the most fun racing game series of all time! Mario Kart PC uses the same base as the original games but is playable on your browser, and for free."
         ],
         [
           "Meat Boy",
@@ -341,10 +328,10 @@
           "Super Meat Boy is a tough as nails platformer where you play as an animated cube of meat who's trying to save his girlfriend (who happens to be made of bandages) from an evil fetus in a jar wearing a tux. Our meaty hero will leap from walls, over seas of buzz saws, through crumbling caves and pools of old needles."
         ],
         [
-          "Mini Putt",
-          "https://irv77.netlify.app/img/mp.jpg",
-          "/html/games/flash/index.html?swf=miniputt.swf",
-          "Miniature golf, also known as minigolf, mini-putt, crazy golf, or putt-putt, is an offshoot of the sport of golf focusing solely on the putting aspect of its parent game. The aim of the game is to score the lowest number of points."
+          "Miami Shark",
+          "https://irv77.netlify.app/img/ms.webp",
+          "/html/games/flash/index.html?swf=miami-shark.swf",
+          "Miami Shark is an intense action game in which you control a shark that needs to cause havoc in the Miami water."
         ],
         [
           "Minecraft TD",
@@ -353,10 +340,10 @@
           "In Minecraft TD, you are protecting your home from all the different and dangerous creatures of the Minecraft world, which includes creepers, wolves, and zombies. Your first goal is to get to your destination by making a path towards it."
         ],
         [
-          "Mario Kart Flash",
-          "https://irv77.netlify.app/img/mcf.jpg",
-          "/html/games/flash/index.html?swf=mariokartflash.swf",
-          "You might know Mario Kart, the most fun racing game series of all time! Mario Kart PC uses the same base as the original games but is playable on your browser, and for free."
+          "Mini Putt",
+          "https://irv77.netlify.app/img/mp.jpg",
+          "/html/games/flash/index.html?swf=miniputt.swf",
+          "Miniature golf, also known as minigolf, mini-putt, crazy golf, or putt-putt, is an offshoot of the sport of golf focusing solely on the putting aspect of its parent game. The aim of the game is to score the lowest number of points."
         ],
         [
           "Mutilate a Doll",
@@ -371,22 +358,16 @@
           "In this crazy game you control a shark and try to destroy the whole city, maybe even the entire planet. In addition to aircraft, ships and people there will also appear some specials, such as Spider-Man."
         ],
         [
-          "This is the Only Level",
-          "https://irv77.netlify.app/img/only.jpg",
-          "/html/games/flash/index.html?swf=this_is_the_only_level.swf",
-          "This is the Only Level is a series of puzzle platformer games made by Jmtb02, the majority of which star his blue elephant character. They each involve traversing through many iterations of the same level by solving puzzles of widely varying nature."
-        ],
-        [
           "Pac-Man",
           "https://irv77.netlify.app/img/pm.webp",
           "/html/games/flash/index.html?swf=pacman.swf",
           "Pac-Man is an action maze chase video game; the player controls the eponymous character through an enclosed maze. The objective of the game is to eat all of the dots placed in the maze while avoiding four colored ghosts — Blinky (red), Pinky (pink), Inky (cyan), and Clyde (orange) — that pursue Pac-Man."
         ],
         [
-          "Papa's Pizzeria",
-          "https://irv77.netlify.app/img/ppiz.jpg",
-          "/html/games/flash/index.html?swf=pizzeria.swf",
-          "Papa Louie has left the pizza shop! It is up to you to take over the business. You are playing as Roy, who must take over the pizzeria and make the orders accurately and on time! To start the game, just click on the save slot cards."
+          "Papa's Bakeria",
+          "https://irv77.netlify.app/img/pb.png",
+          "/html/games/flash/waflash/index.html?swf=papasbakeria.swf",
+          "Papa's Bakeria is a restaurant management game where you manage a bakery. You're tasked with making and serving delicious pies to satisfy your loyal customers. Don't forget to complete all the achievements and serve all the VIP customers to maximize your bakery's success!"
         ],
         [
           "Papa's Burgeria",
@@ -395,88 +376,76 @@
           "Papa's Burgeria guides you through the basics of flipping burgers and making a buck. Take your first order and follow the instructions on-screen. You'll start by taking the order and frying up the patty, before finalizing the burger with tomatoes, onions, sauces, seeded buns, and other cherished burger ingredients."
         ],
         [
-          "Papa's Hot Doggeria",
-          "https://irv77.netlify.app/img/papas-hotdog.png",
-          "/html/games/flash/waflash/index.html?swf=papashotdoggeria.swf",
-          "In Papa's Hot Doggeria you'll need to grill up juicy Hot Dogs, top them with a variety of condiments, and serve them to all the rowdy fans. You'll also have your hands full popping up fresh popcorn, and pouring a crazy amount of drinks for your hungry customers.",
-          "/html/games/flash/waflash/index.html?swf=papashotdoggeria.swf"
-        ],
-        [
-          "Papa's Wingeria",
-          "https://irv77.netlify.app/img/papas-wing.png",
-          "/html/games/flash/waflash/index.html?swf=papaswingeria.swf",
-          "Papa's Wingeria is a game in the Papa Louie series. It's the sixth cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Pancakeria. It involves making chicken wings with sides for the various customers that visit the establishment.",
-          "/html/games/flash/waflash/index.html?swf=papaswingeria.swf"
-        ],
-        [
-          "Papa's Freezeria",
-          "https://irv77.netlify.app/img/freezeria.jpg",
-          "/html/games/flash/waflash/index.html?swf=papasfreezeria.swf",
-          "Papa's Freezeria is a restaurant management game where you manage a dessert shop while the owner is on a temporary leave. Serve the customers their favorite sweets at several stations by getting their order exactly right.",
-          "/html/games/flash/waflash/index.html?swf=papasfreezeria.swf"
-        ],
-        [
-          "Papa's Pancakeria",
-          "https://irv77.netlify.app/img/pancakeria.jpg",
-          "/html/games/flash/waflash/index.html?swf=papaspancakeria.swf",
-          "Papa's Pancakeria is a game in the Papa Louie series. It's the fifth cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Freezeria. It involves making pancakes and drinks for the various customers that visit the establishment.",
-          "/html/games/flash/waflash/index.html?swf=papaspancakeria.swf"
-        ],
-        [
-          "Papa's Sushiria",
-          "https://irv77.netlify.app/img/sushiria.jpg",
-          "/html/games/flash/waflash/index.html?swf=papassushiria.swf",
-          "Papa's Sushiria To Go is available for phones and tablets. When you break Papa Louie's lucky cat statue, he puts you in charge of Papa's Sushiria in Sakura Bay while he goes on a mission to find a replacement! You'll need to roll, slice, and serve sushi along with delicious bubble tea!",
-          "/html/games/flash/waflash/index.html?swf=papassushiria.swf"
-        ],
-        [
-          "Papa's Bakeria",
-          "https://irv77.netlify.app/img/pb.png",
-          "/html/games/flash/waflash/index.html?swf=papasbakeria.swf",
-          "Papa's Bakeria is a restaurant management game where you manage a bakery. You're tasked with making and serving delicious pies to satisfy your loyal customers. Don't forget to complete all the achievements and serve all the VIP customers to maximize your bakery's success!",
-          "/html/games/flash/waflash/index.html?swf=papasbakeria.swf"
-        ],
-        [
           "Papa's Cheeseria",
           "https://irv77.netlify.app/img/pc.png",
           "/html/games/flash/waflash/index.html?swf=papascheeseria.swf",
-          "Papa's Cheeseria is a game in the Papa Louie series. It's the eleventh cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Donuteria. It involves making grilled cheese sandwiches with fries for the various customers that visit the establishment.",
-          "/html/games/flash/waflash/index.html?swf=papascheeseria.swf"
-        ],
-        [
-          "Papa's Donuteria",
-          "https://irv77.netlify.app/img/pd.png",
-          "/html/games/flash/waflash/index.html?swf=papasdonuteria.swf",
-          "Papa's Donuteria is a game in the Papa Louie series. It's the tenth cooking simulator game (aka Gameria) in the seires, and is the sequel to Papa's Pastaria. It involves making donuts for the various customers that visit the establishment.",
-          "/html/games/flash/waflash/index.html?swf=papasdonuteria.swf"
-        ],
-        [
-          "Papa's Pastaria",
-          "https://irv77.netlify.app/img/pp.jpg",
-          "/html/games/flash/waflash/index.html?swf=papaspastaria.swf",
-          "Papa's Pastaria is a game in the Papa Louie series. It's the ninth cooking simulator game (aka Gameria) in the seires, and is the sequel to Papa's Cupcakeria. It involves making pasta and bread for the various customers that visit the establishment.",
-          "/html/games/flash/waflash/index.html?swf=papaspastaria.swf"
-        ],
-        [
-          "Papa's Scooperia",
-          "https://irv77.netlify.app/img/ps.png",
-          "/html/games/flash/waflash/index.html?swf=papasscooperia.swf",
-          "Papa Louie comes up with solution to help you get back on your feet: He wants you to stay and run his new ice cream shop in Oniontown! You'll be baking fresh cookies, topping them with scoops of decadent ice cream, and adding delicious toppings and syrups before serving the sundaes to your hungry customers.",
-          "/html/games/flash/waflash/index.html?swf=papasscooperia.swf"
-        ],
-        [
-          "Papa's Taco Mia",
-          "https://irv77.netlify.app/img/ptm.png",
-          "/html/games/flash/waflash/index.html?swf=papastacomia.swf",
-          "In this game the player makes tacos. You can unlock all the ingredients and upgrade your shop to increase style, speed, and scores. The player must be quick on serving those new, picky Closers (Robby, Kahuna, Quinn, Xandra, Allan, Johnny and Jojo) and show them your wild taco making skills.",
-          "/html/games/flash/waflash/index.html?swf=papastacomia.swf"
+          "Papa's Cheeseria is a game in the Papa Louie series. It's the eleventh cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Donuteria. It involves making grilled cheese sandwiches with fries for the various customers that visit the establishment."
         ],
         [
           "Papa's Cupcakeria",
           "https://irv77.netlify.app/img/pcc.png",
           "/html/games/flash/waflash/index.html?swf=papascupcakeria.swf",
-          "Papa's Cupcakeria is a game in the Papa Louie series. It's the eighth cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Hot Doggeria. It involves making cupcakes for the various customers that visit the establishment.",
-          "/html/games/flash/waflash/index.html?swf=papascupcakeria.swf"
+          "Papa's Cupcakeria is a game in the Papa Louie series. It's the eighth cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Hot Doggeria. It involves making cupcakes for the various customers that visit the establishment."
+        ],
+        [
+          "Papa's Donuteria",
+          "https://irv77.netlify.app/img/pd.png",
+          "/html/games/flash/waflash/index.html?swf=papasdonuteria.swf",
+          "Papa's Donuteria is a game in the Papa Louie series. It's the tenth cooking simulator game (aka Gameria) in the seires, and is the sequel to Papa's Pastaria. It involves making donuts for the various customers that visit the establishment."
+        ],
+        [
+          "Papa's Freezeria",
+          "https://irv77.netlify.app/img/freezeria.jpg",
+          "/html/games/flash/waflash/index.html?swf=papasfreezeria.swf",
+          "Papa's Freezeria is a restaurant management game where you manage a dessert shop while the owner is on a temporary leave. Serve the customers their favorite sweets at several stations by getting their order exactly right."
+        ],
+        [
+          "Papa's Hot Doggeria",
+          "https://irv77.netlify.app/img/papas-hotdog.png",
+          "/html/games/flash/waflash/index.html?swf=papashotdoggeria.swf",
+          "In Papa's Hot Doggeria you'll need to grill up juicy Hot Dogs, top them with a variety of condiments, and serve them to all the rowdy fans. You'll also have your hands full popping up fresh popcorn, and pouring a crazy amount of drinks for your hungry customers."
+        ],
+        [
+          "Papa's Pancakeria",
+          "https://irv77.netlify.app/img/pancakeria.jpg",
+          "/html/games/flash/waflash/index.html?swf=papaspancakeria.swf",
+          "Papa's Pancakeria is a game in the Papa Louie series. It's the fifth cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Freezeria. It involves making pancakes and drinks for the various customers that visit the establishment."
+        ],
+        [
+          "Papa's Pastaria",
+          "https://irv77.netlify.app/img/pp.jpg",
+          "/html/games/flash/waflash/index.html?swf=papaspastaria.swf",
+          "Papa's Pastaria is a game in the Papa Louie series. It's the ninth cooking simulator game (aka Gameria) in the seires, and is the sequel to Papa's Cupcakeria. It involves making pasta and bread for the various customers that visit the establishment."
+        ],
+        [
+          "Papa's Pizzeria",
+          "https://irv77.netlify.app/img/ppiz.jpg",
+          "/html/games/flash/index.html?swf=pizzeria.swf",
+          "Papa Louie has left the pizza shop! It is up to you to take over the business. You are playing as Roy, who must take over the pizzeria and make the orders accurately and on time! To start the game, just click on the save slot cards."
+        ],
+        [
+          "Papa's Scooperia",
+          "https://irv77.netlify.app/img/ps.png",
+          "/html/games/flash/waflash/index.html?swf=papasscooperia.swf",
+          "Papa Louie comes up with solution to help you get back on your feet: He wants you to stay and run his new ice cream shop in Oniontown! You'll be baking fresh cookies, topping them with scoops of decadent ice cream, and adding delicious toppings and syrups before serving the sundaes to your hungry customers."
+        ],
+        [
+          "Papa's Sushiria",
+          "https://irv77.netlify.app/img/sushiria.jpg",
+          "/html/games/flash/waflash/index.html?swf=papassushiria.swf",
+          "Papa's Sushiria To Go is available for phones and tablets. When you break Papa Louie's lucky cat statue, he puts you in charge of Papa's Sushiria in Sakura Bay while he goes on a mission to find a replacement! You'll need to roll, slice, and serve sushi along with delicious bubble tea!"
+        ],
+        [
+          "Papa's Taco Mia",
+          "https://irv77.netlify.app/img/ptm.png",
+          "/html/games/flash/waflash/index.html?swf=papastacomia.swf",
+          "In this game the player makes tacos. You can unlock all the ingredients and upgrade your shop to increase style, speed, and scores. The player must be quick on serving those new, picky Closers (Robby, Kahuna, Quinn, Xandra, Allan, Johnny and Jojo) and show them your wild taco making skills."
+        ],
+        [
+          "Papa's Wingeria",
+          "https://irv77.netlify.app/img/papas-wing.png",
+          "/html/games/flash/waflash/index.html?swf=papaswingeria.swf",
+          "Papa's Wingeria is a game in the Papa Louie series. It's the sixth cooking simulator game (aka Gameria) in the series, and is the sequel to Papa's Pancakeria. It involves making chicken wings with sides for the various customers that visit the establishment."
         ],
         [
           "Pong",
@@ -513,6 +482,18 @@
           "https://irv77.netlify.app/img/pr4.jpg",
           "/html/games/flash/index.html?swf=pottyracers4.swf",
           "Ready for another crappy flight? Get comfortable in this travelling potty, and cruise around the world, collecting the missing stars. You will need to upgrade your craptacular aircraft repeatedly if you are going to make any progress, so collect all the gold and fuel you can to keep going."
+        ],
+        [
+          "Raft Wars",
+          "https://irv77.netlify.app/img/rw.jpg",
+          "/html/games/flash/index.html?swf=raftwars.swf",
+          "Raft Wars is a level-based shooting game created by Martijn Kunst, where the player control two characters, Simon and his brother, who will need to defend their treasure from different kinds of enemies."
+        ],
+        [
+          "Raft Wars 2",
+          "https://irv77.netlify.app/img/rw2.jpg",
+          "/html/games/flash/index.html?swf=raftwars2.swf",
+          "Raft Wars 2 is an action-packed shooting game created by Martijn Kunst as the sequel to the hit game Raft Wars. Simon and his brother return from a well-deserved holiday only to find a water park on top of where they've hidden their buried treasure."
         ],
         [
           "Ragdoll Avalanche 2",
@@ -569,18 +550,6 @@
           "Following a tale of backstabbing, flying pigs and a chat with the abominable snowman, Riddle Transfer 2 sees us re-join Phil and chums in the sewers of Zone 5.1 where we must use a teleporter to, err, travel back to Riddle School so we can escape to save the world from evil aliens."
         ],
         [
-          "Raft Wars",
-          "https://irv77.netlify.app/img/rw.jpg",
-          "/html/games/flash/index.html?swf=raftwars.swf",
-          "Raft Wars is a level-based shooting game created by Martijn Kunst, where the player control two characters, Simon and his brother, who will need to defend their treasure from different kinds of enemies."
-        ],
-        [
-          "Raft Wars 2",
-          "https://irv77.netlify.app/img/rw2.jpg",
-          "/html/games/flash/index.html?swf=raftwars2.swf",
-          "Raft Wars 2 is an action-packed shooting game created by Martijn Kunst as the sequel to the hit game Raft Wars. Simon and his brother return from a well-deserved holiday only to find a water park on top of where they've hidden their buried treasure."
-        ],
-        [
           "Run",
           "https://irv77.netlify.app/img/run.jpg",
           "/html/games/flash/index.html?swf=run.swf",
@@ -593,16 +562,22 @@
           "In Run 2, you play as a gray alien running through a series of different levels. You must run across platforms while avoiding obstacles and gaps in the floor."
         ],
         [
-          "Stick RPG",
-          "https://irv77.netlify.app/img/srpg.jpg",
-          "/html/games/flash/index.html?swf=stickrpg.swf",
-          "Stick RPG is a fun, fiction RPG game where you can survive by drug dealing, bar fights, or bank robberies. When you start the game you are given three choices you can choose from. Those three choices include how long you want your game to last."
-        ],
-        [
           "Sonic Flash",
           "https://irv77.netlify.app/img/son.jpg",
           "/html/games/flash/index.html?swf=ultimate-flash-sonic.swf",
           "Ultimate Flash Sonic is an Adobe Flash game by Dennis Gid released in 2004. It is a fan game platformer based on Sonic the Hedgehog, specifically the first two games in the Sonic Advance Trilogy."
+        ],
+        [
+          "Stealing the Diamond",
+          "https://irv77.netlify.app/img/std.jpg",
+          "/html/games/flash/index.html?swf=std.swf",
+          "Stealing the Diamond is the third game in the Henry Stickmin series. It takes place after Escaping the Prison and before Infiltrating The Airship, and is considered Episode 2 of the Henry Stickmin Collection."
+        ],
+        [
+          "Stick RPG",
+          "https://irv77.netlify.app/img/srpg.jpg",
+          "/html/games/flash/index.html?swf=stickrpg.swf",
+          "Stick RPG is a fun, fiction RPG game where you can survive by drug dealing, bar fights, or bank robberies. When you start the game you are given three choices you can choose from. Those three choices include how long you want your game to last."
         ],
         [
           "Super Mario 63",
@@ -641,6 +616,12 @@
           "The Binding of Isaac is a top-down dungeon crawler game, presented using two-dimensional sprites, in which the player controls Isaac or other unlockable characters as they explore the dungeons located in Isaac's basement."
         ],
         [
+          "The Fancy Pants Adventures",
+          "https://irv77.netlify.app/img/fpa.webp",
+          "/html/games/flash/index.html?swf=fancypantsadventure.swf",
+          "It is a platforming game that is focused on speed and momentum. World 1 also introduces various trophies, side goals (squiggles and stars), and a variety of colors and styles of pants for the player to try on."
+        ],
+        [
           "The Impossible Quiz",
           "https://irv77.netlify.app/img/impossiblequiz.png",
           "/html/games/flash/index.html?swf=TheImpossibleQuiz.swf",
@@ -650,7 +631,7 @@
           "The Visitor",
           "https://irv77.netlify.app/img/the-visitor.webp",
           "/html/games/flash/index.html?swf=thevisitor.swf",
-          ""
+          "The Visitor is a point-and-click game in which you become an alien parasite that needs to consume the living beings to grow and dominate the world. Solve the challenge in each scene and spread the terror!"
         ],
         [
           "The World's Hardest Game",
@@ -663,6 +644,12 @@
           "https://irv77.netlify.app/img/whg2.jpg",
           "/html/games/flash/index.html?swf=theworldshardestgame2.swf",
           "World's Hardest Game 2 is the second episode of the self-proclaimed world's hardest game series! Hone your reflexes and accuracy as you try to move your little block to the end of each stage without touching the obstacles. Doing so will bring you back to the start so you can try again."
+        ],
+        [
+          "This is the Only Level",
+          "https://irv77.netlify.app/img/only.jpg",
+          "/html/games/flash/index.html?swf=this_is_the_only_level.swf",
+          "This is the Only Level is a series of puzzle platformer games made by Jmtb02, the majority of which star his blue elephant character. They each involve traversing through many iterations of the same level by solving puzzles of widely varying nature."
         ],
         [
           "Toss the Turtle",
@@ -680,7 +667,7 @@
           "Wheely 1",
           "https://irv77.netlify.app/img/w1.jpg",
           "/html/games/flash/index.html?swf=wheely1.swf",
-          ""
+          "Our hero Wheely is a car nobody wants to buy. This is why he decides not to lose any more time and starts racing. You have to help him in this! It will be a dangerous adventure, so be ready to deal with many problems."
         ]
       ]
     }

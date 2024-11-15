@@ -1,10 +1,13 @@
-![Banner](https://raw.githubusercontent.com/irv77/irv77/refs/heads/main/banner.png)
 ### Greetings, visitor(s).
-<h1 align="center">I'm IRV77, an Artistic Coder!</h1>
+
+![Banner](https://raw.githubusercontent.com/irv77/irv77/refs/heads/main/banner.png)
+
 
 [![Profile Views](https://komarev.com/ghpvc/?username=irv77&color=red&base=150)](https://discord.gg/xuu8TnSY4b) [![Discord Users Online](https://img.shields.io/discord/1120561033447231588?label=Discord)](https://discord.gg/xuu8TnSY4b/) [![Portfolio Website](https://img.shields.io/badge/Website-v1.0-text?logo=cyberdefenders&color=yellow)](https://irv77.github.io)
 
-- 👦🏻 Known as **Vulconcium, RedInstealth, Instealth, and IRV77**
+<h2>👋 I'm IRV77, an Artistic Coder!</h2>
+
+- 👦 Known as **Vulconcium, RedInstealth, Instealth, and IRV77**
 
 - 🌐 In the entertainment business of coding since 2021
 

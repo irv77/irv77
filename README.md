@@ -13,6 +13,10 @@
 
 - 🔭 You'll see me create **random entertainment projects** and help support others
 
+<h2 align="left">🌴 Where I've Been?:</h2>
+
+It's been 2 Months officially since I've been gone and I've finally returned! I will be slowly be bringing big changes to my websites, and finally fixing some bugs!
+
 <h2 align="left">🕹️ What I'm Doing:</h2>
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/741693084131131566?theme=&showDisplayName=false&hideProfile=false&borderRadius=40px&idleMessage=Probably%20offline)](https://discord.com/users/741693084131131566)
